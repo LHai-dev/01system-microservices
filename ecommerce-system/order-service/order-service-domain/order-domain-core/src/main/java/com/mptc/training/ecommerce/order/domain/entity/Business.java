@@ -1,7 +1,6 @@
 package com.mptc.training.ecommerce.order.domain.entity;
 
-import com.mptc.training.ecommerce.order.persistence.domain.entity.AggregateRoot;
-import com.mptc.training.ecommerce.order.persistence.domain.valueobject.BusinessId;
+import com.mptc.training.ecommerce.order.domain.valueobject.BusinessId;
 
 import java.util.List;
 

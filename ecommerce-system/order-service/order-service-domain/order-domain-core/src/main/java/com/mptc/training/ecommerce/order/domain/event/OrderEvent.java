@@ -1,6 +1,5 @@
 package com.mptc.training.ecommerce.order.domain.event;
 
-import com.mptc.training.ecommerce.order.persistence.domain.event.DomainEvent;
 import com.mptc.training.ecommerce.order.domain.entity.Order;
 
 import java.time.ZonedDateTime;
