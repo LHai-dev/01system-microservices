@@ -32,15 +32,18 @@
     </dependencies>
 
 
-
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>com.mptc.training</groupId>
+                <artifactId>commom-restapi</artifactId>
+                <version>${project.version}</version>
+            </dependency>
             <dependency>
                 <groupId>com.mptc.training</groupId>
                 <artifactId>commom-domain</artifactId>
                 <version>${project.version}</version>
             </dependency>
-
             <dependency>
                 <groupId>com.mptc.training</groupId>
                 <artifactId>order-domain-core</artifactId>

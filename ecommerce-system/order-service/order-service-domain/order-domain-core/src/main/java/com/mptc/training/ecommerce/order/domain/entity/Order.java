@@ -1,7 +1,6 @@
 package com.mptc.training.ecommerce.order.domain.entity;
 
-import com.mptc.training.ecommerce.order.persistence.domain.entity.AggregateRoot;
-import com.mptc.training.ecommerce.order.persistence.domain.valueobject.*;
+import com.mptc.training.ecommerce.order.domain.valueobject.*;
 import com.mptc.training.ecommerce.order.domain.exception.OrderDomainException;
 
 import java.util.List;

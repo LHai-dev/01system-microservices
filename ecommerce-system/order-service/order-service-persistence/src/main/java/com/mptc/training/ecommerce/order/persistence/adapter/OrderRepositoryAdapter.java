@@ -1,6 +1,6 @@
 package com.mptc.training.ecommerce.order.persistence.adapter;
 
-import com.mptc.training.ecommerce.order.persistence.domain.port.output.OrderRepository;
+import com.mptc.training.ecommerce.order.domain.output.OrderRepository;
 import com.mptc.training.ecommerce.order.domain.entity.Order;
 import com.mptc.training.ecommerce.order.persistence.repository.OrderJpaRepository;
 

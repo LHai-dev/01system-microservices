@@ -1,9 +1,8 @@
 package com.mptc.training.ecommerce.order.domain.entity;
 
-import com.mptc.training.ecommerce.order.persistence.domain.entity.BaseEntity;
-import com.mptc.training.ecommerce.order.persistence.domain.valueobject.Money;
-import com.mptc.training.ecommerce.order.persistence.domain.valueobject.OrderId;
-import com.mptc.training.ecommerce.order.persistence.domain.valueobject.OrderItemId;
+import com.mptc.training.ecommerce.order.domain.valueobject.Money;
+import com.mptc.training.ecommerce.order.domain.valueobject.OrderId;
+import com.mptc.training.ecommerce.order.domain.valueobject.OrderItemId;
 
 public class OrderItem extends BaseEntity<OrderItemId> {
     private final Product product;

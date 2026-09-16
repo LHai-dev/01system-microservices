@@ -1,6 +1,6 @@
 package com.mptc.training.ecommerce.order.persistence.entity;
 
-import com.mptc.training.ecommerce.order.persistence.domain.valueobject.OrderStatus;
+import com.mptc.training.ecommerce.order.domain.valueobject.OrderStatus;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
