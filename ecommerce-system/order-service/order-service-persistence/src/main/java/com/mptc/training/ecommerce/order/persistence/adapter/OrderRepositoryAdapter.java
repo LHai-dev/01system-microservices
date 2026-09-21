@@ -17,8 +17,9 @@ public class OrderRepositoryAdapter implements OrderRepository {
 
     @Override
     public Order saveOrder(Order order) {
-        OrderEntity orderEntity = orderMapper.orderToEntity(order);
-        orderJpaRepository.save(orderEntity);
-        return order;
+//        OrderEntity orderEntity = orderMapper.orderToEntity(order);
+//        orderJpaRepository.save(orderEntity);
+//        return order;
+        return null;
     }
 }

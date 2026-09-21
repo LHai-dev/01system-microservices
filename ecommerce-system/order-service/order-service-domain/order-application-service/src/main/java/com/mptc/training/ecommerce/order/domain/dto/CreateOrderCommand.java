@@ -4,7 +4,7 @@ import java.math.BigDecimal;
 import java.util.List;
 import java.util.UUID;
 
-public record CreateOrderCommand(
+public record   CreateOrderCommand(
         UUID customerId,
         UUID businessId,
         BigDecimal price,
