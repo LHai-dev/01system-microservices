@@ -1,4 +1,4 @@
-package com.mptc.training.ecommerce.order.domain.input;
+package com.mptc.training.ecommerce.order.domain.port.input;
 
 import com.mptc.training.ecommerce.order.domain.dto.CreateOrderCommand;
 import com.mptc.training.ecommerce.order.domain.dto.CreateOrderResult;
