@@ -25,15 +25,12 @@ public class CreateOrderUseCaseImpl implements CreateOrderUseCase {
     public CreateOrderResult execute(CreateOrderCommand createOrderCommand) {
         log.info("create order Use Case. {}", createOrderCommand);
 
-        customerRepository.findCustomer(createOrderCommand.customerId())
-                .orElseThrow(() -> new OrderDomainException(
-                        "Could not find customer with id: " + createOrderCommand.customerId()));
+        customerRepository.findCustomer(createOrderCommand.customerId()).orElseThrow(() -> new OrderDomainException("Could not find customer with id: " + createOrderCommand.customerId()));
 
         BusinessId businessId = new BusinessId(createOrderCommand.businessId());
 
-        businessRepository.findBusiness(businessId)
-                .orElseThrow(() -> new OrderDomainException(
-                        "Could not find business with id: " + createOrderCommand.businessId()));
+        businessRepository.findBusiness(businessId).orElseThrow(() -> new OrderDomainException("Could not find business with id: " + createOrderCommand.businessId()));
+
 
         return new CreateOrderResult(UUID.randomUUID());
     }
