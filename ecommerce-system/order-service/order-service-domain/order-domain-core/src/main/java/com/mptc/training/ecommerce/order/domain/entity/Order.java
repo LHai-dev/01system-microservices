@@ -2,10 +2,12 @@ package com.mptc.training.ecommerce.order.domain.entity;
 
 import com.mptc.training.ecommerce.order.domain.valueobject.*;
 import com.mptc.training.ecommerce.order.domain.exception.OrderDomainException;
+import lombok.Getter;
 
 import java.util.List;
 import java.util.UUID;
 
+@Getter
 public class Order extends AggregateRoot<OrderId> {
     private final CustomerId customerId;
     private final BusinessId businessId;

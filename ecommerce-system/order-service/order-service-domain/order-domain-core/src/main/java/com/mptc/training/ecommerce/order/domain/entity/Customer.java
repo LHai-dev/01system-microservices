@@ -1,18 +1,20 @@
 package com.mptc.training.ecommerce.order.domain.entity;
 
 import com.mptc.training.ecommerce.order.domain.valueobject.CustomerId;
-
 public class Customer extends AggregateRoot<CustomerId> {
-
     private final String username;
     private final String familyName;
     private final String givenName;
 
     private Customer(Builder builder) {
         super.setId(builder.id);
-        this.username = builder.username;
-        this.familyName = builder.familyName;
-        this.givenName = builder.givenName;
+        username = builder.username;
+        familyName = builder.familyName;
+        givenName = builder.givenName;
+    }
+
+    public static Builder builder() {
+        return new Builder();
     }
 
     public String getUsername() {
@@ -27,36 +29,33 @@ public class Customer extends AggregateRoot<CustomerId> {
         return givenName;
     }
 
-    public static final class Builder {
 
+    public static final class Builder {
         private CustomerId id;
         private String username;
         private String familyName;
         private String givenName;
 
-        private Builder() {}
-
-        public static Builder newBuilder() {
-            return new Builder();
+        private Builder() {
         }
 
-        public Builder id(CustomerId id) {
-            this.id = id;
+        public Builder id(CustomerId val) {
+            id = val;
             return this;
         }
 
-        public Builder username(String username) {
-            this.username = username;
+        public Builder username(String val) {
+            username = val;
             return this;
         }
 
-        public Builder familyName(String familyName) {
-            this.familyName = familyName;
+        public Builder familyName(String val) {
+            familyName = val;
             return this;
         }
 
-        public Builder givenName(String givenName) {
-            this.givenName = givenName;
+        public Builder givenName(String val) {
+            givenName = val;
             return this;
         }
 

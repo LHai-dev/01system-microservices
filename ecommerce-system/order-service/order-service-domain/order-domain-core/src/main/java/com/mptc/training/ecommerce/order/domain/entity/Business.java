@@ -4,11 +4,17 @@ import com.mptc.training.ecommerce.order.domain.valueobject.BusinessId;
 
 import java.util.List;
 
+
 public class Business extends AggregateRoot<BusinessId> {
     private final List<Product> products;
-    private boolean active;
-    public Business(List<Product> products) {
-        this.products = products;
+    private final boolean active;
+
+    public List<Product> getProducts() {
+        return products;
+    }
+
+    public boolean isActive() {
+        return active;
     }
 
     private Business(Builder builder) {
@@ -17,9 +23,10 @@ public class Business extends AggregateRoot<BusinessId> {
         active = builder.active;
     }
 
-    public boolean isActive(){
-        return active;
+    public static Builder builder() {
+        return new Builder();
     }
+
 
     public static final class Builder {
         private BusinessId id;
@@ -27,10 +34,6 @@ public class Business extends AggregateRoot<BusinessId> {
         private boolean active;
 
         private Builder() {
-        }
-
-        public static Builder newBuilder() {
-            return new Builder();
         }
 
         public Builder id(BusinessId val) {
