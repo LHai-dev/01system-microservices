@@ -1,6 +1,7 @@
 package com.mptc.training.ecommerce.order.domain.entity;
 
 import com.mptc.training.ecommerce.order.domain.valueobject.CustomerId;
+
 public class Customer extends AggregateRoot<CustomerId> {
     private final String username;
     private final String familyName;

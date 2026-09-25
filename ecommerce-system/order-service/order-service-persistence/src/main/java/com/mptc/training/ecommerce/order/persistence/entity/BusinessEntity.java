@@ -11,6 +11,7 @@ import lombok.Setter;
 import java.math.BigDecimal;
 import java.util.UUID;
 
+
 @Getter
 @Setter
 @NoArgsConstructor
@@ -21,9 +22,12 @@ public class BusinessEntity {
     @Id
     private UUID businessId;
 
+    @Id
     private UUID productId;
 
     private Boolean businessActive;
+
     private String productName;
     private BigDecimal productPrice;
+
 }

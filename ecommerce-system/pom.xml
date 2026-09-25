@@ -16,6 +16,7 @@
         <module>commom</module>
 
         <module>order-service</module>
+        <module>commom/commom-persistence</module>
     </modules>
 
     <properties>
@@ -33,7 +34,11 @@
                 <artifactId>commom-domain</artifactId>
                 <version>${project.version}</version>
             </dependency>
-
+            <dependency>
+                <groupId>com.mptc.training</groupId>
+                <artifactId>commom-persistence</artifactId>
+                <version>${project.version}</version>
+            </dependency>
             <dependency>
                 <groupId>com.mptc.training</groupId>
                 <artifactId>commom-restapi</artifactId>

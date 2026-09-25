@@ -15,7 +15,10 @@
             <groupId>com.mptc.training</groupId>
             <artifactId>commom-restapi</artifactId>
         </dependency>
-
+        <dependency>
+            <groupId>com.mptc.training</groupId>
+            <artifactId>commom-persistence</artifactId>
+        </dependency>
         <dependency>
             <groupId>com.mptc.training</groupId>
             <artifactId>order-application-service</artifactId>

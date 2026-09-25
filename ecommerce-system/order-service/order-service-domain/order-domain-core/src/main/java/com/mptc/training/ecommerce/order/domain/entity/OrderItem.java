@@ -11,6 +11,33 @@ public class OrderItem extends BaseEntity<OrderItemId> {
     private final Money subTotal;
     private OrderId orderId;
 
+    private OrderItem(Builder builder) {
+        super.setId(builder.id);
+        orderId = builder.orderId;
+        product = builder.product;
+        quantity = builder.quantity;
+        price = builder.price;
+        subTotal = builder.subTotal;
+    }
+
+    public static Builder builder() {
+        return new Builder();
+    }
+
+
+    boolean isPriceValid() {
+        return price.isGreaterThanZero() && price.equals(product.getPrice()) && price.multiply(quantity).equals(subTotal);
+    }
+
+    public void initializeOrderItem(OrderId orderId, OrderItemId orderItemId) {
+        this.orderId = orderId;
+        super.setId(orderItemId);
+    }
+
+    public OrderId getOrderId() {
+        return orderId;
+    }
+
     public Product getProduct() {
         return product;
     }
@@ -27,50 +54,24 @@ public class OrderItem extends BaseEntity<OrderItemId> {
         return subTotal;
     }
 
-    public OrderId getOrderId() {
-        return orderId;
-    }
-
-    public void setOrderId(OrderId orderId) {
-        this.orderId = orderId;
-    }
-
-    private OrderItem(Builder builder) {
-        super.setId(builder.id);
-        product = builder.product;
-        quantity = builder.quantity;
-        price = builder.price;
-        subTotal = builder.subTotal;
-        orderId = builder.orderId;
-    }
-
-    void initializeOrderItem(OrderId orderid, OrderItemId orderItemId) {
-        this.orderId = orderid;
-        super.setId(orderItemId);
-    }
-
-    boolean isPriceValid() {
-        return price.isGreaterThanZero() && price.equals(product.getPrice()) && price.multiply(quantity).equals(subTotal);
-    }
-
-
     public static final class Builder {
         private OrderItemId id;
+        private OrderId orderId;
         private Product product;
         private Integer quantity;
         private Money price;
         private Money subTotal;
-        private OrderId orderId;
 
         private Builder() {
         }
 
-        public static Builder newBuilder() {
-            return new Builder();
-        }
-
         public Builder id(OrderItemId val) {
             id = val;
+            return this;
+        }
+
+        public Builder orderId(OrderId val) {
+            orderId = val;
             return this;
         }
 
@@ -91,11 +92,6 @@ public class OrderItem extends BaseEntity<OrderItemId> {
 
         public Builder subTotal(Money val) {
             subTotal = val;
-            return this;
-        }
-
-        public Builder orderId(OrderId val) {
-            orderId = val;
             return this;
         }
 

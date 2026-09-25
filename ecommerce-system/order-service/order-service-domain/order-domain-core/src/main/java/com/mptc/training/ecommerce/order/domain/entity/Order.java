@@ -1,13 +1,11 @@
 package com.mptc.training.ecommerce.order.domain.entity;
 
-import com.mptc.training.ecommerce.order.domain.valueobject.*;
 import com.mptc.training.ecommerce.order.domain.exception.OrderDomainException;
-import lombok.Getter;
+import com.mptc.training.ecommerce.order.domain.valueobject.*;
 
 import java.util.List;
 import java.util.UUID;
 
-@Getter
 public class Order extends AggregateRoot<OrderId> {
     private final CustomerId customerId;
     private final BusinessId businessId;
@@ -19,6 +17,22 @@ public class Order extends AggregateRoot<OrderId> {
     private TrackingId trackingId;
     private OrderStatus orderStatus;
     private List<String> failureMessages;
+
+    private Order(Builder builder) {
+        super.setId(builder.id);
+        customerId = builder.customerId;
+        businessId = builder.businessId;
+        deliveryAddress = builder.deliveryAddress;
+        price = builder.price;
+        items = builder.items;
+        trackingId = builder.trackingId;
+        orderStatus = builder.orderStatus;
+        failureMessages = builder.failureMessages;
+    }
+
+    public static Builder builder() {
+        return new Builder();
+    }
 
     public void validateOrder() {
         validateInitialOrder();
@@ -77,22 +91,18 @@ public class Order extends AggregateRoot<OrderId> {
 
     private void validateItemPrice(OrderItem orderItem) {
         if (!orderItem.isPriceValid()) {
-            throw new OrderDomainException("Order item price: " + orderItem.getPrice().getAmount() +
-                    " is not valid for product: " + orderItem.getProduct().getId().value());
+            throw new OrderDomainException("Order item price: " + orderItem.getPrice().getAmount() + " is not valid for product: " + orderItem.getProduct().getId().value());
         }
     }
 
     private void validateItemsPrice() {
-        Money orderItemsTotalPrice = items.stream()
-                .map(orderItem -> {
-                    validateItemPrice(orderItem);
-                    return orderItem.getSubTotal();
-                })
-                .reduce(Money.ZERO, Money::add);
+        Money orderItemsTotalPrice = items.stream().map(orderItem -> {
+            validateItemPrice(orderItem);
+            return orderItem.getSubTotal();
+        }).reduce(Money.ZERO, Money::add);
 
         if (!price.equals(orderItemsTotalPrice)) {
-            throw new OrderDomainException("Total price: " + price.getAmount()
-                    + " is not equal to order items total price: " + orderItemsTotalPrice.getAmount());
+            throw new OrderDomainException("Total price: " + price.getAmount() + " is not equal to order items total price: " + orderItemsTotalPrice.getAmount());
         }
     }
 
@@ -105,9 +115,7 @@ public class Order extends AggregateRoot<OrderId> {
 
     private void updateFailureMessages(List<String> failureMessages) {
         if (failureMessages != null && this.failureMessages != null) {
-            this.failureMessages.addAll(
-                    failureMessages.stream().filter(message -> !message.isBlank()).toList()
-            );
+            this.failureMessages.addAll(failureMessages.stream().filter(message -> !message.isBlank()).toList());
         }
 
         if (this.failureMessages == null) {
@@ -115,18 +123,37 @@ public class Order extends AggregateRoot<OrderId> {
         }
     }
 
-    private Order(Builder builder) {
-        super.setId(builder.id);
-        customerId = builder.customerId;
-        businessId = builder.businessId;
-        deliveryAddress = builder.deliveryAddress;
-        price = builder.price;
-        items = builder.items;
-        trackingId = builder.trackingId;
-        orderStatus = builder.orderStatus;
-        failureMessages = builder.failureMessages;
+    public CustomerId getCustomerId() {
+        return customerId;
     }
 
+    public BusinessId getBusinessId() {
+        return businessId;
+    }
+
+    public StreetAddress getDeliveryAddress() {
+        return deliveryAddress;
+    }
+
+    public Money getPrice() {
+        return price;
+    }
+
+    public List<OrderItem> getItems() {
+        return items;
+    }
+
+    public TrackingId getTrackingId() {
+        return trackingId;
+    }
+
+    public OrderStatus getOrderStatus() {
+        return orderStatus;
+    }
+
+    public List<String> getFailureMessages() {
+        return failureMessages;
+    }
 
     public static final class Builder {
         private OrderId id;
@@ -140,10 +167,6 @@ public class Order extends AggregateRoot<OrderId> {
         private List<String> failureMessages;
 
         private Builder() {
-        }
-
-        public static Builder newBuilder() {
-            return new Builder();
         }
 
         public Builder id(OrderId val) {
@@ -186,7 +209,7 @@ public class Order extends AggregateRoot<OrderId> {
             return this;
         }
 
-        public Builder failureMessage(List<String> val) {
+        public Builder failureMessages(List<String> val) {
             failureMessages = val;
             return this;
         }
@@ -195,4 +218,5 @@ public class Order extends AggregateRoot<OrderId> {
             return new Order(this);
         }
     }
+
 }

@@ -1,10 +1,28 @@
 package com.mptc.training.ecommerce.order.restapi.exception;
 
+import com.mptc.training.ecommerce.order.domain.exception.BusinessPersistenceException;
+import com.mptc.training.ecommerce.order.domain.exception.OrderDomainException;
+import com.mptc.training.ecommerce.restapi.dto.RestApiErrorResponse;
 import com.mptc.training.ecommerce.restapi.exception.GlobalExceptionHandler;
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 @RestControllerAdvice
 public class OrderGlobalExceptionHandler extends GlobalExceptionHandler {
-    //TODO : write your exception handler here
-    // I'll implement today
+
+    @ResponseStatus(HttpStatus.BAD_REQUEST)
+    @ExceptionHandler(OrderDomainException.class)
+    public RestApiErrorResponse<?> handleOrderDomainException(OrderDomainException e) {
+        return RestApiErrorResponse.builder().code(HttpStatus.BAD_REQUEST.getReasonPhrase()).message(e.getMessage()).build();
+    }
+
+    @ResponseStatus(HttpStatus.BAD_REQUEST)
+    @ExceptionHandler(BusinessPersistenceException.class)
+    public RestApiErrorResponse<?> handlerOrderPersistenceException(BusinessPersistenceException e) {
+        return RestApiErrorResponse.builder().code(HttpStatus.BAD_REQUEST.getReasonPhrase()).message(e.getMessage()).build();
+    }
+
+
 }

@@ -6,6 +6,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.math.BigDecimal;
 import java.util.List;
 import java.util.UUID;
 
@@ -15,21 +16,26 @@ import java.util.UUID;
 @Entity
 @Table(name = "orders")
 public class OrderEntity {
-
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
 
     private UUID customerId;
+
     private UUID businessId;
+
+    private BigDecimal price;
+
+    @OneToMany(mappedBy = "order")
+    private List<OrderItemEntity> items;
+
     @OneToOne
     private OrderAddressEntity orderAddress;
 
-    @OneToMany(mappedBy = "order")
-    List<OrderItemEntity> orders;
-
-    private String failureMessages;
-    private OrderStatus orderStatus;
     private UUID trackingId;
+
+    private OrderStatus orderStatus;
+
+    private String failureMessages; // message1;message2
 
 }

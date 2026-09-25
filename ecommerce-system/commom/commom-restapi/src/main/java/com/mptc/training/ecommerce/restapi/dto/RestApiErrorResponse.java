@@ -1,11 +1,9 @@
 package com.mptc.training.ecommerce.restapi.dto;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Builder;
 
 @Builder
-public record RestApiErrorResponse<T>(
-        String code,
-        String message,
-        T detail
-) {
+public record RestApiErrorResponse<T>(String code, String message,
+                                      @JsonInclude(JsonInclude.Include.NON_NULL) T detail) {
 }
