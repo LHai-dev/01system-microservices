@@ -17,6 +17,7 @@
 
         <module>order-service</module>
         <module>commom/commom-persistence</module>
+        <module>business-service</module>
     </modules>
 
     <properties>
@@ -73,6 +74,22 @@
             <dependency>
                 <groupId>com.mptc.training</groupId>
                 <artifactId>order-service-main</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.mptc.training</groupId>
+                <artifactId>business-domain-core</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.mptc.training</groupId>
+                <artifactId>business-application-service</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.mptc.training</groupId>
+                <artifactId>business-service-persistence</artifactId>
                 <version>${project.version}</version>
             </dependency>
         </dependencies>
