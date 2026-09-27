@@ -11,12 +11,6 @@ public class OrderApproval extends BaseEntity<OrderApprovalId> {
     private final OrderId orderId;
     private final OrderApprovalStatus approvalStatus;
 
-    public OrderApproval(BusinessId businessId, OrderId orderId, OrderApprovalStatus approvalStatus) {
-        this.businessId = businessId;
-        this.orderId = orderId;
-        this.approvalStatus = approvalStatus;
-    }
-
     private OrderApproval(Builder builder) {
         super.setId(builder.id);
         businessId = builder.businessId;
