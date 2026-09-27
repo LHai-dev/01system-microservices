@@ -47,7 +47,6 @@ public class CreateOrderUseCase {
         //invoke order service logic
         Order order = orderDomainMapper.createOrderCommandToOrder(createOrderCommand);
 
-
         OrderCreatedEvent orderCreatedEvent = orderDomainService.validateAndInitiateOrder(order, business);
 
         var sortedNames = orderCreatedEvent.getOrder().getFailureMessages().stream().filter(s -> s.length() > 3).sorted().toList();

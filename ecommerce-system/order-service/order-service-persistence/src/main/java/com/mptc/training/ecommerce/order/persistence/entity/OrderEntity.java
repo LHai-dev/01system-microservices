@@ -17,7 +17,6 @@ import java.util.UUID;
 @Table(name = "orders")
 public class OrderEntity {
     @Id
-    @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
 
     private UUID customerId;
@@ -26,14 +25,15 @@ public class OrderEntity {
 
     private BigDecimal price;
 
-    @OneToMany(mappedBy = "order")
+    @OneToMany(mappedBy = "order", cascade = CascadeType.ALL)
     private List<OrderItemEntity> items;
 
-    @OneToOne
+    @OneToOne(cascade = CascadeType.ALL)
     private OrderAddressEntity orderAddress;
 
     private UUID trackingId;
 
+    @Enumerated(EnumType.STRING)
     private OrderStatus orderStatus;
 
     private String failureMessages; // message1;message2
