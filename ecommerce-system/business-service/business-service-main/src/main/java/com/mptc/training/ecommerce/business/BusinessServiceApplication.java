@@ -6,7 +6,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.persistence.autoconfigure.EntityScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
-@Slf4j
 @EntityScan(basePackages = {"com.mptc.training.ecommerce.business.persistence"})
 @EnableJpaRepositories(basePackages = {"com.mptc.training.ecommerce.business.persistence"})
 @SpringBootApplication
