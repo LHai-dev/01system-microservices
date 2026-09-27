@@ -19,12 +19,10 @@ public class OrderRepositoryAdapter implements OrderRepository {
     public Order saveOrder(Order order) {
         OrderEntity orderEntity = orderMapper.orderToOrderEntity(order);
 
-        orderJpaRepository.save(orderEntity);
-
+        // Back-references must be set before save: order is part of OrderItemEntity's composite id.
         orderEntity.getOrderAddress().setOrder(orderEntity);
-
         orderEntity.getItems().forEach(orderItemEntity -> orderItemEntity.setOrder(orderEntity));
 
-        return orderMapper.orderEntityToOrder(orderEntity);
+        return orderMapper.orderEntityToOrder(orderJpaRepository.save(orderEntity));
     }
 }

@@ -3,6 +3,7 @@ package com.mptc.training.ecommerce.order.domain.entity;
 import com.mptc.training.ecommerce.order.domain.exception.OrderDomainException;
 import com.mptc.training.ecommerce.order.domain.valueobject.*;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
@@ -44,6 +45,7 @@ public class Order extends AggregateRoot<OrderId> {
         setId(new OrderId(UUID.randomUUID()));
         trackingId = new TrackingId(UUID.randomUUID());
         orderStatus = OrderStatus.PENDING;
+        failureMessages = new ArrayList<>();
         initializeOrderItems();
     }
 

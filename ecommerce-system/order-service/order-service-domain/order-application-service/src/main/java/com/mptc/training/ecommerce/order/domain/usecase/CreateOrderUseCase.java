@@ -49,11 +49,6 @@ public class CreateOrderUseCase {
 
         OrderCreatedEvent orderCreatedEvent = orderDomainService.validateAndInitiateOrder(order, business);
 
-        var sortedNames = orderCreatedEvent.getOrder().getFailureMessages().stream().filter(s -> s.length() > 3).sorted().toList();
-        log.info("Order Created event: {} ,{}", orderCreatedEvent.getOrder().getId(), sortedNames);
-
-        //save order to database
-
         Order savedOrder = orderRepository.saveOrder(order);
 
         if (savedOrder == null) {
