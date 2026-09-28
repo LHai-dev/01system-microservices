@@ -1,9 +1,7 @@
 package com.mptc.training.ecommerce.business;
 
 import com.mptc.training.ecommerce.business.persistence.entity.BusinessEntity;
-import com.mptc.training.ecommerce.business.persistence.entity.ProductEntity;
 import com.mptc.training.ecommerce.business.persistence.repository.BusinessJpaRepository;
-import com.mptc.training.ecommerce.business.persistence.repository.ProductJpaRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -26,32 +24,30 @@ public class BusinessServiceApplication {
     }
 
     @Bean
-    CommandLineRunner seedDatabase(BusinessJpaRepository businessRepository, ProductJpaRepository productRepository) {
+    CommandLineRunner seedDatabase(BusinessJpaRepository businessRepository) {
         return args -> {
-            BusinessEntity business = new BusinessEntity();
-            business.setId(UUID.randomUUID());
-            business.setActive(true);
-            businessRepository.save(business);
+            UUID businessId = UUID.randomUUID();
 
-            ProductEntity firstProduct = new ProductEntity();
-            firstProduct.setId(UUID.randomUUID());
-            firstProduct.setName("iPhone 18 Pro Max");
-            firstProduct.setPrice(new BigDecimal("2000"));
-            firstProduct.setAvailable(true);
-            firstProduct.setBusiness(business);
+            BusinessEntity firstProduct = new BusinessEntity();
+            firstProduct.setBusinessId(businessId);
+            firstProduct.setProductId(UUID.randomUUID());
+            firstProduct.setBusinessActive(true);
+            firstProduct.setProductName("Office Chair");
+            firstProduct.setProductPrice(new BigDecimal("120"));
+            firstProduct.setProductAvailable(true);
+            businessRepository.save(firstProduct);
 
-            ProductEntity secondProduct = new ProductEntity();
-            secondProduct.setId(UUID.randomUUID());
-            secondProduct.setName("AirPods Pro");
-            secondProduct.setPrice(new BigDecimal("250"));
-            secondProduct.setAvailable(true);
-            secondProduct.setBusiness(business);
-
-            productRepository.save(firstProduct);
-            productRepository.save(secondProduct);
+            BusinessEntity secondProduct = new BusinessEntity();
+            secondProduct.setBusinessId(businessId);
+            secondProduct.setProductId(UUID.randomUUID());
+            secondProduct.setBusinessActive(true);
+            secondProduct.setProductName("Desk Lamp");
+            secondProduct.setProductPrice(new BigDecimal("35"));
+            secondProduct.setProductAvailable(true);
+            businessRepository.save(secondProduct);
 
             log.info("Seeded businessId={}, productIds={}, {}",
-                    business.getId(), firstProduct.getId(), secondProduct.getId());
+                    businessId, firstProduct.getProductId(), secondProduct.getProductId());
         };
     }
 }
