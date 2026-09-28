@@ -18,7 +18,7 @@
         </dependency>
         <dependency>
             <groupId>com.mptc.training</groupId>
-            <artifactId>commom-domain</artifactId>
+            <artifactId>common-domain</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>

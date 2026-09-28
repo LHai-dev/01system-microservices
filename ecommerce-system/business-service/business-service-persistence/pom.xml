@@ -18,7 +18,7 @@
         </dependency>
         <dependency>
             <groupId>com.mptc.training</groupId>
-            <artifactId>commom-persistence</artifactId>
+            <artifactId>common-persistence</artifactId>
         </dependency>
         <dependency>
             <groupId>com.mptc.training</groupId>

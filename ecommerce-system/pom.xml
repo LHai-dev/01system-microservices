@@ -13,10 +13,10 @@
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
-        <module>commom</module>
+        <module>common</module>
 
         <module>order-service</module>
-        <module>commom/commom-persistence</module>
+        <module>common/common-persistence</module>
         <module>business-service</module>
     </modules>
 
@@ -32,17 +32,17 @@
         <dependencies>
             <dependency>
                 <groupId>com.mptc.training</groupId>
-                <artifactId>commom-domain</artifactId>
+                <artifactId>common-domain</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.mptc.training</groupId>
-                <artifactId>commom-persistence</artifactId>
+                <artifactId>common-persistence</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.mptc.training</groupId>
-                <artifactId>commom-restapi</artifactId>
+                <artifactId>common-restapi</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
