@@ -1,4 +1,4 @@
-package com.mptc.training.ecommerce.business.domain.valueobject;
+package com.mptc.training.ecommerce.order.domain.valueobject;
 
 public enum OrderApprovalStatus {
     APPROVED, REJECTED

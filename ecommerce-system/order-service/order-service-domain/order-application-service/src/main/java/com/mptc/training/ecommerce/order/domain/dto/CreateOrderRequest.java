@@ -10,6 +10,5 @@ public record CreateOrderRequest(
         BusinessId businessId,
         StreetAddress deliveryAddress,
         Money price
-
 ) {
 }

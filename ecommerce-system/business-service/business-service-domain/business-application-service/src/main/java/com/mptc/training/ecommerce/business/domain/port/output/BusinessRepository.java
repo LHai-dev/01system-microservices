@@ -4,9 +4,10 @@ package com.mptc.training.ecommerce.business.domain.port.output;
 import com.mptc.training.ecommerce.business.domain.entity.Business;
 
 import java.util.Optional;
+import java.util.UUID;
 
 public interface BusinessRepository {
 
-    Optional<Business> findBusinessInformation(Business business);
+    Optional<Business> findBusiness(UUID businessId);
 
 }

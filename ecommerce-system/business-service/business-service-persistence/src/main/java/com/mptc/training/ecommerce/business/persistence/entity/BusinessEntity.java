@@ -1,34 +1,34 @@
 package com.mptc.training.ecommerce.business.persistence.entity;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.IdClass;
-import jakarta.persistence.Table;
+import com.mptc.training.ecommerce.business.domain.entity.Product;
+import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.math.BigDecimal;
+import java.util.List;
 import java.util.UUID;
 
 @Getter
 @Setter
 @NoArgsConstructor
-@IdClass(BusinessIdEntity.class)
 @Entity
 @Table(name = "businesses")
 public class BusinessEntity {
     @Id
-    private UUID businessId;
+    private UUID id;
 
-    @Id
-    private UUID productId;
+    private String name;
+    private Boolean active;
 
-    private String businessName;
-    private Boolean businessActive;
+    @OneToMany(mappedBy = "business", cascade = CascadeType.ALL)
+    private List<ProductEntity> products;
 
-    private String productName;
-    private BigDecimal productPrice;
-    private Boolean productAvailable;
+    @OneToMany(mappedBy = "business", cascade = CascadeType.ALL)
+    private List<OrderDetailEntity> orderDetails;
+
+    @OneToMany(mappedBy = "business", cascade = CascadeType.ALL)
+    private List<OrderApprovalEntity> orderApprovals;
 
 }

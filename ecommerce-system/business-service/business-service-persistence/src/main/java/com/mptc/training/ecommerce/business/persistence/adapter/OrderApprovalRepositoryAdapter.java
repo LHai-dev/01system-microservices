@@ -17,8 +17,12 @@ public class OrderApprovalRepositoryAdapter implements OrderApprovalRepository {
 
     @Override
     public OrderApproval save(OrderApproval orderApproval) {
-        OrderApprovalEntity orderApprovalEntity = orderApprovalPersistenceMapper.orderApprovalToOrderApprovalEntity(orderApproval);
+        OrderApprovalEntity orderApprovalEntity = orderApprovalPersistenceMapper
+                .orderApprovalToOrderApprovalEntity(orderApproval);
 
-        return orderApprovalPersistenceMapper.orderApprovalEntityToOrderApproval(orderApprovalJpaRepository.save(orderApprovalEntity));
+        return orderApprovalPersistenceMapper
+                .orderApprovalEntityToOrderApproval(
+                        orderApprovalJpaRepository.save(orderApprovalEntity)
+                );
     }
 }

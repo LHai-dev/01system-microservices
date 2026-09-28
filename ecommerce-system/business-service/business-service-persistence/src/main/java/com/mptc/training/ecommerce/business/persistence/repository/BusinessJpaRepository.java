@@ -1,16 +1,16 @@
 package com.mptc.training.ecommerce.business.persistence.repository;
 
 import com.mptc.training.ecommerce.business.persistence.entity.BusinessEntity;
-import com.mptc.training.ecommerce.business.persistence.entity.BusinessIdEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
 import java.util.UUID;
 
-public interface BusinessJpaRepository extends JpaRepository<BusinessEntity, BusinessIdEntity> {
+public interface BusinessJpaRepository extends JpaRepository<BusinessEntity, UUID> {
 
     List<BusinessEntity> findByBusinessIdAndProductIdIn(
             UUID businessId,
             List<UUID> productIds
     );
+
 }

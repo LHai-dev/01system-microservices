@@ -16,15 +16,29 @@ import java.util.UUID;
 public interface BusinessPersistenceMapper {
 
     default List<UUID> businessToBusinessProducts(Business business) {
-        return business.getProducts().stream().map(product -> product.getId().value()).toList();
+        return business.getProducts().stream()
+                .map(product -> product.getId().value()).toList();
     }
 
     default Business businessEntityToBusiness(List<BusinessEntity> businessEntities) {
-        BusinessEntity businessEntity = businessEntities.stream().findFirst().orElseThrow(() -> new BusinessPersistenceException("Business could not be found"));
+        BusinessEntity businessEntity = businessEntities.stream()
+                .findFirst()
+                .orElseThrow(
+                        () -> new BusinessPersistenceException("Business could not be found")
+                );
 
-        List<Product> businessProducts = businessEntities.stream().map(entity -> Product.builder().id(new ProductId(entity.getProductId())).name(entity.getProductName()).price(new Money(entity.getProductPrice())).build()).toList();
+        List<Product> businessProducts = businessEntities.stream()
+                .map(entity -> Product.builder()
+                        .id(new ProductId(entity.getProductId()))
+                        .name(entity.getProductName())
+                        .price(new Money(entity.getProductPrice()))
+                        .build()).toList();
 
-        return Business.builder().id(new BusinessId(businessEntity.getBusinessId())).products(businessProducts).active(businessEntity.getBusinessActive()).build();
+        return Business.builder()
+                .id(new BusinessId(businessEntity.getBusinessId()))
+                .products(businessProducts)
+                .active(businessEntity.getBusinessActive())
+                .build();
     }
 
 

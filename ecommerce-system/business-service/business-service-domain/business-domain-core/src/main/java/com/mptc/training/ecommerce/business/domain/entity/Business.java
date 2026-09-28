@@ -1,5 +1,6 @@
 package com.mptc.training.ecommerce.business.domain.entity;
 
+import com.mptc.training.ecommerce.business.domain.exception.BusinessDomainException;
 import com.mptc.training.ecommerce.business.domain.valueobject.OrderApprovalId;
 import com.mptc.training.ecommerce.business.domain.valueobject.OrderApprovalStatus;
 import com.mptc.training.ecommerce.order.domain.entity.AggregateRoot;
@@ -11,26 +12,57 @@ import java.util.List;
 import java.util.UUID;
 
 public class Business extends AggregateRoot<BusinessId> {
-    private OrderApproval orderApproval;
     private final boolean active;
     private final OrderDetail orderDetail;
 
+    private OrderApproval orderApproval;
+
+    public OrderApproval getOrderApproval() {
+        return orderApproval;
+    }
+
+    public void setOrderApproval(OrderApproval orderApproval) {
+        this.orderApproval = orderApproval;
+    }
+
+    public OrderDetail getOrderDetail() {
+        return orderDetail;
+    }
+
+    public boolean isActive() {
+        return active;
+    }
+
     private Business(Builder builder) {
         super.setId(builder.id);
-        orderApproval = builder.orderApproval;
         active = builder.active;
         orderDetail = builder.orderDetail;
+        orderApproval = builder.orderApproval;
     }
 
-    public static Builder builder() {
-        return new Builder();
-    }
-
+    // --------- use case -----------
     public void validateOrder(List<String> failureMessages) {
         validateOrderStatus(failureMessages);
         validateProductAvailability(failureMessages);
         validateOrderTotal(failureMessages);
     }
+
+    public void constructOrderApproval(OrderApproval orderApproval) {
+        if (getId() != orderApproval.getBusinessId()) {
+            throw new BusinessDomainException("Business are not the same");
+        }
+        OrderApproval tmpOrderApproval = OrderApproval.builder()
+                .id(new OrderApprovalId(UUID.randomUUID()))
+                .businessId(getId())
+                .orderId(orderApproval.getOrderId())
+                .approvalStatus(orderApproval.getApprovalStatus())
+                .build();
+
+        this.setOrderApproval(tmpOrderApproval);
+    }
+
+    // ------- private use case ---------
+
 
     private void validateOrderStatus(List<String> failureMessages) {
         if (orderDetail.getOrderStatus() != OrderStatus.PAID) {
@@ -55,43 +87,23 @@ public class Business extends AggregateRoot<BusinessId> {
         }
     }
 
-    public void constructOrderApproval(OrderApprovalStatus status) {
-        orderApproval = OrderApproval.builder()
-                .id(new OrderApprovalId(UUID.randomUUID()))
-                .businessId(getId())
-                .orderId(orderDetail.getId())
-                .approvalStatus(status)
-                .build();
-    }
 
-    public OrderApproval getOrderApproval() {
-        return orderApproval;
-    }
-
-    public boolean isActive() {
-        return active;
-    }
-
-    public OrderDetail getOrderDetail() {
-        return orderDetail;
-    }
 
     public static final class Builder {
         private BusinessId id;
-        private OrderApproval orderApproval;
         private boolean active;
         private OrderDetail orderDetail;
+        private OrderApproval orderApproval;
 
         private Builder() {
         }
 
-        public Builder id(BusinessId val) {
-            id = val;
-            return this;
+        public static Builder builder() {
+            return new Builder();
         }
 
-        public Builder orderApproval(OrderApproval val) {
-            orderApproval = val;
+        public Builder id(BusinessId val) {
+            id = val;
             return this;
         }
 
@@ -102,6 +114,11 @@ public class Business extends AggregateRoot<BusinessId> {
 
         public Builder orderDetail(OrderDetail val) {
             orderDetail = val;
+            return this;
+        }
+
+        public Builder orderApproval(OrderApproval val) {
+            orderApproval = val;
             return this;
         }
 
