@@ -31,6 +31,7 @@ public class BusinessServiceApplication {
             BusinessEntity firstProduct = new BusinessEntity();
             firstProduct.setBusinessId(businessId);
             firstProduct.setProductId(UUID.randomUUID());
+            firstProduct.setBusinessName("Office Supply");
             firstProduct.setBusinessActive(true);
             firstProduct.setProductName("Office Chair");
             firstProduct.setProductPrice(new BigDecimal("120"));
@@ -40,6 +41,7 @@ public class BusinessServiceApplication {
             BusinessEntity secondProduct = new BusinessEntity();
             secondProduct.setBusinessId(businessId);
             secondProduct.setProductId(UUID.randomUUID());
+            secondProduct.setBusinessName("Office Supply");
             secondProduct.setBusinessActive(true);
             secondProduct.setProductName("Desk Lamp");
             secondProduct.setProductPrice(new BigDecimal("35"));
