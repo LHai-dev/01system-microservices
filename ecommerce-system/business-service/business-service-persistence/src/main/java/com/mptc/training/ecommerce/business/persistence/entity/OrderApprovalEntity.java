@@ -1,6 +1,6 @@
 package com.mptc.training.ecommerce.business.persistence.entity;
 
-import com.mptc.training.ecommerce.business.domain.valueobject.OrderApprovalStatus;
+import com.mptc.training.ecommerce.domain.valueobject.OrderApprovalStatus;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;

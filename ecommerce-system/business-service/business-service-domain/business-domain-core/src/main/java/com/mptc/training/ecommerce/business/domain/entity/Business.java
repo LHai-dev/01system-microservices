@@ -1,11 +1,11 @@
 package com.mptc.training.ecommerce.business.domain.entity;
 
-import com.mptc.training.ecommerce.business.domain.valueobject.OrderApprovalId;
-import com.mptc.training.ecommerce.business.domain.valueobject.OrderApprovalStatus;
-import com.mptc.training.ecommerce.order.domain.entity.AggregateRoot;
-import com.mptc.training.ecommerce.order.domain.valueobject.BusinessId;
-import com.mptc.training.ecommerce.order.domain.valueobject.Money;
-import com.mptc.training.ecommerce.order.domain.valueobject.OrderStatus;
+import com.mptc.training.ecommerce.domain.valueobject.OrderApprovalId;
+import com.mptc.training.ecommerce.domain.valueobject.OrderApprovalStatus;
+import com.mptc.training.ecommerce.domain.entity.AggregateRoot;
+import com.mptc.training.ecommerce.domain.valueobject.BusinessId;
+import com.mptc.training.ecommerce.domain.valueobject.Money;
+import com.mptc.training.ecommerce.domain.valueobject.OrderStatus;
 
 import java.util.List;
 import java.util.UUID;

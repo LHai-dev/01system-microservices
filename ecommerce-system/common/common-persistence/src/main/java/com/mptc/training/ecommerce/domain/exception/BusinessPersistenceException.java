@@ -1,4 +1,4 @@
-package com.mptc.training.ecommerce.order.domain.exception;
+package com.mptc.training.ecommerce.domain.exception;
 
 public class BusinessPersistenceException extends RuntimeException {
     public BusinessPersistenceException(String message) {

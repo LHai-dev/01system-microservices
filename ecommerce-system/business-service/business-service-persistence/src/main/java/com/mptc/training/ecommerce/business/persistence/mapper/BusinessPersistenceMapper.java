@@ -4,10 +4,10 @@ import com.mptc.training.ecommerce.business.domain.entity.Business;
 import com.mptc.training.ecommerce.business.domain.entity.OrderDetail;
 import com.mptc.training.ecommerce.business.domain.entity.Product;
 import com.mptc.training.ecommerce.business.persistence.entity.BusinessEntity;
-import com.mptc.training.ecommerce.order.domain.exception.BusinessPersistenceException;
-import com.mptc.training.ecommerce.order.domain.valueobject.BusinessId;
-import com.mptc.training.ecommerce.order.domain.valueobject.Money;
-import com.mptc.training.ecommerce.order.domain.valueobject.ProductId;
+import com.mptc.training.ecommerce.domain.exception.BusinessPersistenceException;
+import com.mptc.training.ecommerce.domain.valueobject.BusinessId;
+import com.mptc.training.ecommerce.domain.valueobject.Money;
+import com.mptc.training.ecommerce.domain.valueobject.ProductId;
 import org.mapstruct.Mapper;
 
 import java.util.List;

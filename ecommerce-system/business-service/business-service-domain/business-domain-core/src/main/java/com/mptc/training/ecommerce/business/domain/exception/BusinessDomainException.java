@@ -1,6 +1,6 @@
 package com.mptc.training.ecommerce.business.domain.exception;
 
-import com.mptc.training.ecommerce.order.domain.exception.DomainException;
+import com.mptc.training.ecommerce.domain.exception.DomainException;
 
 public class BusinessDomainException extends DomainException {
 

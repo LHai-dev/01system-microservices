@@ -4,7 +4,7 @@ import com.mptc.training.ecommerce.business.domain.entity.Business;
 import com.mptc.training.ecommerce.business.domain.event.OrderApprovalEvent;
 import com.mptc.training.ecommerce.business.domain.event.OrderApprovedEvent;
 import com.mptc.training.ecommerce.business.domain.event.OrderRejectedEvent;
-import com.mptc.training.ecommerce.business.domain.valueobject.OrderApprovalStatus;
+import com.mptc.training.ecommerce.domain.valueobject.OrderApprovalStatus;
 
 import java.time.ZoneId;
 import java.time.ZonedDateTime;

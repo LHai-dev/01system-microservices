@@ -2,7 +2,6 @@ package com.mptc.training.ecommerce.order.persistence.adapter;
 
 import com.mptc.training.ecommerce.order.domain.entity.Business;
 import com.mptc.training.ecommerce.order.domain.port.output.BusinessRepository;
-import com.mptc.training.ecommerce.order.domain.valueobject.BusinessId;
 import com.mptc.training.ecommerce.order.persistence.entity.BusinessEntity;
 import com.mptc.training.ecommerce.order.persistence.mapper.BusinessPersistenceMapper;
 import com.mptc.training.ecommerce.order.persistence.repository.BusinessJpaRepository;

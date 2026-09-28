@@ -1,7 +1,7 @@
 package com.mptc.training.ecommerce.business.domain.event;
 
 import com.mptc.training.ecommerce.business.domain.entity.OrderApproval;
-import com.mptc.training.ecommerce.order.domain.valueobject.BusinessId;
+import com.mptc.training.ecommerce.domain.valueobject.BusinessId;
 
 import java.time.ZonedDateTime;
 import java.util.List;

@@ -1,10 +1,10 @@
 package com.mptc.training.ecommerce.business.domain.entity;
 
-import com.mptc.training.ecommerce.business.domain.valueobject.OrderApprovalId;
-import com.mptc.training.ecommerce.business.domain.valueobject.OrderApprovalStatus;
-import com.mptc.training.ecommerce.order.domain.entity.BaseEntity;
-import com.mptc.training.ecommerce.order.domain.valueobject.BusinessId;
-import com.mptc.training.ecommerce.order.domain.valueobject.OrderId;
+import com.mptc.training.ecommerce.domain.valueobject.OrderApprovalId;
+import com.mptc.training.ecommerce.domain.valueobject.OrderApprovalStatus;
+import com.mptc.training.ecommerce.domain.entity.BaseEntity;
+import com.mptc.training.ecommerce.domain.valueobject.BusinessId;
+import com.mptc.training.ecommerce.domain.valueobject.OrderId;
 
 public class OrderApproval extends BaseEntity<OrderApprovalId> {
     private final BusinessId businessId;

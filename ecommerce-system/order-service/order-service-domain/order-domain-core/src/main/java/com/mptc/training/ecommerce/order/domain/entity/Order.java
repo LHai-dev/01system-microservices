@@ -1,7 +1,9 @@
 package com.mptc.training.ecommerce.order.domain.entity;
 
+import com.mptc.training.ecommerce.domain.entity.AggregateRoot;
+import com.mptc.training.ecommerce.domain.valueobject.*;
+import com.mptc.training.ecommerce.domain.valueobject.StreetAddress;
 import com.mptc.training.ecommerce.order.domain.exception.OrderDomainException;
-import com.mptc.training.ecommerce.order.domain.valueobject.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,12 +12,12 @@ import java.util.UUID;
 public class Order extends AggregateRoot<OrderId> {
     private final CustomerId customerId;
     private final BusinessId businessId;
-    private final StreetAddress deliveryAddress;
+    private final com.mptc.training.ecommerce.domain.valueobject.StreetAddress deliveryAddress;
     private final Money price;
     private final List<OrderItem> items;
 
 
-    private TrackingId trackingId;
+    private com.mptc.training.ecommerce.domain.valueobject.TrackingId trackingId;
     private OrderStatus orderStatus;
     private List<String> failureMessages;
 
@@ -43,7 +45,7 @@ public class Order extends AggregateRoot<OrderId> {
 
     public void initializeOrder() {
         setId(new OrderId(UUID.randomUUID()));
-        trackingId = new TrackingId(UUID.randomUUID());
+        trackingId = new com.mptc.training.ecommerce.domain.valueobject.TrackingId(UUID.randomUUID());
         orderStatus = OrderStatus.PENDING;
         failureMessages = new ArrayList<>();
         initializeOrderItems();
@@ -111,7 +113,7 @@ public class Order extends AggregateRoot<OrderId> {
     private void initializeOrderItems() {
         long itemCount = 1;
         for (OrderItem item : items) {
-            item.initializeOrderItem(super.getId(), new OrderItemId(itemCount++));
+            item.initializeOrderItem(super.getId(), new com.mptc.training.ecommerce.domain.valueobject.OrderItemId(itemCount++));
         }
     }
 
@@ -133,7 +135,7 @@ public class Order extends AggregateRoot<OrderId> {
         return businessId;
     }
 
-    public StreetAddress getDeliveryAddress() {
+    public com.mptc.training.ecommerce.domain.valueobject.StreetAddress getDeliveryAddress() {
         return deliveryAddress;
     }
 
@@ -145,7 +147,7 @@ public class Order extends AggregateRoot<OrderId> {
         return items;
     }
 
-    public TrackingId getTrackingId() {
+    public com.mptc.training.ecommerce.domain.valueobject.TrackingId getTrackingId() {
         return trackingId;
     }
 
@@ -161,10 +163,10 @@ public class Order extends AggregateRoot<OrderId> {
         private OrderId id;
         private CustomerId customerId;
         private BusinessId businessId;
-        private StreetAddress deliveryAddress;
+        private com.mptc.training.ecommerce.domain.valueobject.StreetAddress deliveryAddress;
         private Money price;
         private List<OrderItem> items;
-        private TrackingId trackingId;
+        private com.mptc.training.ecommerce.domain.valueobject.TrackingId trackingId;
         private OrderStatus orderStatus;
         private List<String> failureMessages;
 
@@ -201,7 +203,7 @@ public class Order extends AggregateRoot<OrderId> {
             return this;
         }
 
-        public Builder trackingId(TrackingId val) {
+        public Builder trackingId(com.mptc.training.ecommerce.domain.valueobject.TrackingId val) {
             trackingId = val;
             return this;
         }

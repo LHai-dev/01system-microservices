@@ -1,9 +1,9 @@
 package com.mptc.training.ecommerce.business.domain.entity;
 
-import com.mptc.training.ecommerce.order.domain.entity.BaseEntity;
-import com.mptc.training.ecommerce.order.domain.valueobject.Money;
-import com.mptc.training.ecommerce.order.domain.valueobject.OrderId;
-import com.mptc.training.ecommerce.order.domain.valueobject.OrderStatus;
+import com.mptc.training.ecommerce.domain.entity.BaseEntity;
+import com.mptc.training.ecommerce.domain.valueobject.Money;
+import com.mptc.training.ecommerce.domain.valueobject.OrderId;
+import com.mptc.training.ecommerce.domain.valueobject.OrderStatus;
 
 import java.util.List;
 

@@ -2,11 +2,11 @@ package com.mptc.training.ecommerce.order.persistence.mapper;
 
 import com.mptc.training.ecommerce.order.domain.entity.Business;
 import com.mptc.training.ecommerce.order.domain.entity.Product;
-import com.mptc.training.ecommerce.order.domain.valueobject.BusinessId;
-import com.mptc.training.ecommerce.order.domain.valueobject.Money;
-import com.mptc.training.ecommerce.order.domain.valueobject.ProductId;
+import com.mptc.training.ecommerce.domain.valueobject.BusinessId;
+import com.mptc.training.ecommerce.domain.valueobject.Money;
+import com.mptc.training.ecommerce.domain.valueobject.ProductId;
 import com.mptc.training.ecommerce.order.persistence.entity.BusinessEntity;
-import com.mptc.training.ecommerce.order.domain.exception.BusinessPersistenceException;
+import com.mptc.training.ecommerce.domain.exception.BusinessPersistenceException;
 import org.mapstruct.Mapper;
 
 import java.util.List;

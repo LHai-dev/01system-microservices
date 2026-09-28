@@ -1,6 +1,6 @@
 package com.mptc.training.ecommerce.order.restapi.exception;
 
-import com.mptc.training.ecommerce.order.domain.exception.BusinessPersistenceException;
+import com.mptc.training.ecommerce.domain.exception.BusinessPersistenceException;
 import com.mptc.training.ecommerce.order.domain.exception.OrderDomainException;
 import com.mptc.training.ecommerce.restapi.dto.RestApiErrorResponse;
 import com.mptc.training.ecommerce.restapi.exception.GlobalExceptionHandler;

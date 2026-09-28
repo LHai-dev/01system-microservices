@@ -2,7 +2,7 @@ package com.mptc.training.ecommerce.order.persistence.mapper;
 
 import com.mptc.training.ecommerce.order.domain.entity.Order;
 import com.mptc.training.ecommerce.order.domain.entity.OrderItem;
-import com.mptc.training.ecommerce.order.domain.valueobject.StreetAddress;
+import com.mptc.training.ecommerce.domain.valueobject.StreetAddress;
 import com.mptc.training.ecommerce.order.persistence.entity.OrderAddressEntity;
 import com.mptc.training.ecommerce.order.persistence.entity.OrderEntity;
 import com.mptc.training.ecommerce.order.persistence.entity.OrderItemEntity;
