@@ -9,6 +9,7 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.persistence.autoconfigure.EntityScan;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.context.annotation.Bean;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
@@ -19,6 +20,7 @@ import java.util.UUID;
 @EntityScan(basePackages = {"com.mptc.training.ecommerce.order.persistence"})
 @EnableJpaRepositories(basePackages = {"com.mptc.training.ecommerce.order.persistence"})
 @SpringBootApplication
+@EnableDiscoveryClient
 public class OrderServiceApplication {
 
     static void main(String[] args) {

@@ -1,0 +1,2334 @@
+2026-10-02 11:17:48,636 INFO Fail to find connection runtime ejector for name nacos,use default
+
+2026-10-02 11:17:49,731 INFO Connection check task start
+
+2026-10-02 11:17:49,733 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-10-02 11:17:49,734 INFO Out dated connection ,size=0
+
+2026-10-02 11:17:49,735 INFO Connection check task end
+
+2026-10-02 11:17:51,869 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-10-02 11:17:54,339 INFO Connection check task start
+
+2026-10-02 11:17:57,249 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-10-02 11:17:57,249 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-10-02 11:19:10,530 INFO Out dated connection ,size=0
+
+2026-10-02 11:19:11,308 INFO Connection check task end
+
+2026-10-02 11:19:12,534 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-10-02 11:19:14,370 INFO Connection check task start
+
+2026-10-02 11:24:23,195 INFO Fail to find connection runtime ejector for name nacos,use default
+
+2026-10-02 11:24:24,197 INFO Connection check task start
+
+2026-10-02 11:24:24,197 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-10-02 11:24:24,198 INFO Out dated connection ,size=0
+
+2026-10-02 11:24:24,198 INFO Connection check task end
+
+2026-10-02 11:24:30,757 INFO Connection check task start
+
+2026-10-02 11:24:48,866 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-10-02 11:25:01,639 INFO Out dated connection ,size=0
+
+2026-10-02 11:31:25,507 INFO Fail to find connection runtime ejector for name nacos,use default
+
+2026-10-02 11:31:26,510 INFO Connection check task start
+
+2026-10-02 11:31:26,511 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-10-02 11:31:26,550 INFO Out dated connection ,size=0
+
+2026-10-02 11:31:26,551 INFO Connection check task end
+
+2026-10-02 11:31:59,537 INFO Connection check task start
+
+2026-10-02 12:00:34,621 INFO Fail to find connection runtime ejector for name nacos,use default
+
+2026-10-02 12:00:35,622 INFO Connection check task start
+
+2026-10-02 12:00:35,623 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-10-02 12:00:35,623 INFO Out dated connection ,size=0
+
+2026-10-02 12:00:35,623 INFO Connection check task end
+
+2026-10-02 12:00:37,655 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-10-02 12:00:38,626 INFO Connection check task start
+
+2026-10-02 12:00:38,626 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-10-02 12:00:38,626 INFO Out dated connection ,size=0
+
+2026-10-02 12:00:38,627 INFO Connection check task end
+
+2026-10-02 12:00:40,657 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-10-02 12:00:41,628 INFO Connection check task start
+
+2026-10-02 12:00:41,628 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-10-02 12:00:41,629 INFO Out dated connection ,size=0
+
+2026-10-02 12:00:41,629 INFO Connection check task end
+
+2026-10-02 12:00:43,657 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-10-02 12:00:44,629 INFO Connection check task start
+
+2026-10-02 12:00:44,629 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-10-02 12:00:44,630 INFO Out dated connection ,size=0
+
+2026-10-02 12:00:44,630 INFO Connection check task end
+
+2026-10-02 12:00:46,658 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-10-02 12:00:47,630 INFO Connection check task start
+
+2026-10-02 12:00:47,630 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-10-02 12:00:47,630 INFO Out dated connection ,size=0
+
+2026-10-02 12:00:47,630 INFO Connection check task end
+
+2026-10-02 12:00:49,658 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-10-02 12:00:50,630 INFO Connection check task start
+
+2026-10-02 12:00:50,631 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-10-02 12:00:50,631 INFO Out dated connection ,size=0
+
+2026-10-02 12:00:50,631 INFO Connection check task end
+
+2026-10-02 12:00:52,659 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-10-02 12:00:53,631 INFO Connection check task start
+
+2026-10-02 12:00:53,631 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-10-02 12:00:53,631 INFO Out dated connection ,size=0
+
+2026-10-02 12:00:53,631 INFO Connection check task end
+
+2026-10-02 12:00:55,659 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-10-02 12:00:56,632 INFO Connection check task start
+
+2026-10-02 12:00:56,632 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-10-02 12:00:56,632 INFO Out dated connection ,size=0
+
+2026-10-02 12:00:56,632 INFO Connection check task end
+
+2026-10-02 12:00:58,660 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-10-02 12:00:59,632 INFO Connection check task start
+
+2026-10-02 12:00:59,632 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-10-02 12:00:59,632 INFO Out dated connection ,size=0
+
+2026-10-02 12:00:59,633 INFO Connection check task end
+
+2026-10-02 12:01:01,660 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-10-02 12:01:02,631 INFO Connection check task start
+
+2026-10-02 12:01:02,631 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-10-02 12:01:02,631 INFO Out dated connection ,size=0
+
+2026-10-02 12:01:02,631 INFO Connection check task end
+
+2026-10-02 12:01:04,659 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-10-02 12:01:05,631 INFO Connection check task start
+
+2026-10-02 12:01:05,632 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-10-02 12:01:05,632 INFO Out dated connection ,size=0
+
+2026-10-02 12:01:05,632 INFO Connection check task end
+
+2026-10-02 12:01:07,660 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-10-02 12:01:08,632 INFO Connection check task start
+
+2026-10-02 12:01:08,632 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-10-02 12:01:08,632 INFO Out dated connection ,size=0
+
+2026-10-02 12:01:08,632 INFO Connection check task end
+
+2026-10-02 12:01:10,660 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-10-02 12:01:11,633 INFO Connection check task start
+
+2026-10-02 12:01:11,633 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-10-02 12:01:11,633 INFO Out dated connection ,size=0
+
+2026-10-02 12:01:11,633 INFO Connection check task end
+
+2026-10-02 12:01:13,661 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-10-02 12:01:14,633 INFO Connection check task start
+
+2026-10-02 12:01:14,634 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-10-02 12:01:14,634 INFO Out dated connection ,size=0
+
+2026-10-02 12:01:14,634 INFO Connection check task end
+
+2026-10-02 12:01:16,661 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-10-02 12:01:17,634 INFO Connection check task start
+
+2026-10-02 12:01:17,635 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-10-02 12:01:17,635 INFO Out dated connection ,size=0
+
+2026-10-02 12:01:17,635 INFO Connection check task end
+
+2026-10-02 12:01:19,662 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-10-02 12:01:20,635 INFO Connection check task start
+
+2026-10-02 12:01:20,636 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-10-02 12:01:20,636 INFO Out dated connection ,size=0
+
+2026-10-02 12:01:20,636 INFO Connection check task end
+
+2026-10-02 12:01:22,663 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-10-02 12:01:23,637 INFO Connection check task start
+
+2026-10-02 12:01:23,637 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-10-02 12:01:23,637 INFO Out dated connection ,size=0
+
+2026-10-02 12:01:23,637 INFO Connection check task end
+
+2026-10-02 12:01:25,664 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-10-02 12:01:26,638 INFO Connection check task start
+
+2026-10-02 12:01:26,638 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-10-02 12:01:26,638 INFO Out dated connection ,size=0
+
+2026-10-02 12:01:26,638 INFO Connection check task end
+
+2026-10-02 12:01:28,664 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-10-02 12:01:29,638 INFO Connection check task start
+
+2026-10-02 12:01:29,639 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-10-02 12:01:29,639 INFO Out dated connection ,size=0
+
+2026-10-02 12:01:29,639 INFO Connection check task end
+
+2026-10-02 12:01:29,856 INFO new connection registered successfully, connectionId = 1790913689716_172.19.0.1_54322,connection=Connection{traced=false, abilities={lock=true, agent=true, mcp=true, fuzzyWatch=true}, metaInfo=ConnectionMeta{connectType='GRPC', clientIp='172.23.128.1', remoteIp='172.19.0.1', remotePort=54322, localPort=9848, version='Nacos-Java-Client:v3.1.1', connectionId='1790913689716_172.19.0.1_54322', createTime=Fri Oct 02 12:01:29 CST 2026, lastActiveTime=1790913689841, appName='unknown', tenant='null', labels={source=sdk, module=naming, AppName=unknown, tls.enable=false}}} 
+
+2026-10-02 12:01:31,665 INFO ConnectionMetrics, totalCount = 1, detail = {long_connection=1, long_polling=0}
+
+2026-10-02 12:01:32,638 INFO Connection check task start
+
+2026-10-02 12:01:32,639 INFO Long connection metrics detail ,Total count =1, sdkCount=1,clusterCount=0
+
+2026-10-02 12:01:32,640 INFO Out dated connection ,size=0
+
+2026-10-02 12:01:32,640 INFO Connection check task end
+
+2026-10-02 12:01:34,664 INFO ConnectionMetrics, totalCount = 1, detail = {long_connection=1, long_polling=0}
+
+2026-10-02 12:01:35,640 INFO Connection check task start
+
+2026-10-02 12:01:35,640 INFO Long connection metrics detail ,Total count =1, sdkCount=1,clusterCount=0
+
+2026-10-02 12:01:35,641 INFO Out dated connection ,size=0
+
+2026-10-02 12:01:35,641 INFO Connection check task end
+
+2026-10-02 12:01:37,678 INFO ConnectionMetrics, totalCount = 1, detail = {long_connection=1, long_polling=0}
+
+2026-10-02 12:01:38,641 INFO Connection check task start
+
+2026-10-02 12:01:38,642 INFO Long connection metrics detail ,Total count =1, sdkCount=1,clusterCount=0
+
+2026-10-02 12:01:38,642 INFO Out dated connection ,size=0
+
+2026-10-02 12:01:38,642 INFO Connection check task end
+
+2026-10-02 12:01:40,679 INFO ConnectionMetrics, totalCount = 1, detail = {long_connection=1, long_polling=0}
+
+2026-10-02 12:01:41,642 INFO Connection check task start
+
+2026-10-02 12:01:41,643 INFO Long connection metrics detail ,Total count =1, sdkCount=1,clusterCount=0
+
+2026-10-02 12:01:41,643 INFO Out dated connection ,size=0
+
+2026-10-02 12:01:41,643 INFO Connection check task end
+
+2026-10-02 12:01:42,812 INFO new connection registered successfully, connectionId = 1790913702730_172.19.0.1_38158,connection=Connection{traced=false, abilities={lock=true, agent=true, mcp=true, fuzzyWatch=true}, metaInfo=ConnectionMeta{connectType='GRPC', clientIp='172.23.128.1', remoteIp='172.19.0.1', remotePort=38158, localPort=9848, version='Nacos-Java-Client:v3.1.1', connectionId='1790913702730_172.19.0.1_38158', createTime=Fri Oct 02 12:01:42 CST 2026, lastActiveTime=1790913702812, appName='unknown', tenant='null', labels={source=sdk, module=naming, AppName=unknown, tls.enable=false}}} 
+
+2026-10-02 12:01:43,679 INFO ConnectionMetrics, totalCount = 2, detail = {long_connection=2, long_polling=0}
+
+2026-10-02 12:01:44,643 INFO Connection check task start
+
+2026-10-02 12:01:44,644 INFO Long connection metrics detail ,Total count =2, sdkCount=2,clusterCount=0
+
+2026-10-02 12:01:44,644 INFO Out dated connection ,size=0
+
+2026-10-02 12:01:44,644 INFO Connection check task end
+
+2026-10-02 12:01:46,680 INFO ConnectionMetrics, totalCount = 2, detail = {long_connection=2, long_polling=0}
+
+2026-10-02 12:01:47,644 INFO Connection check task start
+
+2026-10-02 12:01:47,644 INFO Long connection metrics detail ,Total count =2, sdkCount=2,clusterCount=0
+
+2026-10-02 12:01:47,645 INFO Out dated connection ,size=0
+
+2026-10-02 12:01:47,645 INFO Connection check task end
+
+2026-10-02 12:01:49,681 INFO ConnectionMetrics, totalCount = 2, detail = {long_connection=2, long_polling=0}
+
+2026-10-02 12:01:50,645 INFO Connection check task start
+
+2026-10-02 12:01:50,645 INFO Long connection metrics detail ,Total count =2, sdkCount=2,clusterCount=0
+
+2026-10-02 12:01:50,646 INFO Out dated connection ,size=0
+
+2026-10-02 12:01:50,646 INFO Connection check task end
+
+2026-10-02 12:01:52,681 INFO ConnectionMetrics, totalCount = 2, detail = {long_connection=2, long_polling=0}
+
+2026-10-02 12:01:53,646 INFO Connection check task start
+
+2026-10-02 12:01:53,646 INFO Long connection metrics detail ,Total count =2, sdkCount=2,clusterCount=0
+
+2026-10-02 12:01:53,647 INFO Out dated connection ,size=0
+
+2026-10-02 12:01:53,647 INFO Connection check task end
+
+2026-10-02 12:01:54,196 INFO new connection registered successfully, connectionId = 1790913714100_172.19.0.1_46546,connection=Connection{traced=false, abilities={lock=true, agent=true, mcp=true, fuzzyWatch=true}, metaInfo=ConnectionMeta{connectType='GRPC', clientIp='172.23.128.1', remoteIp='172.19.0.1', remotePort=46546, localPort=9848, version='Nacos-Java-Client:v3.1.1', connectionId='1790913714100_172.19.0.1_46546', createTime=Fri Oct 02 12:01:54 CST 2026, lastActiveTime=1790913714195, appName='unknown', tenant='null', labels={source=sdk, module=naming, AppName=unknown, tls.enable=false}}} 
+
+2026-10-02 12:01:55,682 INFO ConnectionMetrics, totalCount = 3, detail = {long_connection=3, long_polling=0}
+
+2026-10-02 12:01:56,647 INFO Connection check task start
+
+2026-10-02 12:01:56,647 INFO Long connection metrics detail ,Total count =3, sdkCount=3,clusterCount=0
+
+2026-10-02 12:01:56,648 INFO Out dated connection ,size=0
+
+2026-10-02 12:01:56,648 INFO Connection check task end
+
+2026-10-02 12:01:58,682 INFO ConnectionMetrics, totalCount = 3, detail = {long_connection=3, long_polling=0}
+
+2026-10-02 12:01:59,648 INFO Connection check task start
+
+2026-10-02 12:01:59,648 INFO Long connection metrics detail ,Total count =3, sdkCount=3,clusterCount=0
+
+2026-10-02 12:01:59,648 INFO Out dated connection ,size=0
+
+2026-10-02 12:01:59,648 INFO Connection check task end
+
+2026-10-02 12:02:01,683 INFO ConnectionMetrics, totalCount = 3, detail = {long_connection=3, long_polling=0}
+
+2026-10-02 12:02:02,541 INFO new connection registered successfully, connectionId = 1790913722460_172.19.0.1_38680,connection=Connection{traced=false, abilities={lock=true, agent=true, mcp=true, fuzzyWatch=true}, metaInfo=ConnectionMeta{connectType='GRPC', clientIp='172.23.128.1', remoteIp='172.19.0.1', remotePort=38680, localPort=9848, version='Nacos-Java-Client:v3.1.1', connectionId='1790913722460_172.19.0.1_38680', createTime=Fri Oct 02 12:02:02 CST 2026, lastActiveTime=1790913722541, appName='unknown', tenant='null', labels={source=sdk, module=naming, AppName=unknown, tls.enable=false}}} 
+
+2026-10-02 12:02:02,647 INFO Connection check task start
+
+2026-10-02 12:02:02,648 INFO Long connection metrics detail ,Total count =4, sdkCount=4,clusterCount=0
+
+2026-10-02 12:02:02,648 INFO Out dated connection ,size=0
+
+2026-10-02 12:02:02,648 INFO Connection check task end
+
+2026-10-02 12:02:04,682 INFO ConnectionMetrics, totalCount = 4, detail = {long_connection=4, long_polling=0}
+
+2026-10-02 12:02:05,648 INFO Connection check task start
+
+2026-10-02 12:02:05,648 INFO Long connection metrics detail ,Total count =4, sdkCount=4,clusterCount=0
+
+2026-10-02 12:02:05,649 INFO Out dated connection ,size=0
+
+2026-10-02 12:02:05,649 INFO Connection check task end
+
+2026-10-02 12:02:07,683 INFO ConnectionMetrics, totalCount = 4, detail = {long_connection=4, long_polling=0}
+
+2026-10-02 12:02:08,649 INFO Connection check task start
+
+2026-10-02 12:02:08,649 INFO Long connection metrics detail ,Total count =4, sdkCount=4,clusterCount=0
+
+2026-10-02 12:02:08,650 INFO Out dated connection ,size=0
+
+2026-10-02 12:02:08,650 INFO Connection check task end
+
+2026-10-02 12:02:10,683 INFO ConnectionMetrics, totalCount = 4, detail = {long_connection=4, long_polling=0}
+
+2026-10-02 12:02:11,650 INFO Connection check task start
+
+2026-10-02 12:02:11,650 INFO Long connection metrics detail ,Total count =4, sdkCount=4,clusterCount=0
+
+2026-10-02 12:02:11,650 INFO Out dated connection ,size=0
+
+2026-10-02 12:02:11,651 INFO Connection check task end
+
+2026-10-02 12:02:13,684 INFO ConnectionMetrics, totalCount = 4, detail = {long_connection=4, long_polling=0}
+
+2026-10-02 12:02:14,651 INFO Connection check task start
+
+2026-10-02 12:02:14,651 INFO Long connection metrics detail ,Total count =4, sdkCount=4,clusterCount=0
+
+2026-10-02 12:02:14,651 INFO Out dated connection ,size=0
+
+2026-10-02 12:02:14,651 INFO Connection check task end
+
+2026-10-02 12:02:16,685 INFO ConnectionMetrics, totalCount = 4, detail = {long_connection=4, long_polling=0}
+
+2026-10-02 12:02:17,652 INFO Connection check task start
+
+2026-10-02 12:02:17,652 INFO Long connection metrics detail ,Total count =4, sdkCount=4,clusterCount=0
+
+2026-10-02 12:02:17,652 INFO Out dated connection ,size=0
+
+2026-10-02 12:02:17,652 INFO Connection check task end
+
+2026-10-02 12:02:19,685 INFO ConnectionMetrics, totalCount = 4, detail = {long_connection=4, long_polling=0}
+
+2026-10-02 12:02:20,652 INFO Connection check task start
+
+2026-10-02 12:02:20,653 INFO Long connection metrics detail ,Total count =4, sdkCount=4,clusterCount=0
+
+2026-10-02 12:02:20,653 INFO Out dated connection ,size=0
+
+2026-10-02 12:02:20,653 INFO Connection check task end
+
+2026-10-02 12:02:22,686 INFO ConnectionMetrics, totalCount = 4, detail = {long_connection=4, long_polling=0}
+
+2026-10-02 12:02:23,653 INFO Connection check task start
+
+2026-10-02 12:02:23,654 INFO Long connection metrics detail ,Total count =4, sdkCount=4,clusterCount=0
+
+2026-10-02 12:02:23,654 INFO Out dated connection ,size=0
+
+2026-10-02 12:02:23,654 INFO Connection check task end
+
+2026-10-02 12:02:25,687 INFO ConnectionMetrics, totalCount = 4, detail = {long_connection=4, long_polling=0}
+
+2026-10-02 12:02:26,654 INFO Connection check task start
+
+2026-10-02 12:02:26,657 INFO Long connection metrics detail ,Total count =4, sdkCount=4,clusterCount=0
+
+2026-10-02 12:02:26,657 INFO Out dated connection ,size=0
+
+2026-10-02 12:02:26,657 INFO Connection check task end
+
+2026-10-02 12:02:28,687 INFO ConnectionMetrics, totalCount = 4, detail = {long_connection=4, long_polling=0}
+
+2026-10-02 12:02:29,658 INFO Connection check task start
+
+2026-10-02 12:02:29,658 INFO Long connection metrics detail ,Total count =4, sdkCount=4,clusterCount=0
+
+2026-10-02 12:02:29,658 INFO Out dated connection ,size=0
+
+2026-10-02 12:02:29,658 INFO Connection check task end
+
+2026-10-02 12:02:31,688 INFO ConnectionMetrics, totalCount = 4, detail = {long_connection=4, long_polling=0}
+
+2026-10-02 12:02:32,657 INFO Connection check task start
+
+2026-10-02 12:02:32,658 INFO Long connection metrics detail ,Total count =4, sdkCount=4,clusterCount=0
+
+2026-10-02 12:02:32,658 INFO Out dated connection ,size=0
+
+2026-10-02 12:02:32,658 INFO Connection check task end
+
+2026-10-02 12:02:34,687 INFO ConnectionMetrics, totalCount = 4, detail = {long_connection=4, long_polling=0}
+
+2026-10-02 12:02:35,658 INFO Connection check task start
+
+2026-10-02 12:02:35,658 INFO Long connection metrics detail ,Total count =4, sdkCount=4,clusterCount=0
+
+2026-10-02 12:02:35,658 INFO Out dated connection ,size=0
+
+2026-10-02 12:02:35,659 INFO Connection check task end
+
+2026-10-02 12:02:37,688 INFO ConnectionMetrics, totalCount = 4, detail = {long_connection=4, long_polling=0}
+
+2026-10-02 12:02:38,659 INFO Connection check task start
+
+2026-10-02 12:02:38,659 INFO Long connection metrics detail ,Total count =4, sdkCount=4,clusterCount=0
+
+2026-10-02 12:02:38,659 INFO Out dated connection ,size=0
+
+2026-10-02 12:02:38,659 INFO Connection check task end
+
+2026-10-02 12:02:40,688 INFO ConnectionMetrics, totalCount = 4, detail = {long_connection=4, long_polling=0}
+
+2026-10-02 12:02:41,660 INFO Connection check task start
+
+2026-10-02 12:02:41,660 INFO Long connection metrics detail ,Total count =4, sdkCount=4,clusterCount=0
+
+2026-10-02 12:02:41,660 INFO Out dated connection ,size=0
+
+2026-10-02 12:02:41,660 INFO Connection check task end
+
+2026-10-02 12:02:43,689 INFO ConnectionMetrics, totalCount = 4, detail = {long_connection=4, long_polling=0}
+
+2026-10-02 12:02:44,661 INFO Connection check task start
+
+2026-10-02 12:02:44,661 INFO Long connection metrics detail ,Total count =4, sdkCount=4,clusterCount=0
+
+2026-10-02 12:02:44,661 INFO Out dated connection ,size=0
+
+2026-10-02 12:02:44,661 INFO Connection check task end
+
+2026-10-02 12:02:46,690 INFO ConnectionMetrics, totalCount = 4, detail = {long_connection=4, long_polling=0}
+
+2026-10-02 12:02:47,661 INFO Connection check task start
+
+2026-10-02 12:02:47,662 INFO Long connection metrics detail ,Total count =4, sdkCount=4,clusterCount=0
+
+2026-10-02 12:02:47,662 INFO Out dated connection ,size=0
+
+2026-10-02 12:02:47,662 INFO Connection check task end
+
+2026-10-02 12:02:49,690 INFO ConnectionMetrics, totalCount = 4, detail = {long_connection=4, long_polling=0}
+
+2026-10-02 12:02:50,662 INFO Connection check task start
+
+2026-10-02 12:02:50,662 INFO Long connection metrics detail ,Total count =4, sdkCount=4,clusterCount=0
+
+2026-10-02 12:02:50,662 INFO Out dated connection ,size=0
+
+2026-10-02 12:02:50,662 INFO Connection check task end
+
+2026-10-02 12:02:50,962 INFO [1790913702730_172.19.0.1_38158]Connection unregistered successfully. 
+
+2026-10-02 12:02:50,970 INFO [1790913722460_172.19.0.1_38680]Connection unregistered successfully. 
+
+2026-10-02 12:02:50,972 INFO [1790913714100_172.19.0.1_46546]Connection unregistered successfully. 
+
+2026-10-02 12:02:50,984 INFO [1790913689716_172.19.0.1_54322]Connection unregistered successfully. 
+
+2026-10-02 12:02:52,691 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-10-02 12:02:53,663 INFO Connection check task start
+
+2026-10-02 12:02:53,663 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-10-02 12:02:53,663 INFO Out dated connection ,size=0
+
+2026-10-02 12:02:53,663 INFO Connection check task end
+
+2026-10-02 12:02:55,691 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-10-02 12:02:56,663 INFO Connection check task start
+
+2026-10-02 12:02:56,664 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-10-02 12:02:56,664 INFO Out dated connection ,size=0
+
+2026-10-02 12:02:56,664 INFO Connection check task end
+
+2026-10-02 12:02:58,692 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-10-02 12:02:59,664 INFO Connection check task start
+
+2026-10-02 12:02:59,665 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-10-02 12:02:59,665 INFO Out dated connection ,size=0
+
+2026-10-02 12:02:59,665 INFO Connection check task end
+
+2026-10-02 12:03:01,693 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-10-02 12:03:02,663 INFO Connection check task start
+
+2026-10-02 12:03:02,664 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-10-02 12:03:02,664 INFO Out dated connection ,size=0
+
+2026-10-02 12:03:02,665 INFO Connection check task end
+
+2026-10-02 12:03:04,692 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-10-02 12:03:05,665 INFO Connection check task start
+
+2026-10-02 12:03:05,666 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-10-02 12:03:05,666 INFO Out dated connection ,size=0
+
+2026-10-02 12:03:05,666 INFO Connection check task end
+
+2026-10-02 12:03:07,693 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-10-02 12:03:08,666 INFO Connection check task start
+
+2026-10-02 12:03:08,667 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-10-02 12:03:08,667 INFO Out dated connection ,size=0
+
+2026-10-02 12:03:08,667 INFO Connection check task end
+
+2026-10-02 12:03:10,694 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-10-02 12:03:11,072 INFO new connection registered successfully, connectionId = 1790913790927_172.19.0.1_45020,connection=Connection{traced=false, abilities={lock=true, agent=true, mcp=true, fuzzyWatch=true}, metaInfo=ConnectionMeta{connectType='GRPC', clientIp='172.23.128.1', remoteIp='172.19.0.1', remotePort=45020, localPort=9848, version='Nacos-Java-Client:v3.1.1', connectionId='1790913790927_172.19.0.1_45020', createTime=Fri Oct 02 12:03:11 CST 2026, lastActiveTime=1790913791072, appName='unknown', tenant='null', labels={source=sdk, module=naming, AppName=unknown, tls.enable=false}}} 
+
+2026-10-02 12:03:11,668 INFO Connection check task start
+
+2026-10-02 12:03:11,668 INFO Long connection metrics detail ,Total count =1, sdkCount=1,clusterCount=0
+
+2026-10-02 12:03:11,669 INFO Out dated connection ,size=0
+
+2026-10-02 12:03:11,669 INFO Connection check task end
+
+2026-10-02 12:03:13,010 INFO new connection registered successfully, connectionId = 1790913792866_172.19.0.1_45036,connection=Connection{traced=false, abilities={lock=true, agent=true, mcp=true, fuzzyWatch=true}, metaInfo=ConnectionMeta{connectType='GRPC', clientIp='172.23.128.1', remoteIp='172.19.0.1', remotePort=45036, localPort=9848, version='Nacos-Java-Client:v3.1.1', connectionId='1790913792866_172.19.0.1_45036', createTime=Fri Oct 02 12:03:13 CST 2026, lastActiveTime=1790913793010, appName='unknown', tenant='null', labels={source=sdk, module=naming, AppName=unknown, tls.enable=false}}} 
+
+2026-10-02 12:03:13,694 INFO ConnectionMetrics, totalCount = 2, detail = {long_connection=2, long_polling=0}
+
+2026-10-02 12:03:14,669 INFO Connection check task start
+
+2026-10-02 12:03:14,670 INFO Long connection metrics detail ,Total count =2, sdkCount=2,clusterCount=0
+
+2026-10-02 12:03:14,670 INFO Out dated connection ,size=0
+
+2026-10-02 12:03:14,670 INFO Connection check task end
+
+2026-10-02 12:03:14,672 INFO new connection registered successfully, connectionId = 1790913794571_172.19.0.1_59992,connection=Connection{traced=false, abilities={lock=true, agent=true, mcp=true, fuzzyWatch=true}, metaInfo=ConnectionMeta{connectType='GRPC', clientIp='172.23.128.1', remoteIp='172.19.0.1', remotePort=59992, localPort=9848, version='Nacos-Java-Client:v3.1.1', connectionId='1790913794571_172.19.0.1_59992', createTime=Fri Oct 02 12:03:14 CST 2026, lastActiveTime=1790913794672, appName='unknown', tenant='null', labels={source=sdk, module=naming, AppName=unknown, tls.enable=false}}} 
+
+2026-10-02 12:03:15,511 INFO new connection registered successfully, connectionId = 1790913795401_172.19.0.1_59996,connection=Connection{traced=false, abilities={lock=true, agent=true, mcp=true, fuzzyWatch=true}, metaInfo=ConnectionMeta{connectType='GRPC', clientIp='172.23.128.1', remoteIp='172.19.0.1', remotePort=59996, localPort=9848, version='Nacos-Java-Client:v3.1.1', connectionId='1790913795401_172.19.0.1_59996', createTime=Fri Oct 02 12:03:15 CST 2026, lastActiveTime=1790913795511, appName='unknown', tenant='null', labels={source=sdk, module=naming, AppName=unknown, tls.enable=false}}} 
+
+2026-10-02 12:03:16,695 INFO ConnectionMetrics, totalCount = 4, detail = {long_connection=4, long_polling=0}
+
+2026-10-02 12:03:17,670 INFO Connection check task start
+
+2026-10-02 12:03:17,671 INFO Long connection metrics detail ,Total count =4, sdkCount=4,clusterCount=0
+
+2026-10-02 12:03:17,671 INFO Out dated connection ,size=0
+
+2026-10-02 12:03:17,671 INFO Connection check task end
+
+2026-10-02 12:03:19,695 INFO ConnectionMetrics, totalCount = 4, detail = {long_connection=4, long_polling=0}
+
+2026-10-02 12:03:20,671 INFO Connection check task start
+
+2026-10-02 12:03:20,672 INFO Long connection metrics detail ,Total count =4, sdkCount=4,clusterCount=0
+
+2026-10-02 12:03:20,672 INFO Out dated connection ,size=0
+
+2026-10-02 12:03:20,672 INFO Connection check task end
+
+2026-10-02 12:03:22,696 INFO ConnectionMetrics, totalCount = 4, detail = {long_connection=4, long_polling=0}
+
+2026-10-02 12:03:23,672 INFO Connection check task start
+
+2026-10-02 12:03:23,673 INFO Long connection metrics detail ,Total count =4, sdkCount=4,clusterCount=0
+
+2026-10-02 12:03:23,673 INFO Out dated connection ,size=0
+
+2026-10-02 12:03:23,673 INFO Connection check task end
+
+2026-10-02 12:03:25,696 INFO ConnectionMetrics, totalCount = 4, detail = {long_connection=4, long_polling=0}
+
+2026-10-02 12:03:26,673 INFO Connection check task start
+
+2026-10-02 12:03:26,674 INFO Long connection metrics detail ,Total count =4, sdkCount=4,clusterCount=0
+
+2026-10-02 12:03:26,674 INFO Out dated connection ,size=0
+
+2026-10-02 12:03:26,674 INFO Connection check task end
+
+2026-10-02 12:03:28,697 INFO ConnectionMetrics, totalCount = 4, detail = {long_connection=4, long_polling=0}
+
+2026-10-02 12:03:29,674 INFO Connection check task start
+
+2026-10-02 12:03:29,675 INFO Long connection metrics detail ,Total count =4, sdkCount=4,clusterCount=0
+
+2026-10-02 12:03:29,675 INFO Out dated connection ,size=0
+
+2026-10-02 12:03:29,676 INFO Connection check task end
+
+2026-10-02 12:03:31,698 INFO ConnectionMetrics, totalCount = 4, detail = {long_connection=4, long_polling=0}
+
+2026-10-02 12:03:32,675 INFO Connection check task start
+
+2026-10-02 12:03:32,675 INFO Long connection metrics detail ,Total count =4, sdkCount=4,clusterCount=0
+
+2026-10-02 12:03:32,675 INFO Out dated connection ,size=0
+
+2026-10-02 12:03:32,675 INFO Connection check task end
+
+2026-10-02 12:03:34,697 INFO ConnectionMetrics, totalCount = 4, detail = {long_connection=4, long_polling=0}
+
+2026-10-02 12:03:34,732 INFO new connection registered successfully, connectionId = 1790913814653_172.19.0.1_36224,connection=Connection{traced=false, abilities={lock=true, agent=true, mcp=true, fuzzyWatch=true}, metaInfo=ConnectionMeta{connectType='GRPC', clientIp='172.23.128.1', remoteIp='172.19.0.1', remotePort=36224, localPort=9848, version='Nacos-Java-Client:v3.1.1', connectionId='1790913814653_172.19.0.1_36224', createTime=Fri Oct 02 12:03:34 CST 2026, lastActiveTime=1790913814732, appName='unknown', tenant='null', labels={source=sdk, module=naming, AppName=unknown, tls.enable=false}}} 
+
+2026-10-02 12:03:35,676 INFO Connection check task start
+
+2026-10-02 12:03:35,676 INFO Long connection metrics detail ,Total count =5, sdkCount=5,clusterCount=0
+
+2026-10-02 12:03:35,676 INFO Out dated connection ,size=0
+
+2026-10-02 12:03:35,676 INFO Connection check task end
+
+2026-10-02 12:03:37,697 INFO ConnectionMetrics, totalCount = 5, detail = {long_connection=5, long_polling=0}
+
+2026-10-02 12:03:38,677 INFO Connection check task start
+
+2026-10-02 12:03:38,677 INFO Long connection metrics detail ,Total count =5, sdkCount=5,clusterCount=0
+
+2026-10-02 12:03:38,677 INFO Out dated connection ,size=0
+
+2026-10-02 12:03:38,677 INFO Connection check task end
+
+2026-10-02 12:03:40,698 INFO ConnectionMetrics, totalCount = 5, detail = {long_connection=5, long_polling=0}
+
+2026-10-02 12:03:41,677 INFO Connection check task start
+
+2026-10-02 12:03:41,678 INFO Long connection metrics detail ,Total count =5, sdkCount=5,clusterCount=0
+
+2026-10-02 12:03:41,678 INFO Out dated connection ,size=0
+
+2026-10-02 12:03:41,678 INFO Connection check task end
+
+2026-10-02 12:03:43,698 INFO ConnectionMetrics, totalCount = 5, detail = {long_connection=5, long_polling=0}
+
+2026-10-02 12:03:44,679 INFO Connection check task start
+
+2026-10-02 12:03:44,679 INFO Long connection metrics detail ,Total count =5, sdkCount=5,clusterCount=0
+
+2026-10-02 12:03:44,679 INFO Out dated connection ,size=0
+
+2026-10-02 12:03:44,679 INFO Connection check task end
+
+2026-10-02 12:03:46,699 INFO ConnectionMetrics, totalCount = 5, detail = {long_connection=5, long_polling=0}
+
+2026-10-02 12:03:47,680 INFO Connection check task start
+
+2026-10-02 12:03:47,680 INFO Long connection metrics detail ,Total count =5, sdkCount=5,clusterCount=0
+
+2026-10-02 12:03:47,680 INFO Out dated connection ,size=0
+
+2026-10-02 12:03:47,680 INFO Connection check task end
+
+2026-10-02 12:03:49,699 INFO ConnectionMetrics, totalCount = 5, detail = {long_connection=5, long_polling=0}
+
+2026-10-02 12:03:50,681 INFO Connection check task start
+
+2026-10-02 12:03:50,681 INFO Long connection metrics detail ,Total count =5, sdkCount=5,clusterCount=0
+
+2026-10-02 12:03:50,681 INFO Out dated connection ,size=0
+
+2026-10-02 12:03:50,681 INFO Connection check task end
+
+2026-10-02 12:03:52,700 INFO ConnectionMetrics, totalCount = 5, detail = {long_connection=5, long_polling=0}
+
+2026-10-02 12:03:53,682 INFO Connection check task start
+
+2026-10-02 12:03:53,682 INFO Long connection metrics detail ,Total count =5, sdkCount=5,clusterCount=0
+
+2026-10-02 12:03:53,682 INFO Out dated connection ,size=0
+
+2026-10-02 12:03:53,682 INFO Connection check task end
+
+2026-10-02 12:03:55,700 INFO ConnectionMetrics, totalCount = 5, detail = {long_connection=5, long_polling=0}
+
+2026-10-02 12:03:56,683 INFO Connection check task start
+
+2026-10-02 12:03:56,683 INFO Long connection metrics detail ,Total count =5, sdkCount=5,clusterCount=0
+
+2026-10-02 12:03:56,683 INFO Out dated connection ,size=0
+
+2026-10-02 12:03:56,683 INFO Connection check task end
+
+2026-10-02 12:03:58,701 INFO ConnectionMetrics, totalCount = 5, detail = {long_connection=5, long_polling=0}
+
+2026-10-02 12:03:59,683 INFO Connection check task start
+
+2026-10-02 12:03:59,684 INFO Long connection metrics detail ,Total count =5, sdkCount=5,clusterCount=0
+
+2026-10-02 12:03:59,684 INFO Out dated connection ,size=0
+
+2026-10-02 12:03:59,684 INFO Connection check task end
+
+2026-10-02 12:04:01,701 INFO ConnectionMetrics, totalCount = 5, detail = {long_connection=5, long_polling=0}
+
+2026-10-02 12:04:02,683 INFO Connection check task start
+
+2026-10-02 12:04:02,683 INFO Long connection metrics detail ,Total count =5, sdkCount=5,clusterCount=0
+
+2026-10-02 12:04:02,683 INFO Out dated connection ,size=0
+
+2026-10-02 12:04:02,683 INFO Connection check task end
+
+2026-10-02 12:04:04,700 INFO ConnectionMetrics, totalCount = 5, detail = {long_connection=5, long_polling=0}
+
+2026-10-02 12:04:05,684 INFO Connection check task start
+
+2026-10-02 12:04:05,684 INFO Long connection metrics detail ,Total count =5, sdkCount=5,clusterCount=0
+
+2026-10-02 12:04:05,684 INFO Out dated connection ,size=0
+
+2026-10-02 12:04:05,684 INFO Connection check task end
+
+2026-10-02 12:04:07,701 INFO ConnectionMetrics, totalCount = 5, detail = {long_connection=5, long_polling=0}
+
+2026-10-02 12:04:08,685 INFO Connection check task start
+
+2026-10-02 12:04:08,685 INFO Long connection metrics detail ,Total count =5, sdkCount=5,clusterCount=0
+
+2026-10-02 12:04:08,685 INFO Out dated connection ,size=0
+
+2026-10-02 12:04:08,685 INFO Connection check task end
+
+2026-10-02 12:04:10,701 INFO ConnectionMetrics, totalCount = 5, detail = {long_connection=5, long_polling=0}
+
+2026-10-02 12:04:11,685 INFO Connection check task start
+
+2026-10-02 12:04:11,686 INFO Long connection metrics detail ,Total count =5, sdkCount=5,clusterCount=0
+
+2026-10-02 12:04:11,686 INFO Out dated connection ,size=0
+
+2026-10-02 12:04:11,686 INFO Connection check task end
+
+2026-10-02 12:04:13,702 INFO ConnectionMetrics, totalCount = 5, detail = {long_connection=5, long_polling=0}
+
+2026-10-02 12:04:14,686 INFO Connection check task start
+
+2026-10-02 12:04:14,687 INFO Long connection metrics detail ,Total count =5, sdkCount=5,clusterCount=0
+
+2026-10-02 12:04:14,687 INFO Out dated connection ,size=0
+
+2026-10-02 12:04:14,687 INFO Connection check task end
+
+2026-10-02 12:04:16,703 INFO ConnectionMetrics, totalCount = 5, detail = {long_connection=5, long_polling=0}
+
+2026-10-02 12:04:17,687 INFO Connection check task start
+
+2026-10-02 12:04:17,687 INFO Long connection metrics detail ,Total count =5, sdkCount=5,clusterCount=0
+
+2026-10-02 12:04:17,688 INFO Out dated connection ,size=0
+
+2026-10-02 12:04:17,688 INFO Connection check task end
+
+2026-10-02 12:04:19,703 INFO ConnectionMetrics, totalCount = 5, detail = {long_connection=5, long_polling=0}
+
+2026-10-02 12:04:20,688 INFO Connection check task start
+
+2026-10-02 12:04:20,688 INFO Long connection metrics detail ,Total count =5, sdkCount=5,clusterCount=0
+
+2026-10-02 12:04:20,688 INFO Out dated connection ,size=0
+
+2026-10-02 12:04:20,688 INFO Connection check task end
+
+2026-10-02 12:04:22,704 INFO ConnectionMetrics, totalCount = 5, detail = {long_connection=5, long_polling=0}
+
+2026-10-02 12:04:23,689 INFO Connection check task start
+
+2026-10-02 12:04:23,689 INFO Long connection metrics detail ,Total count =5, sdkCount=5,clusterCount=0
+
+2026-10-02 12:04:23,689 INFO Out dated connection ,size=0
+
+2026-10-02 12:04:23,689 INFO Connection check task end
+
+2026-10-02 12:04:25,704 INFO ConnectionMetrics, totalCount = 5, detail = {long_connection=5, long_polling=0}
+
+2026-10-02 12:04:26,690 INFO Connection check task start
+
+2026-10-02 12:04:26,690 INFO Long connection metrics detail ,Total count =5, sdkCount=5,clusterCount=0
+
+2026-10-02 12:04:26,690 INFO Out dated connection ,size=0
+
+2026-10-02 12:04:26,690 INFO Connection check task end
+
+2026-10-02 12:04:28,705 INFO ConnectionMetrics, totalCount = 5, detail = {long_connection=5, long_polling=0}
+
+2026-10-02 12:04:29,690 INFO Connection check task start
+
+2026-10-02 12:04:29,691 INFO Long connection metrics detail ,Total count =5, sdkCount=5,clusterCount=0
+
+2026-10-02 12:04:29,691 INFO Out dated connection ,size=0
+
+2026-10-02 12:04:29,691 INFO Connection check task end
+
+2026-10-02 12:04:31,705 INFO ConnectionMetrics, totalCount = 5, detail = {long_connection=5, long_polling=0}
+
+2026-10-02 12:04:32,690 INFO Connection check task start
+
+2026-10-02 12:04:32,691 INFO Long connection metrics detail ,Total count =5, sdkCount=5,clusterCount=0
+
+2026-10-02 12:04:32,691 INFO Out dated connection ,size=0
+
+2026-10-02 12:04:32,692 INFO Connection check task end
+
+2026-10-02 12:04:34,705 INFO ConnectionMetrics, totalCount = 5, detail = {long_connection=5, long_polling=0}
+
+2026-10-02 12:04:35,692 INFO Connection check task start
+
+2026-10-02 12:04:35,692 INFO Long connection metrics detail ,Total count =5, sdkCount=5,clusterCount=0
+
+2026-10-02 12:04:35,693 INFO Out dated connection ,size=0
+
+2026-10-02 12:04:35,693 INFO Connection check task end
+
+2026-10-02 12:04:37,705 INFO ConnectionMetrics, totalCount = 5, detail = {long_connection=5, long_polling=0}
+
+2026-10-02 12:04:37,712 INFO new connection registered successfully, connectionId = 1790913877634_172.19.0.1_51072,connection=Connection{traced=false, abilities={lock=true, agent=true, mcp=true, fuzzyWatch=true}, metaInfo=ConnectionMeta{connectType='GRPC', clientIp='172.23.128.1', remoteIp='172.19.0.1', remotePort=51072, localPort=9848, version='Nacos-Java-Client:v3.1.1', connectionId='1790913877634_172.19.0.1_51072', createTime=Fri Oct 02 12:04:37 CST 2026, lastActiveTime=1790913877711, appName='unknown', tenant='null', labels={source=sdk, module=naming, AppName=unknown, tls.enable=false}}} 
+
+2026-10-02 12:04:38,693 INFO Connection check task start
+
+2026-10-02 12:04:38,693 INFO Long connection metrics detail ,Total count =6, sdkCount=6,clusterCount=0
+
+2026-10-02 12:04:38,694 INFO Out dated connection ,size=0
+
+2026-10-02 12:04:38,694 INFO Connection check task end
+
+2026-10-02 12:04:40,706 INFO ConnectionMetrics, totalCount = 6, detail = {long_connection=6, long_polling=0}
+
+2026-10-02 12:04:41,694 INFO Connection check task start
+
+2026-10-02 12:04:41,694 INFO Long connection metrics detail ,Total count =6, sdkCount=6,clusterCount=0
+
+2026-10-02 12:04:41,694 INFO Out dated connection ,size=0
+
+2026-10-02 12:04:41,695 INFO Connection check task end
+
+2026-10-02 12:04:43,706 INFO ConnectionMetrics, totalCount = 6, detail = {long_connection=6, long_polling=0}
+
+2026-10-02 12:04:44,695 INFO Connection check task start
+
+2026-10-02 12:04:44,695 INFO Long connection metrics detail ,Total count =6, sdkCount=6,clusterCount=0
+
+2026-10-02 12:04:44,695 INFO Out dated connection ,size=0
+
+2026-10-02 12:04:44,695 INFO Connection check task end
+
+2026-10-02 12:04:46,707 INFO ConnectionMetrics, totalCount = 6, detail = {long_connection=6, long_polling=0}
+
+2026-10-02 12:04:47,696 INFO Connection check task start
+
+2026-10-02 12:04:47,696 INFO Long connection metrics detail ,Total count =6, sdkCount=6,clusterCount=0
+
+2026-10-02 12:04:47,696 INFO Out dated connection ,size=0
+
+2026-10-02 12:04:47,696 INFO Connection check task end
+
+2026-10-02 12:04:49,708 INFO ConnectionMetrics, totalCount = 6, detail = {long_connection=6, long_polling=0}
+
+2026-10-02 12:04:50,697 INFO Connection check task start
+
+2026-10-02 12:04:50,697 INFO Long connection metrics detail ,Total count =6, sdkCount=6,clusterCount=0
+
+2026-10-02 12:04:50,698 INFO Out dated connection ,size=0
+
+2026-10-02 12:04:50,698 INFO Connection check task end
+
+2026-10-02 12:04:52,709 INFO ConnectionMetrics, totalCount = 6, detail = {long_connection=6, long_polling=0}
+
+2026-10-02 12:04:53,698 INFO Connection check task start
+
+2026-10-02 12:04:53,699 INFO Long connection metrics detail ,Total count =6, sdkCount=6,clusterCount=0
+
+2026-10-02 12:04:53,699 INFO Out dated connection ,size=0
+
+2026-10-02 12:04:53,699 INFO Connection check task end
+
+2026-10-02 12:04:55,299 INFO new connection registered successfully, connectionId = 1790913895218_172.19.0.1_55378,connection=Connection{traced=false, abilities={lock=true, agent=true, mcp=true, fuzzyWatch=true}, metaInfo=ConnectionMeta{connectType='GRPC', clientIp='172.23.128.1', remoteIp='172.19.0.1', remotePort=55378, localPort=9848, version='Nacos-Java-Client:v3.1.1', connectionId='1790913895218_172.19.0.1_55378', createTime=Fri Oct 02 12:04:55 CST 2026, lastActiveTime=1790913895299, appName='unknown', tenant='null', labels={source=sdk, module=naming, AppName=unknown, tls.enable=false}}} 
+
+2026-10-02 12:04:55,709 INFO ConnectionMetrics, totalCount = 7, detail = {long_connection=7, long_polling=0}
+
+2026-10-02 12:04:56,699 INFO Connection check task start
+
+2026-10-02 12:04:56,699 INFO Long connection metrics detail ,Total count =7, sdkCount=7,clusterCount=0
+
+2026-10-02 12:04:56,700 INFO Out dated connection ,size=0
+
+2026-10-02 12:04:56,700 INFO Connection check task end
+
+2026-10-02 12:04:58,710 INFO ConnectionMetrics, totalCount = 7, detail = {long_connection=7, long_polling=0}
+
+2026-10-02 12:04:59,700 INFO Connection check task start
+
+2026-10-02 12:04:59,700 INFO Long connection metrics detail ,Total count =7, sdkCount=7,clusterCount=0
+
+2026-10-02 12:04:59,701 INFO Out dated connection ,size=0
+
+2026-10-02 12:04:59,701 INFO Connection check task end
+
+2026-10-02 12:05:01,710 INFO ConnectionMetrics, totalCount = 7, detail = {long_connection=7, long_polling=0}
+
+2026-10-02 12:05:02,699 INFO Connection check task start
+
+2026-10-02 12:05:02,700 INFO Long connection metrics detail ,Total count =7, sdkCount=7,clusterCount=0
+
+2026-10-02 12:05:02,700 INFO Out dated connection ,size=0
+
+2026-10-02 12:05:02,700 INFO Connection check task end
+
+2026-10-02 12:05:04,709 INFO ConnectionMetrics, totalCount = 7, detail = {long_connection=7, long_polling=0}
+
+2026-10-02 12:05:05,701 INFO Connection check task start
+
+2026-10-02 12:05:05,701 INFO Long connection metrics detail ,Total count =7, sdkCount=7,clusterCount=0
+
+2026-10-02 12:05:05,702 INFO Out dated connection ,size=0
+
+2026-10-02 12:05:05,702 INFO Connection check task end
+
+2026-10-02 12:05:07,710 INFO ConnectionMetrics, totalCount = 7, detail = {long_connection=7, long_polling=0}
+
+2026-10-02 12:05:08,702 INFO Connection check task start
+
+2026-10-02 12:05:08,702 INFO Long connection metrics detail ,Total count =7, sdkCount=7,clusterCount=0
+
+2026-10-02 12:05:08,703 INFO Out dated connection ,size=0
+
+2026-10-02 12:05:08,703 INFO Connection check task end
+
+2026-10-02 12:05:08,929 INFO new connection registered successfully, connectionId = 1790913908818_172.19.0.1_39848,connection=Connection{traced=false, abilities={lock=true, agent=true, mcp=true, fuzzyWatch=true}, metaInfo=ConnectionMeta{connectType='GRPC', clientIp='172.23.128.1', remoteIp='172.19.0.1', remotePort=39848, localPort=9848, version='Nacos-Java-Client:v3.1.1', connectionId='1790913908818_172.19.0.1_39848', createTime=Fri Oct 02 12:05:08 CST 2026, lastActiveTime=1790913908929, appName='unknown', tenant='null', labels={source=sdk, module=naming, AppName=unknown, tls.enable=false}}} 
+
+2026-10-02 12:05:10,711 INFO ConnectionMetrics, totalCount = 8, detail = {long_connection=8, long_polling=0}
+
+2026-10-02 12:05:11,703 INFO Connection check task start
+
+2026-10-02 12:05:11,703 INFO Long connection metrics detail ,Total count =8, sdkCount=8,clusterCount=0
+
+2026-10-02 12:05:11,704 INFO Out dated connection ,size=0
+
+2026-10-02 12:05:11,704 INFO Connection check task end
+
+2026-10-02 12:05:13,711 INFO ConnectionMetrics, totalCount = 8, detail = {long_connection=8, long_polling=0}
+
+2026-10-02 12:05:14,704 INFO Connection check task start
+
+2026-10-02 12:05:14,704 INFO Long connection metrics detail ,Total count =8, sdkCount=8,clusterCount=0
+
+2026-10-02 12:05:14,704 INFO Out dated connection ,size=0
+
+2026-10-02 12:05:14,705 INFO Connection check task end
+
+2026-10-02 12:05:16,712 INFO ConnectionMetrics, totalCount = 8, detail = {long_connection=8, long_polling=0}
+
+2026-10-02 12:05:17,705 INFO Connection check task start
+
+2026-10-02 12:05:17,705 INFO Long connection metrics detail ,Total count =8, sdkCount=8,clusterCount=0
+
+2026-10-02 12:05:17,705 INFO Out dated connection ,size=0
+
+2026-10-02 12:05:17,705 INFO Connection check task end
+
+2026-10-02 12:05:19,712 INFO ConnectionMetrics, totalCount = 8, detail = {long_connection=8, long_polling=0}
+
+2026-10-02 12:05:20,706 INFO Connection check task start
+
+2026-10-02 12:05:20,706 INFO Long connection metrics detail ,Total count =8, sdkCount=8,clusterCount=0
+
+2026-10-02 12:05:20,706 INFO Out dated connection ,size=0
+
+2026-10-02 12:05:20,706 INFO Connection check task end
+
+2026-10-02 12:05:22,713 INFO ConnectionMetrics, totalCount = 8, detail = {long_connection=8, long_polling=0}
+
+2026-10-02 12:05:23,707 INFO Connection check task start
+
+2026-10-02 12:05:23,707 INFO Long connection metrics detail ,Total count =8, sdkCount=8,clusterCount=0
+
+2026-10-02 12:05:23,707 INFO Out dated connection ,size=0
+
+2026-10-02 12:05:23,707 INFO Connection check task end
+
+2026-10-02 12:05:25,714 INFO ConnectionMetrics, totalCount = 8, detail = {long_connection=8, long_polling=0}
+
+2026-10-02 12:05:26,708 INFO Connection check task start
+
+2026-10-02 12:05:26,708 INFO Long connection metrics detail ,Total count =8, sdkCount=8,clusterCount=0
+
+2026-10-02 12:05:26,708 INFO Out dated connection ,size=0
+
+2026-10-02 12:05:26,708 INFO Connection check task end
+
+2026-10-02 12:05:28,714 INFO ConnectionMetrics, totalCount = 8, detail = {long_connection=8, long_polling=0}
+
+2026-10-02 12:05:29,709 INFO Connection check task start
+
+2026-10-02 12:05:29,709 INFO Long connection metrics detail ,Total count =8, sdkCount=8,clusterCount=0
+
+2026-10-02 12:05:29,709 INFO Out dated connection ,size=0
+
+2026-10-02 12:05:29,709 INFO Connection check task end
+
+2026-10-02 12:05:31,715 INFO ConnectionMetrics, totalCount = 8, detail = {long_connection=8, long_polling=0}
+
+2026-10-02 12:05:32,708 INFO Connection check task start
+
+2026-10-02 12:05:32,709 INFO Long connection metrics detail ,Total count =8, sdkCount=8,clusterCount=0
+
+2026-10-02 12:05:32,709 INFO Out dated connection ,size=0
+
+2026-10-02 12:05:32,709 INFO Connection check task end
+
+2026-10-02 12:05:34,714 INFO ConnectionMetrics, totalCount = 8, detail = {long_connection=8, long_polling=0}
+
+2026-10-02 12:05:35,709 INFO Connection check task start
+
+2026-10-02 12:05:35,709 INFO Long connection metrics detail ,Total count =8, sdkCount=8,clusterCount=0
+
+2026-10-02 12:05:35,710 INFO Out dated connection ,size=0
+
+2026-10-02 12:05:35,710 INFO Connection check task end
+
+2026-10-02 12:05:37,714 INFO ConnectionMetrics, totalCount = 8, detail = {long_connection=8, long_polling=0}
+
+2026-10-02 12:05:38,710 INFO Connection check task start
+
+2026-10-02 12:05:38,710 INFO Long connection metrics detail ,Total count =8, sdkCount=8,clusterCount=0
+
+2026-10-02 12:05:38,711 INFO Out dated connection ,size=0
+
+2026-10-02 12:05:38,711 INFO Connection check task end
+
+2026-10-02 12:05:40,715 INFO ConnectionMetrics, totalCount = 8, detail = {long_connection=8, long_polling=0}
+
+2026-10-02 12:05:41,711 INFO Connection check task start
+
+2026-10-02 12:05:41,711 INFO Long connection metrics detail ,Total count =8, sdkCount=8,clusterCount=0
+
+2026-10-02 12:05:41,711 INFO Out dated connection ,size=0
+
+2026-10-02 12:05:41,711 INFO Connection check task end
+
+2026-10-02 12:05:43,715 INFO ConnectionMetrics, totalCount = 8, detail = {long_connection=8, long_polling=0}
+
+2026-10-02 12:05:44,712 INFO Connection check task start
+
+2026-10-02 12:05:44,712 INFO Long connection metrics detail ,Total count =8, sdkCount=8,clusterCount=0
+
+2026-10-02 12:05:44,712 INFO Out dated connection ,size=0
+
+2026-10-02 12:05:44,712 INFO Connection check task end
+
+2026-10-02 12:05:46,716 INFO ConnectionMetrics, totalCount = 8, detail = {long_connection=8, long_polling=0}
+
+2026-10-02 12:05:47,713 INFO Connection check task start
+
+2026-10-02 12:05:47,713 INFO Long connection metrics detail ,Total count =8, sdkCount=8,clusterCount=0
+
+2026-10-02 12:05:47,713 INFO Out dated connection ,size=0
+
+2026-10-02 12:05:47,713 INFO Connection check task end
+
+2026-10-02 12:05:49,716 INFO ConnectionMetrics, totalCount = 8, detail = {long_connection=8, long_polling=0}
+
+2026-10-02 12:05:50,713 INFO Connection check task start
+
+2026-10-02 12:05:50,714 INFO Long connection metrics detail ,Total count =8, sdkCount=8,clusterCount=0
+
+2026-10-02 12:05:50,714 INFO Out dated connection ,size=0
+
+2026-10-02 12:05:50,714 INFO Connection check task end
+
+2026-10-02 12:05:52,717 INFO ConnectionMetrics, totalCount = 8, detail = {long_connection=8, long_polling=0}
+
+2026-10-02 12:05:53,714 INFO Connection check task start
+
+2026-10-02 12:05:53,715 INFO Long connection metrics detail ,Total count =8, sdkCount=8,clusterCount=0
+
+2026-10-02 12:05:53,715 INFO Out dated connection ,size=0
+
+2026-10-02 12:05:53,715 INFO Connection check task end
+
+2026-10-02 12:05:55,718 INFO ConnectionMetrics, totalCount = 8, detail = {long_connection=8, long_polling=0}
+
+2026-10-02 12:05:56,715 INFO Connection check task start
+
+2026-10-02 12:05:56,716 INFO Long connection metrics detail ,Total count =8, sdkCount=8,clusterCount=0
+
+2026-10-02 12:05:56,716 INFO Out dated connection ,size=0
+
+2026-10-02 12:05:56,716 INFO Connection check task end
+
+2026-10-02 12:05:58,718 INFO ConnectionMetrics, totalCount = 8, detail = {long_connection=8, long_polling=0}
+
+2026-10-02 12:05:59,716 INFO Connection check task start
+
+2026-10-02 12:05:59,717 INFO Long connection metrics detail ,Total count =8, sdkCount=8,clusterCount=0
+
+2026-10-02 12:05:59,717 INFO Out dated connection ,size=0
+
+2026-10-02 12:05:59,717 INFO Connection check task end
+
+2026-10-02 12:06:01,718 INFO ConnectionMetrics, totalCount = 8, detail = {long_connection=8, long_polling=0}
+
+2026-10-02 12:06:02,715 INFO Connection check task start
+
+2026-10-02 12:06:02,716 INFO Long connection metrics detail ,Total count =8, sdkCount=8,clusterCount=0
+
+2026-10-02 12:06:02,716 INFO Out dated connection ,size=0
+
+2026-10-02 12:06:02,716 INFO Connection check task end
+
+2026-10-02 12:06:04,717 INFO ConnectionMetrics, totalCount = 8, detail = {long_connection=8, long_polling=0}
+
+2026-10-02 12:06:05,716 INFO Connection check task start
+
+2026-10-02 12:06:05,717 INFO Long connection metrics detail ,Total count =8, sdkCount=8,clusterCount=0
+
+2026-10-02 12:06:05,717 INFO Out dated connection ,size=0
+
+2026-10-02 12:06:05,717 INFO Connection check task end
+
+2026-10-02 12:06:07,718 INFO ConnectionMetrics, totalCount = 8, detail = {long_connection=8, long_polling=0}
+
+2026-10-02 12:06:08,717 INFO Connection check task start
+
+2026-10-02 12:06:08,718 INFO Long connection metrics detail ,Total count =8, sdkCount=8,clusterCount=0
+
+2026-10-02 12:06:08,718 INFO Out dated connection ,size=0
+
+2026-10-02 12:06:08,718 INFO Connection check task end
+
+2026-10-02 12:06:10,718 INFO ConnectionMetrics, totalCount = 8, detail = {long_connection=8, long_polling=0}
+
+2026-10-02 12:06:11,718 INFO Connection check task start
+
+2026-10-02 12:06:11,719 INFO Long connection metrics detail ,Total count =8, sdkCount=8,clusterCount=0
+
+2026-10-02 12:06:11,719 INFO Out dated connection ,size=0
+
+2026-10-02 12:06:11,719 INFO Connection check task end
+
+2026-10-02 12:06:13,719 INFO ConnectionMetrics, totalCount = 8, detail = {long_connection=8, long_polling=0}
+
+2026-10-02 12:06:14,719 INFO Connection check task start
+
+2026-10-02 12:06:14,719 INFO Long connection metrics detail ,Total count =8, sdkCount=8,clusterCount=0
+
+2026-10-02 12:06:14,719 INFO Out dated connection ,size=0
+
+2026-10-02 12:06:14,720 INFO Connection check task end
+
+2026-10-02 12:06:16,720 INFO ConnectionMetrics, totalCount = 8, detail = {long_connection=8, long_polling=0}
+
+2026-10-02 12:06:17,720 INFO Connection check task start
+
+2026-10-02 12:06:17,720 INFO Long connection metrics detail ,Total count =8, sdkCount=8,clusterCount=0
+
+2026-10-02 12:06:17,720 INFO Out dated connection ,size=0
+
+2026-10-02 12:06:17,720 INFO Connection check task end
+
+2026-10-02 12:06:19,720 INFO ConnectionMetrics, totalCount = 8, detail = {long_connection=8, long_polling=0}
+
+2026-10-02 12:06:20,721 INFO Connection check task start
+
+2026-10-02 12:06:20,721 INFO Long connection metrics detail ,Total count =8, sdkCount=8,clusterCount=0
+
+2026-10-02 12:06:20,721 INFO Out dated connection ,size=0
+
+2026-10-02 12:06:20,721 INFO Connection check task end
+
+2026-10-02 12:06:22,721 INFO ConnectionMetrics, totalCount = 8, detail = {long_connection=8, long_polling=0}
+
+2026-10-02 12:06:23,721 INFO Connection check task start
+
+2026-10-02 12:06:23,722 INFO Long connection metrics detail ,Total count =8, sdkCount=8,clusterCount=0
+
+2026-10-02 12:06:23,722 INFO Out dated connection ,size=0
+
+2026-10-02 12:06:23,722 INFO Connection check task end
+
+2026-10-02 12:06:25,721 INFO ConnectionMetrics, totalCount = 8, detail = {long_connection=8, long_polling=0}
+
+2026-10-02 12:06:26,723 INFO Connection check task start
+
+2026-10-02 12:06:26,723 INFO Long connection metrics detail ,Total count =8, sdkCount=8,clusterCount=0
+
+2026-10-02 12:06:26,723 INFO Out dated connection ,size=0
+
+2026-10-02 12:06:26,723 INFO Connection check task end
+
+2026-10-02 12:06:28,721 INFO ConnectionMetrics, totalCount = 8, detail = {long_connection=8, long_polling=0}
+
+2026-10-02 12:06:29,723 INFO Connection check task start
+
+2026-10-02 12:06:29,724 INFO Long connection metrics detail ,Total count =8, sdkCount=8,clusterCount=0
+
+2026-10-02 12:06:29,724 INFO Out dated connection ,size=0
+
+2026-10-02 12:06:29,724 INFO Connection check task end
+
+2026-10-02 12:06:31,722 INFO ConnectionMetrics, totalCount = 8, detail = {long_connection=8, long_polling=0}
+
+2026-10-02 12:06:32,723 INFO Connection check task start
+
+2026-10-02 12:06:32,723 INFO Long connection metrics detail ,Total count =8, sdkCount=8,clusterCount=0
+
+2026-10-02 12:06:32,723 INFO Out dated connection ,size=0
+
+2026-10-02 12:06:32,724 INFO Connection check task end
+
+2026-10-02 12:06:34,721 INFO ConnectionMetrics, totalCount = 8, detail = {long_connection=8, long_polling=0}
+
+2026-10-02 12:06:35,724 INFO Connection check task start
+
+2026-10-02 12:06:35,724 INFO Long connection metrics detail ,Total count =8, sdkCount=8,clusterCount=0
+
+2026-10-02 12:06:35,724 INFO Out dated connection ,size=0
+
+2026-10-02 12:06:35,724 INFO Connection check task end
+
+2026-10-02 12:06:37,722 INFO ConnectionMetrics, totalCount = 8, detail = {long_connection=8, long_polling=0}
+
+2026-10-02 12:06:38,725 INFO Connection check task start
+
+2026-10-02 12:06:38,725 INFO Long connection metrics detail ,Total count =8, sdkCount=8,clusterCount=0
+
+2026-10-02 12:06:38,725 INFO Out dated connection ,size=0
+
+2026-10-02 12:06:38,725 INFO Connection check task end
+
+2026-10-02 12:06:40,722 INFO ConnectionMetrics, totalCount = 8, detail = {long_connection=8, long_polling=0}
+
+2026-10-02 12:06:41,726 INFO Connection check task start
+
+2026-10-02 12:06:41,726 INFO Long connection metrics detail ,Total count =8, sdkCount=8,clusterCount=0
+
+2026-10-02 12:06:41,727 INFO Out dated connection ,size=0
+
+2026-10-02 12:06:41,727 INFO Connection check task end
+
+2026-10-02 12:06:43,723 INFO ConnectionMetrics, totalCount = 8, detail = {long_connection=8, long_polling=0}
+
+2026-10-02 12:06:44,727 INFO Connection check task start
+
+2026-10-02 12:06:44,727 INFO Long connection metrics detail ,Total count =8, sdkCount=8,clusterCount=0
+
+2026-10-02 12:06:44,728 INFO Out dated connection ,size=0
+
+2026-10-02 12:06:44,728 INFO Connection check task end
+
+2026-10-02 12:06:46,723 INFO ConnectionMetrics, totalCount = 8, detail = {long_connection=8, long_polling=0}
+
+2026-10-02 12:06:47,728 INFO Connection check task start
+
+2026-10-02 12:06:47,728 INFO Long connection metrics detail ,Total count =8, sdkCount=8,clusterCount=0
+
+2026-10-02 12:06:47,728 INFO Out dated connection ,size=0
+
+2026-10-02 12:06:47,729 INFO Connection check task end
+
+2026-10-02 12:06:49,724 INFO ConnectionMetrics, totalCount = 8, detail = {long_connection=8, long_polling=0}
+
+2026-10-02 12:06:50,729 INFO Connection check task start
+
+2026-10-02 12:06:50,729 INFO Long connection metrics detail ,Total count =8, sdkCount=8,clusterCount=0
+
+2026-10-02 12:06:50,729 INFO Out dated connection ,size=0
+
+2026-10-02 12:06:50,729 INFO Connection check task end
+
+2026-10-02 12:06:52,724 INFO ConnectionMetrics, totalCount = 8, detail = {long_connection=8, long_polling=0}
+
+2026-10-02 12:06:53,730 INFO Connection check task start
+
+2026-10-02 12:06:53,730 INFO Long connection metrics detail ,Total count =8, sdkCount=8,clusterCount=0
+
+2026-10-02 12:06:53,730 INFO Out dated connection ,size=0
+
+2026-10-02 12:06:53,730 INFO Connection check task end
+
+2026-10-02 12:06:55,725 INFO ConnectionMetrics, totalCount = 8, detail = {long_connection=8, long_polling=0}
+
+2026-10-02 12:06:56,731 INFO Connection check task start
+
+2026-10-02 12:06:56,731 INFO Long connection metrics detail ,Total count =8, sdkCount=8,clusterCount=0
+
+2026-10-02 12:06:56,731 INFO Out dated connection ,size=0
+
+2026-10-02 12:06:56,731 INFO Connection check task end
+
+2026-10-02 12:06:58,725 INFO ConnectionMetrics, totalCount = 8, detail = {long_connection=8, long_polling=0}
+
+2026-10-02 12:06:59,732 INFO Connection check task start
+
+2026-10-02 12:06:59,732 INFO Long connection metrics detail ,Total count =8, sdkCount=8,clusterCount=0
+
+2026-10-02 12:06:59,732 INFO Out dated connection ,size=0
+
+2026-10-02 12:06:59,732 INFO Connection check task end
+
+2026-10-02 12:07:01,726 INFO ConnectionMetrics, totalCount = 8, detail = {long_connection=8, long_polling=0}
+
+2026-10-02 12:07:02,731 INFO Connection check task start
+
+2026-10-02 12:07:02,732 INFO Long connection metrics detail ,Total count =8, sdkCount=8,clusterCount=0
+
+2026-10-02 12:07:02,732 INFO Out dated connection ,size=0
+
+2026-10-02 12:07:02,732 INFO Connection check task end
+
+2026-10-02 12:07:04,725 INFO ConnectionMetrics, totalCount = 8, detail = {long_connection=8, long_polling=0}
+
+2026-10-02 12:07:05,732 INFO Connection check task start
+
+2026-10-02 12:07:05,733 INFO Long connection metrics detail ,Total count =8, sdkCount=8,clusterCount=0
+
+2026-10-02 12:07:05,733 INFO Out dated connection ,size=0
+
+2026-10-02 12:07:05,733 INFO Connection check task end
+
+2026-10-02 12:07:07,726 INFO ConnectionMetrics, totalCount = 8, detail = {long_connection=8, long_polling=0}
+
+2026-10-02 12:07:08,733 INFO Connection check task start
+
+2026-10-02 12:07:08,733 INFO Long connection metrics detail ,Total count =8, sdkCount=8,clusterCount=0
+
+2026-10-02 12:07:08,734 INFO Out dated connection ,size=0
+
+2026-10-02 12:07:08,734 INFO Connection check task end
+
+2026-10-02 12:07:10,726 INFO ConnectionMetrics, totalCount = 8, detail = {long_connection=8, long_polling=0}
+
+2026-10-02 12:07:11,734 INFO Connection check task start
+
+2026-10-02 12:07:11,734 INFO Long connection metrics detail ,Total count =8, sdkCount=8,clusterCount=0
+
+2026-10-02 12:07:11,735 INFO Out dated connection ,size=0
+
+2026-10-02 12:07:11,735 INFO Connection check task end
+
+2026-10-02 12:07:13,727 INFO ConnectionMetrics, totalCount = 8, detail = {long_connection=8, long_polling=0}
+
+2026-10-02 12:07:14,735 INFO Connection check task start
+
+2026-10-02 12:07:14,735 INFO Long connection metrics detail ,Total count =8, sdkCount=8,clusterCount=0
+
+2026-10-02 12:07:14,736 INFO Out dated connection ,size=0
+
+2026-10-02 12:07:14,736 INFO Connection check task end
+
+2026-10-02 12:07:16,727 INFO ConnectionMetrics, totalCount = 8, detail = {long_connection=8, long_polling=0}
+
+2026-10-02 12:07:17,737 INFO Connection check task start
+
+2026-10-02 12:07:17,738 INFO Long connection metrics detail ,Total count =8, sdkCount=8,clusterCount=0
+
+2026-10-02 12:07:17,738 INFO Out dated connection ,size=0
+
+2026-10-02 12:07:17,738 INFO Connection check task end
+
+2026-10-02 12:07:19,728 INFO ConnectionMetrics, totalCount = 8, detail = {long_connection=8, long_polling=0}
+
+2026-10-02 12:07:20,738 INFO Connection check task start
+
+2026-10-02 12:07:20,739 INFO Long connection metrics detail ,Total count =8, sdkCount=8,clusterCount=0
+
+2026-10-02 12:07:20,739 INFO Out dated connection ,size=0
+
+2026-10-02 12:07:20,739 INFO Connection check task end
+
+2026-10-02 12:07:22,728 INFO ConnectionMetrics, totalCount = 8, detail = {long_connection=8, long_polling=0}
+
+2026-10-02 12:07:23,739 INFO Connection check task start
+
+2026-10-02 12:07:23,739 INFO Long connection metrics detail ,Total count =8, sdkCount=8,clusterCount=0
+
+2026-10-02 12:07:23,740 INFO Out dated connection ,size=0
+
+2026-10-02 12:07:23,740 INFO Connection check task end
+
+2026-10-02 12:07:25,729 INFO ConnectionMetrics, totalCount = 8, detail = {long_connection=8, long_polling=0}
+
+2026-10-02 12:07:26,740 INFO Connection check task start
+
+2026-10-02 12:07:26,741 INFO Long connection metrics detail ,Total count =8, sdkCount=8,clusterCount=0
+
+2026-10-02 12:07:26,741 INFO Out dated connection ,size=0
+
+2026-10-02 12:07:26,741 INFO Connection check task end
+
+2026-10-02 12:07:28,730 INFO ConnectionMetrics, totalCount = 8, detail = {long_connection=8, long_polling=0}
+
+2026-10-02 12:07:29,741 INFO Connection check task start
+
+2026-10-02 12:07:29,741 INFO Long connection metrics detail ,Total count =8, sdkCount=8,clusterCount=0
+
+2026-10-02 12:07:29,742 INFO Out dated connection ,size=0
+
+2026-10-02 12:07:29,742 INFO Connection check task end
+
+2026-10-02 12:07:31,730 INFO ConnectionMetrics, totalCount = 8, detail = {long_connection=8, long_polling=0}
+
+2026-10-02 12:07:32,738 INFO Connection check task start
+
+2026-10-02 12:07:32,738 INFO Long connection metrics detail ,Total count =8, sdkCount=8,clusterCount=0
+
+2026-10-02 12:07:32,738 INFO Out dated connection ,size=0
+
+2026-10-02 12:07:32,738 INFO Connection check task end
+
+2026-10-02 12:07:34,726 INFO ConnectionMetrics, totalCount = 8, detail = {long_connection=8, long_polling=0}
+
+2026-10-02 12:07:35,739 INFO Connection check task start
+
+2026-10-02 12:07:35,739 INFO Long connection metrics detail ,Total count =8, sdkCount=8,clusterCount=0
+
+2026-10-02 12:07:35,739 INFO Out dated connection ,size=0
+
+2026-10-02 12:07:35,739 INFO Connection check task end
+
+2026-10-02 12:07:37,727 INFO ConnectionMetrics, totalCount = 8, detail = {long_connection=8, long_polling=0}
+
+2026-10-02 12:07:38,739 INFO Connection check task start
+
+2026-10-02 12:07:38,740 INFO Long connection metrics detail ,Total count =8, sdkCount=8,clusterCount=0
+
+2026-10-02 12:07:38,740 INFO Out dated connection ,size=0
+
+2026-10-02 12:07:38,740 INFO Connection check task end
+
+2026-10-02 12:07:40,727 INFO ConnectionMetrics, totalCount = 8, detail = {long_connection=8, long_polling=0}
+
+2026-10-02 12:07:41,740 INFO Connection check task start
+
+2026-10-02 12:07:41,741 INFO Long connection metrics detail ,Total count =8, sdkCount=8,clusterCount=0
+
+2026-10-02 12:07:41,741 INFO Out dated connection ,size=0
+
+2026-10-02 12:07:41,741 INFO Connection check task end
+
+2026-10-02 12:07:43,728 INFO ConnectionMetrics, totalCount = 8, detail = {long_connection=8, long_polling=0}
+
+2026-10-02 12:07:44,741 INFO Connection check task start
+
+2026-10-02 12:07:44,741 INFO Long connection metrics detail ,Total count =8, sdkCount=8,clusterCount=0
+
+2026-10-02 12:07:44,741 INFO Out dated connection ,size=0
+
+2026-10-02 12:07:44,742 INFO Connection check task end
+
+2026-10-02 12:07:46,728 INFO ConnectionMetrics, totalCount = 8, detail = {long_connection=8, long_polling=0}
+
+2026-10-02 12:07:47,742 INFO Connection check task start
+
+2026-10-02 12:07:47,742 INFO Long connection metrics detail ,Total count =8, sdkCount=8,clusterCount=0
+
+2026-10-02 12:07:47,743 INFO Out dated connection ,size=0
+
+2026-10-02 12:07:47,743 INFO Connection check task end
+
+2026-10-02 12:07:49,729 INFO ConnectionMetrics, totalCount = 8, detail = {long_connection=8, long_polling=0}
+
+2026-10-02 12:07:50,743 INFO Connection check task start
+
+2026-10-02 12:07:50,743 INFO Long connection metrics detail ,Total count =8, sdkCount=8,clusterCount=0
+
+2026-10-02 12:07:50,743 INFO Out dated connection ,size=0
+
+2026-10-02 12:07:50,744 INFO Connection check task end
+
+2026-10-02 12:07:52,729 INFO ConnectionMetrics, totalCount = 8, detail = {long_connection=8, long_polling=0}
+
+2026-10-02 12:07:53,744 INFO Connection check task start
+
+2026-10-02 12:07:53,744 INFO Long connection metrics detail ,Total count =8, sdkCount=8,clusterCount=0
+
+2026-10-02 12:07:53,744 INFO Out dated connection ,size=0
+
+2026-10-02 12:07:53,745 INFO Connection check task end
+
+2026-10-02 12:07:55,730 INFO ConnectionMetrics, totalCount = 8, detail = {long_connection=8, long_polling=0}
+
+2026-10-02 12:07:56,745 INFO Connection check task start
+
+2026-10-02 12:07:56,745 INFO Long connection metrics detail ,Total count =8, sdkCount=8,clusterCount=0
+
+2026-10-02 12:07:56,746 INFO Out dated connection ,size=0
+
+2026-10-02 12:07:56,746 INFO Connection check task end
+
+2026-10-02 12:07:58,730 INFO ConnectionMetrics, totalCount = 8, detail = {long_connection=8, long_polling=0}
+
+2026-10-02 12:07:59,746 INFO Connection check task start
+
+2026-10-02 12:07:59,746 INFO Long connection metrics detail ,Total count =8, sdkCount=8,clusterCount=0
+
+2026-10-02 12:07:59,746 INFO Out dated connection ,size=0
+
+2026-10-02 12:07:59,747 INFO Connection check task end
+
+2026-10-02 12:08:01,731 INFO ConnectionMetrics, totalCount = 8, detail = {long_connection=8, long_polling=0}
+
+2026-10-02 12:08:02,745 INFO Connection check task start
+
+2026-10-02 12:08:02,745 INFO Long connection metrics detail ,Total count =8, sdkCount=8,clusterCount=0
+
+2026-10-02 12:08:02,745 INFO Out dated connection ,size=0
+
+2026-10-02 12:08:02,746 INFO Connection check task end
+
+2026-10-02 12:08:04,729 INFO ConnectionMetrics, totalCount = 8, detail = {long_connection=8, long_polling=0}
+
+2026-10-02 12:08:05,746 INFO Connection check task start
+
+2026-10-02 12:08:05,746 INFO Long connection metrics detail ,Total count =8, sdkCount=8,clusterCount=0
+
+2026-10-02 12:08:05,747 INFO Out dated connection ,size=0
+
+2026-10-02 12:08:05,747 INFO Connection check task end
+
+2026-10-02 12:08:07,353 INFO [1790913795401_172.19.0.1_59996]Connection unregistered successfully. 
+
+2026-10-02 12:08:07,358 INFO [1790913814653_172.19.0.1_36224]Connection unregistered successfully. 
+
+2026-10-02 12:08:07,361 INFO [1790913792866_172.19.0.1_45036]Connection unregistered successfully. 
+
+2026-10-02 12:08:07,373 INFO [1790913794571_172.19.0.1_59992]Connection unregistered successfully. 
+
+2026-10-02 12:08:07,381 INFO [1790913790927_172.19.0.1_45020]Connection unregistered successfully. 
+
+2026-10-02 12:08:07,389 INFO [1790913895218_172.19.0.1_55378]Connection unregistered successfully. 
+
+2026-10-02 12:08:07,394 INFO [1790913877634_172.19.0.1_51072]Connection unregistered successfully. 
+
+2026-10-02 12:08:07,406 INFO [1790913908818_172.19.0.1_39848]Connection unregistered successfully. 
+
+2026-10-02 12:08:07,730 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-10-02 12:08:08,747 INFO Connection check task start
+
+2026-10-02 12:08:08,747 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-10-02 12:08:08,748 INFO Out dated connection ,size=0
+
+2026-10-02 12:08:08,748 INFO Connection check task end
+
+2026-10-02 12:08:10,730 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-10-02 12:08:11,748 INFO Connection check task start
+
+2026-10-02 12:08:11,748 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-10-02 12:08:11,749 INFO Out dated connection ,size=0
+
+2026-10-02 12:08:11,749 INFO Connection check task end
+
+2026-10-02 12:08:13,731 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-10-02 12:08:14,749 INFO Connection check task start
+
+2026-10-02 12:08:14,750 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-10-02 12:08:14,750 INFO Out dated connection ,size=0
+
+2026-10-02 12:08:14,750 INFO Connection check task end
+
+2026-10-02 12:08:16,731 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-10-02 12:08:17,751 INFO Connection check task start
+
+2026-10-02 12:08:17,751 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-10-02 12:08:17,751 INFO Out dated connection ,size=0
+
+2026-10-02 12:08:17,751 INFO Connection check task end
+
+2026-10-02 12:08:19,732 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-10-02 12:08:20,752 INFO Connection check task start
+
+2026-10-02 12:08:20,752 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-10-02 12:08:20,752 INFO Out dated connection ,size=0
+
+2026-10-02 12:08:20,752 INFO Connection check task end
+
+2026-10-02 12:08:22,733 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-10-02 12:08:23,753 INFO Connection check task start
+
+2026-10-02 12:08:23,753 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-10-02 12:08:23,754 INFO Out dated connection ,size=0
+
+2026-10-02 12:08:23,754 INFO Connection check task end
+
+2026-10-02 12:08:25,734 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-10-02 12:08:26,473 INFO new connection registered successfully, connectionId = 1790914106333_172.19.0.1_47992,connection=Connection{traced=false, abilities={lock=true, agent=true, mcp=true, fuzzyWatch=true}, metaInfo=ConnectionMeta{connectType='GRPC', clientIp='172.23.128.1', remoteIp='172.19.0.1', remotePort=47992, localPort=9848, version='Nacos-Java-Client:v3.1.1', connectionId='1790914106333_172.19.0.1_47992', createTime=Fri Oct 02 12:08:26 CST 2026, lastActiveTime=1790914106472, appName='unknown', tenant='null', labels={source=sdk, module=naming, AppName=unknown, tls.enable=false}}} 
+
+2026-10-02 12:08:26,754 INFO Connection check task start
+
+2026-10-02 12:08:26,755 INFO Long connection metrics detail ,Total count =1, sdkCount=1,clusterCount=0
+
+2026-10-02 12:08:26,755 INFO Out dated connection ,size=0
+
+2026-10-02 12:08:26,755 INFO Connection check task end
+
+2026-10-02 12:08:28,734 INFO ConnectionMetrics, totalCount = 1, detail = {long_connection=1, long_polling=0}
+
+2026-10-02 12:08:29,726 INFO new connection registered successfully, connectionId = 1790914109569_172.19.0.1_47994,connection=Connection{traced=false, abilities={lock=true, agent=true, mcp=true, fuzzyWatch=true}, metaInfo=ConnectionMeta{connectType='GRPC', clientIp='172.23.128.1', remoteIp='172.19.0.1', remotePort=47994, localPort=9848, version='Nacos-Java-Client:v3.1.1', connectionId='1790914109569_172.19.0.1_47994', createTime=Fri Oct 02 12:08:29 CST 2026, lastActiveTime=1790914109725, appName='unknown', tenant='null', labels={source=sdk, module=naming, AppName=unknown, tls.enable=false}}} 
+
+2026-10-02 12:08:29,755 INFO Connection check task start
+
+2026-10-02 12:08:29,756 INFO Long connection metrics detail ,Total count =2, sdkCount=2,clusterCount=0
+
+2026-10-02 12:08:29,756 INFO Out dated connection ,size=0
+
+2026-10-02 12:08:29,756 INFO Connection check task end
+
+2026-10-02 12:08:30,423 INFO new connection registered successfully, connectionId = 1790914110289_172.19.0.1_48008,connection=Connection{traced=false, abilities={lock=true, agent=true, mcp=true, fuzzyWatch=true}, metaInfo=ConnectionMeta{connectType='GRPC', clientIp='172.23.128.1', remoteIp='172.19.0.1', remotePort=48008, localPort=9848, version='Nacos-Java-Client:v3.1.1', connectionId='1790914110289_172.19.0.1_48008', createTime=Fri Oct 02 12:08:30 CST 2026, lastActiveTime=1790914110423, appName='unknown', tenant='null', labels={source=sdk, module=naming, AppName=unknown, tls.enable=false}}} 
+
+2026-10-02 12:08:31,236 INFO new connection registered successfully, connectionId = 1790914111148_172.19.0.1_48016,connection=Connection{traced=false, abilities={lock=true, agent=true, mcp=true, fuzzyWatch=true}, metaInfo=ConnectionMeta{connectType='GRPC', clientIp='172.23.128.1', remoteIp='172.19.0.1', remotePort=48016, localPort=9848, version='Nacos-Java-Client:v3.1.1', connectionId='1790914111148_172.19.0.1_48016', createTime=Fri Oct 02 12:08:31 CST 2026, lastActiveTime=1790914111235, appName='unknown', tenant='null', labels={source=sdk, module=naming, AppName=unknown, tls.enable=false}}} 
+
+2026-10-02 12:08:31,735 INFO ConnectionMetrics, totalCount = 4, detail = {long_connection=4, long_polling=0}
+
+2026-10-02 12:08:32,755 INFO Connection check task start
+
+2026-10-02 12:08:32,755 INFO Long connection metrics detail ,Total count =4, sdkCount=4,clusterCount=0
+
+2026-10-02 12:08:32,756 INFO Out dated connection ,size=0
+
+2026-10-02 12:08:32,756 INFO Connection check task end
+
+2026-10-02 12:08:34,734 INFO ConnectionMetrics, totalCount = 4, detail = {long_connection=4, long_polling=0}
+
+2026-10-02 12:08:35,756 INFO Connection check task start
+
+2026-10-02 12:08:35,757 INFO Long connection metrics detail ,Total count =4, sdkCount=4,clusterCount=0
+
+2026-10-02 12:08:35,757 INFO Out dated connection ,size=0
+
+2026-10-02 12:08:35,757 INFO Connection check task end
+
+2026-10-02 12:08:37,735 INFO ConnectionMetrics, totalCount = 4, detail = {long_connection=4, long_polling=0}
+
+2026-10-02 12:08:38,757 INFO Connection check task start
+
+2026-10-02 12:08:38,757 INFO Long connection metrics detail ,Total count =4, sdkCount=4,clusterCount=0
+
+2026-10-02 12:08:38,758 INFO Out dated connection ,size=0
+
+2026-10-02 12:08:38,758 INFO Connection check task end
+
+2026-10-02 12:08:40,735 INFO ConnectionMetrics, totalCount = 4, detail = {long_connection=4, long_polling=0}
+
+2026-10-02 12:08:41,758 INFO Connection check task start
+
+2026-10-02 12:08:41,759 INFO Long connection metrics detail ,Total count =4, sdkCount=4,clusterCount=0
+
+2026-10-02 12:08:41,759 INFO Out dated connection ,size=0
+
+2026-10-02 12:08:41,759 INFO Connection check task end
+
+2026-10-02 12:08:43,736 INFO ConnectionMetrics, totalCount = 4, detail = {long_connection=4, long_polling=0}
+
+2026-10-02 12:08:44,759 INFO Connection check task start
+
+2026-10-02 12:08:44,760 INFO Long connection metrics detail ,Total count =4, sdkCount=4,clusterCount=0
+
+2026-10-02 12:08:44,760 INFO Out dated connection ,size=0
+
+2026-10-02 12:08:44,760 INFO Connection check task end
+
+2026-10-02 12:08:46,737 INFO ConnectionMetrics, totalCount = 4, detail = {long_connection=4, long_polling=0}
+
+2026-10-02 12:08:47,761 INFO Connection check task start
+
+2026-10-02 12:08:47,762 INFO Long connection metrics detail ,Total count =4, sdkCount=4,clusterCount=0
+
+2026-10-02 12:08:47,762 INFO Out dated connection ,size=0
+
+2026-10-02 12:08:47,763 INFO Connection check task end
+
+2026-10-02 12:08:49,738 INFO ConnectionMetrics, totalCount = 4, detail = {long_connection=4, long_polling=0}
+
+2026-10-02 12:08:50,763 INFO Connection check task start
+
+2026-10-02 12:08:50,764 INFO Long connection metrics detail ,Total count =4, sdkCount=4,clusterCount=0
+
+2026-10-02 12:08:50,764 INFO Out dated connection ,size=0
+
+2026-10-02 12:08:50,765 INFO Connection check task end
+
+2026-10-02 12:08:52,739 INFO ConnectionMetrics, totalCount = 4, detail = {long_connection=4, long_polling=0}
+
+2026-10-02 12:08:52,965 INFO new connection registered successfully, connectionId = 1790914132796_172.19.0.1_45476,connection=Connection{traced=false, abilities={lock=true, agent=true, mcp=true, fuzzyWatch=true}, metaInfo=ConnectionMeta{connectType='GRPC', clientIp='172.23.128.1', remoteIp='172.19.0.1', remotePort=45476, localPort=9848, version='Nacos-Java-Client:v3.1.1', connectionId='1790914132796_172.19.0.1_45476', createTime=Fri Oct 02 12:08:52 CST 2026, lastActiveTime=1790914132965, appName='unknown', tenant='null', labels={source=sdk, module=naming, AppName=unknown, tls.enable=false}}} 
+
+2026-10-02 12:08:53,765 INFO Connection check task start
+
+2026-10-02 12:08:53,766 INFO Long connection metrics detail ,Total count =5, sdkCount=5,clusterCount=0
+
+2026-10-02 12:08:53,766 INFO Out dated connection ,size=0
+
+2026-10-02 12:08:53,767 INFO Connection check task end
+
+2026-10-02 12:08:54,979 INFO new connection registered successfully, connectionId = 1790914134768_172.19.0.1_44168,connection=Connection{traced=false, abilities={lock=true, agent=true, mcp=true, fuzzyWatch=true}, metaInfo=ConnectionMeta{connectType='GRPC', clientIp='172.23.128.1', remoteIp='172.19.0.1', remotePort=44168, localPort=9848, version='Nacos-Java-Client:v3.1.1', connectionId='1790914134768_172.19.0.1_44168', createTime=Fri Oct 02 12:08:54 CST 2026, lastActiveTime=1790914134979, appName='unknown', tenant='null', labels={source=sdk, module=naming, AppName=unknown, tls.enable=false}}} 
+
+2026-10-02 12:08:55,740 INFO ConnectionMetrics, totalCount = 6, detail = {long_connection=6, long_polling=0}
+
+2026-10-02 12:08:56,767 INFO Connection check task start
+
+2026-10-02 12:08:56,768 INFO Long connection metrics detail ,Total count =6, sdkCount=6,clusterCount=0
+
+2026-10-02 12:08:56,769 INFO Out dated connection ,size=0
+
+2026-10-02 12:08:56,769 INFO Connection check task end
+
+2026-10-02 12:08:57,440 INFO new connection registered successfully, connectionId = 1790914137254_172.19.0.1_44174,connection=Connection{traced=false, abilities={lock=true, agent=true, mcp=true, fuzzyWatch=true}, metaInfo=ConnectionMeta{connectType='GRPC', clientIp='172.23.128.1', remoteIp='172.19.0.1', remotePort=44174, localPort=9848, version='Nacos-Java-Client:v3.1.1', connectionId='1790914137254_172.19.0.1_44174', createTime=Fri Oct 02 12:08:57 CST 2026, lastActiveTime=1790914137439, appName='unknown', tenant='null', labels={source=sdk, module=naming, AppName=unknown, tls.enable=false}}} 
+
+2026-10-02 12:08:58,741 INFO ConnectionMetrics, totalCount = 7, detail = {long_connection=7, long_polling=0}
+
+2026-10-02 12:08:59,375 INFO new connection registered successfully, connectionId = 1790914139225_172.19.0.1_44190,connection=Connection{traced=false, abilities={lock=true, agent=true, mcp=true, fuzzyWatch=true}, metaInfo=ConnectionMeta{connectType='GRPC', clientIp='172.23.128.1', remoteIp='172.19.0.1', remotePort=44190, localPort=9848, version='Nacos-Java-Client:v3.1.1', connectionId='1790914139225_172.19.0.1_44190', createTime=Fri Oct 02 12:08:59 CST 2026, lastActiveTime=1790914139374, appName='unknown', tenant='null', labels={source=sdk, module=naming, AppName=unknown, tls.enable=false}}} 
+
+2026-10-02 12:08:59,769 INFO Connection check task start
+
+2026-10-02 12:08:59,770 INFO Long connection metrics detail ,Total count =8, sdkCount=8,clusterCount=0
+
+2026-10-02 12:08:59,771 INFO Out dated connection ,size=0
+
+2026-10-02 12:08:59,771 INFO Connection check task end
+
+2026-10-02 12:09:01,742 INFO ConnectionMetrics, totalCount = 8, detail = {long_connection=8, long_polling=0}
+
+2026-10-02 12:09:02,770 INFO Connection check task start
+
+2026-10-02 12:09:02,770 INFO Long connection metrics detail ,Total count =8, sdkCount=8,clusterCount=0
+
+2026-10-02 12:09:02,771 INFO Out dated connection ,size=0
+
+2026-10-02 12:09:02,771 INFO Connection check task end
+
+2026-10-02 12:09:02,853 INFO new connection registered successfully, connectionId = 1790914142704_172.19.0.1_44206,connection=Connection{traced=false, abilities={lock=true, agent=true, mcp=true, fuzzyWatch=true}, metaInfo=ConnectionMeta{connectType='GRPC', clientIp='172.23.128.1', remoteIp='172.19.0.1', remotePort=44206, localPort=9848, version='Nacos-Java-Client:v3.1.1', connectionId='1790914142704_172.19.0.1_44206', createTime=Fri Oct 02 12:09:02 CST 2026, lastActiveTime=1790914142853, appName='unknown', tenant='null', labels={source=sdk, module=naming, AppName=unknown, tls.enable=false}}} 
+
+2026-10-02 12:09:03,652 INFO new connection registered successfully, connectionId = 1790914143559_172.19.0.1_44216,connection=Connection{traced=false, abilities={lock=true, agent=true, mcp=true, fuzzyWatch=true}, metaInfo=ConnectionMeta{connectType='GRPC', clientIp='172.23.128.1', remoteIp='172.19.0.1', remotePort=44216, localPort=9848, version='Nacos-Java-Client:v3.1.1', connectionId='1790914143559_172.19.0.1_44216', createTime=Fri Oct 02 12:09:03 CST 2026, lastActiveTime=1790914143652, appName='unknown', tenant='null', labels={source=sdk, module=naming, AppName=unknown, tls.enable=false}}} 
+
+2026-10-02 12:09:04,741 INFO ConnectionMetrics, totalCount = 10, detail = {long_connection=10, long_polling=0}
+
+2026-10-02 12:09:05,771 INFO Connection check task start
+
+2026-10-02 12:09:05,772 INFO Long connection metrics detail ,Total count =10, sdkCount=10,clusterCount=0
+
+2026-10-02 12:09:05,772 INFO Out dated connection ,size=0
+
+2026-10-02 12:09:05,772 INFO Connection check task end
+
+2026-10-02 12:09:07,741 INFO ConnectionMetrics, totalCount = 10, detail = {long_connection=10, long_polling=0}
+
+2026-10-02 12:09:08,772 INFO Connection check task start
+
+2026-10-02 12:09:08,773 INFO Long connection metrics detail ,Total count =10, sdkCount=10,clusterCount=0
+
+2026-10-02 12:09:08,773 INFO Out dated connection ,size=0
+
+2026-10-02 12:09:08,773 INFO Connection check task end
+
+2026-10-02 12:09:10,742 INFO ConnectionMetrics, totalCount = 10, detail = {long_connection=10, long_polling=0}
+
+2026-10-02 12:09:11,773 INFO Connection check task start
+
+2026-10-02 12:09:11,774 INFO Long connection metrics detail ,Total count =10, sdkCount=10,clusterCount=0
+
+2026-10-02 12:09:11,774 INFO Out dated connection ,size=0
+
+2026-10-02 12:09:11,775 INFO Connection check task end
+
+2026-10-02 12:09:13,743 INFO ConnectionMetrics, totalCount = 10, detail = {long_connection=10, long_polling=0}
+
+2026-10-02 12:09:14,775 INFO Connection check task start
+
+2026-10-02 12:09:14,776 INFO Long connection metrics detail ,Total count =10, sdkCount=10,clusterCount=0
+
+2026-10-02 12:09:14,776 INFO Out dated connection ,size=0
+
+2026-10-02 12:09:14,776 INFO Connection check task end
+
+2026-10-02 12:09:16,744 INFO ConnectionMetrics, totalCount = 10, detail = {long_connection=10, long_polling=0}
+
+2026-10-02 12:09:17,776 INFO Connection check task start
+
+2026-10-02 12:09:17,777 INFO Long connection metrics detail ,Total count =10, sdkCount=10,clusterCount=0
+
+2026-10-02 12:09:17,777 INFO Out dated connection ,size=0
+
+2026-10-02 12:09:17,777 INFO Connection check task end
+
+2026-10-02 12:09:19,744 INFO ConnectionMetrics, totalCount = 10, detail = {long_connection=10, long_polling=0}
+
+2026-10-02 12:09:20,777 INFO Connection check task start
+
+2026-10-02 12:09:20,778 INFO Long connection metrics detail ,Total count =10, sdkCount=10,clusterCount=0
+
+2026-10-02 12:09:20,778 INFO Out dated connection ,size=0
+
+2026-10-02 12:09:20,778 INFO Connection check task end
+
+2026-10-02 12:09:22,745 INFO ConnectionMetrics, totalCount = 10, detail = {long_connection=10, long_polling=0}
+
+2026-10-02 12:09:23,778 INFO Connection check task start
+
+2026-10-02 12:09:23,779 INFO Long connection metrics detail ,Total count =10, sdkCount=10,clusterCount=0
+
+2026-10-02 12:09:23,779 INFO Out dated connection ,size=0
+
+2026-10-02 12:09:23,779 INFO Connection check task end
+
+2026-10-02 12:09:25,746 INFO ConnectionMetrics, totalCount = 10, detail = {long_connection=10, long_polling=0}
+
+2026-10-02 12:09:26,779 INFO Connection check task start
+
+2026-10-02 12:09:26,779 INFO Long connection metrics detail ,Total count =10, sdkCount=10,clusterCount=0
+
+2026-10-02 12:09:26,780 INFO Out dated connection ,size=0
+
+2026-10-02 12:09:26,780 INFO Connection check task end
+
+2026-10-02 12:09:28,746 INFO ConnectionMetrics, totalCount = 10, detail = {long_connection=10, long_polling=0}
+
+2026-10-02 12:09:29,780 INFO Connection check task start
+
+2026-10-02 12:09:29,780 INFO Long connection metrics detail ,Total count =10, sdkCount=10,clusterCount=0
+
+2026-10-02 12:09:29,781 INFO Out dated connection ,size=0
+
+2026-10-02 12:09:29,781 INFO Connection check task end
+
+2026-10-02 12:09:31,747 INFO ConnectionMetrics, totalCount = 10, detail = {long_connection=10, long_polling=0}
+
+2026-10-02 12:09:32,779 INFO Connection check task start
+
+2026-10-02 12:09:32,780 INFO Long connection metrics detail ,Total count =10, sdkCount=10,clusterCount=0
+
+2026-10-02 12:09:32,780 INFO Out dated connection ,size=0
+
+2026-10-02 12:09:32,780 INFO Connection check task end
+
+2026-10-02 12:09:34,746 INFO ConnectionMetrics, totalCount = 10, detail = {long_connection=10, long_polling=0}
+
+2026-10-02 12:09:35,780 INFO Connection check task start
+
+2026-10-02 12:09:35,781 INFO Long connection metrics detail ,Total count =10, sdkCount=10,clusterCount=0
+
+2026-10-02 12:09:35,781 INFO Out dated connection ,size=0
+
+2026-10-02 12:09:35,781 INFO Connection check task end
+
+2026-10-02 12:09:37,747 INFO ConnectionMetrics, totalCount = 10, detail = {long_connection=10, long_polling=0}
+
+2026-10-02 12:09:38,781 INFO Connection check task start
+
+2026-10-02 12:09:38,782 INFO Long connection metrics detail ,Total count =10, sdkCount=10,clusterCount=0
+
+2026-10-02 12:09:38,782 INFO Out dated connection ,size=0
+
+2026-10-02 12:09:38,783 INFO Connection check task end
+
+2026-10-02 12:09:40,747 INFO ConnectionMetrics, totalCount = 10, detail = {long_connection=10, long_polling=0}
+
+2026-10-02 12:09:41,783 INFO Connection check task start
+
+2026-10-02 12:09:41,783 INFO Long connection metrics detail ,Total count =10, sdkCount=10,clusterCount=0
+
+2026-10-02 12:09:41,784 INFO Out dated connection ,size=0
+
+2026-10-02 12:09:41,784 INFO Connection check task end
+
+2026-10-02 12:09:43,748 INFO ConnectionMetrics, totalCount = 10, detail = {long_connection=10, long_polling=0}
+
+2026-10-02 12:09:44,784 INFO Connection check task start
+
+2026-10-02 12:09:44,784 INFO Long connection metrics detail ,Total count =10, sdkCount=10,clusterCount=0
+
+2026-10-02 12:09:44,784 INFO Out dated connection ,size=0
+
+2026-10-02 12:09:44,785 INFO Connection check task end
+
+2026-10-02 12:09:46,749 INFO ConnectionMetrics, totalCount = 10, detail = {long_connection=10, long_polling=0}
+
+2026-10-02 12:09:47,785 INFO Connection check task start
+
+2026-10-02 12:09:47,785 INFO Long connection metrics detail ,Total count =10, sdkCount=10,clusterCount=0
+
+2026-10-02 12:09:47,785 INFO Out dated connection ,size=0
+
+2026-10-02 12:09:47,786 INFO Connection check task end
+
+2026-10-02 12:09:49,749 INFO ConnectionMetrics, totalCount = 10, detail = {long_connection=10, long_polling=0}
+
+2026-10-02 12:09:50,786 INFO Connection check task start
+
+2026-10-02 12:09:50,786 INFO Long connection metrics detail ,Total count =10, sdkCount=10,clusterCount=0
+
+2026-10-02 12:09:50,786 INFO Out dated connection ,size=0
+
+2026-10-02 12:09:50,786 INFO Connection check task end
+
+2026-10-02 12:09:52,750 INFO ConnectionMetrics, totalCount = 10, detail = {long_connection=10, long_polling=0}
+
+2026-10-02 12:09:53,787 INFO Connection check task start
+
+2026-10-02 12:09:53,787 INFO Long connection metrics detail ,Total count =10, sdkCount=10,clusterCount=0
+
+2026-10-02 12:09:53,787 INFO Out dated connection ,size=0
+
+2026-10-02 12:09:53,787 INFO Connection check task end
+
+2026-10-02 12:09:55,751 INFO ConnectionMetrics, totalCount = 10, detail = {long_connection=10, long_polling=0}
+
+2026-10-02 12:09:56,788 INFO Connection check task start
+
+2026-10-02 12:09:56,788 INFO Long connection metrics detail ,Total count =10, sdkCount=10,clusterCount=0
+
+2026-10-02 12:09:56,788 INFO Out dated connection ,size=0
+
+2026-10-02 12:09:56,788 INFO Connection check task end
+
+2026-10-02 12:09:58,751 INFO ConnectionMetrics, totalCount = 10, detail = {long_connection=10, long_polling=0}
+
+2026-10-02 12:09:59,789 INFO Connection check task start
+
+2026-10-02 12:09:59,789 INFO Long connection metrics detail ,Total count =10, sdkCount=10,clusterCount=0
+
+2026-10-02 12:09:59,789 INFO Out dated connection ,size=0
+
+2026-10-02 12:09:59,789 INFO Connection check task end
+
+2026-10-02 12:10:01,752 INFO ConnectionMetrics, totalCount = 10, detail = {long_connection=10, long_polling=0}
+
+2026-10-02 12:10:02,787 INFO Connection check task start
+
+2026-10-02 12:10:02,788 INFO Long connection metrics detail ,Total count =10, sdkCount=10,clusterCount=0
+
+2026-10-02 12:10:02,788 INFO Out dated connection ,size=0
+
+2026-10-02 12:10:02,788 INFO Connection check task end
+
+2026-10-02 12:10:04,750 INFO ConnectionMetrics, totalCount = 10, detail = {long_connection=10, long_polling=0}
+
+2026-10-02 12:10:05,788 INFO Connection check task start
+
+2026-10-02 12:10:05,789 INFO Long connection metrics detail ,Total count =10, sdkCount=10,clusterCount=0
+
+2026-10-02 12:10:05,789 INFO Out dated connection ,size=0
+
+2026-10-02 12:10:05,789 INFO Connection check task end
+
+2026-10-02 12:10:07,751 INFO ConnectionMetrics, totalCount = 10, detail = {long_connection=10, long_polling=0}
+
+2026-10-02 12:10:08,789 INFO Connection check task start
+
+2026-10-02 12:10:08,790 INFO Long connection metrics detail ,Total count =10, sdkCount=10,clusterCount=0
+
+2026-10-02 12:10:08,790 INFO Out dated connection ,size=0
+
+2026-10-02 12:10:08,790 INFO Connection check task end
+
+2026-10-02 12:10:10,751 INFO ConnectionMetrics, totalCount = 10, detail = {long_connection=10, long_polling=0}
+
+2026-10-02 12:10:11,791 INFO Connection check task start
+
+2026-10-02 12:10:11,791 INFO Long connection metrics detail ,Total count =10, sdkCount=10,clusterCount=0
+
+2026-10-02 12:10:11,791 INFO Out dated connection ,size=0
+
+2026-10-02 12:10:11,791 INFO Connection check task end
+
+2026-10-02 12:10:13,752 INFO ConnectionMetrics, totalCount = 10, detail = {long_connection=10, long_polling=0}
+
+2026-10-02 12:10:14,791 INFO Connection check task start
+
+2026-10-02 12:10:14,792 INFO Long connection metrics detail ,Total count =10, sdkCount=10,clusterCount=0
+
+2026-10-02 12:10:14,792 INFO Out dated connection ,size=0
+
+2026-10-02 12:10:14,792 INFO Connection check task end
+
+2026-10-02 12:10:16,752 INFO ConnectionMetrics, totalCount = 10, detail = {long_connection=10, long_polling=0}
+
+2026-10-02 12:10:17,792 INFO Connection check task start
+
+2026-10-02 12:10:17,793 INFO Long connection metrics detail ,Total count =10, sdkCount=10,clusterCount=0
+
+2026-10-02 12:10:17,793 INFO Out dated connection ,size=0
+
+2026-10-02 12:10:17,793 INFO Connection check task end
+
+2026-10-02 12:10:19,753 INFO ConnectionMetrics, totalCount = 10, detail = {long_connection=10, long_polling=0}
+
+2026-10-02 12:10:20,793 INFO Connection check task start
+
+2026-10-02 12:10:20,794 INFO Long connection metrics detail ,Total count =10, sdkCount=10,clusterCount=0
+
+2026-10-02 12:10:20,794 INFO Out dated connection ,size=0
+
+2026-10-02 12:10:20,794 INFO Connection check task end
+
+2026-10-02 12:10:22,754 INFO ConnectionMetrics, totalCount = 10, detail = {long_connection=10, long_polling=0}
+
+2026-10-02 12:10:23,795 INFO Connection check task start
+
+2026-10-02 12:10:23,802 INFO Long connection metrics detail ,Total count =10, sdkCount=10,clusterCount=0
+
+2026-10-02 12:10:23,802 INFO Out dated connection ,size=0
+
+2026-10-02 12:10:23,802 INFO Connection check task end
+
+2026-10-02 12:10:25,754 INFO ConnectionMetrics, totalCount = 10, detail = {long_connection=10, long_polling=0}
+
+2026-10-02 12:10:26,803 INFO Connection check task start
+
+2026-10-02 12:10:26,803 INFO Long connection metrics detail ,Total count =10, sdkCount=10,clusterCount=0
+
+2026-10-02 12:10:26,803 INFO Out dated connection ,size=0
+
+2026-10-02 12:10:26,803 INFO Connection check task end
+
+2026-10-02 12:10:28,755 INFO ConnectionMetrics, totalCount = 10, detail = {long_connection=10, long_polling=0}
+
+2026-10-02 12:10:29,804 INFO Connection check task start
+
+2026-10-02 12:10:29,804 INFO Long connection metrics detail ,Total count =10, sdkCount=10,clusterCount=0
+
+2026-10-02 12:10:29,804 INFO Out dated connection ,size=0
+
+2026-10-02 12:10:29,804 INFO Connection check task end
+
+2026-10-02 12:10:31,756 INFO ConnectionMetrics, totalCount = 10, detail = {long_connection=10, long_polling=0}
+
+2026-10-02 12:10:32,803 INFO Connection check task start
+
+2026-10-02 12:10:32,804 INFO Long connection metrics detail ,Total count =10, sdkCount=10,clusterCount=0
+
+2026-10-02 12:10:32,804 INFO Out dated connection ,size=0
+
+2026-10-02 12:10:32,804 INFO Connection check task end
+
+2026-10-02 12:10:34,755 INFO ConnectionMetrics, totalCount = 10, detail = {long_connection=10, long_polling=0}
+
+2026-10-02 12:10:35,804 INFO Connection check task start
+
+2026-10-02 12:10:35,805 INFO Long connection metrics detail ,Total count =10, sdkCount=10,clusterCount=0
+
+2026-10-02 12:10:35,805 INFO Out dated connection ,size=0
+
+2026-10-02 12:10:35,805 INFO Connection check task end
+
+2026-10-02 12:10:37,755 INFO ConnectionMetrics, totalCount = 10, detail = {long_connection=10, long_polling=0}
+
+2026-10-02 12:10:38,805 INFO Connection check task start
+
+2026-10-02 12:10:38,806 INFO Long connection metrics detail ,Total count =10, sdkCount=10,clusterCount=0
+
+2026-10-02 12:10:38,806 INFO Out dated connection ,size=0
+
+2026-10-02 12:10:38,806 INFO Connection check task end
+
+2026-10-02 12:10:40,756 INFO ConnectionMetrics, totalCount = 10, detail = {long_connection=10, long_polling=0}
+
+2026-10-02 12:10:41,806 INFO Connection check task start
+
+2026-10-02 12:10:41,806 INFO Long connection metrics detail ,Total count =10, sdkCount=10,clusterCount=0
+
+2026-10-02 12:10:41,807 INFO Out dated connection ,size=0
+
+2026-10-02 12:10:41,807 INFO Connection check task end
+
+2026-10-02 12:10:43,757 INFO ConnectionMetrics, totalCount = 10, detail = {long_connection=10, long_polling=0}
+
+2026-10-02 12:10:44,807 INFO Connection check task start
+
+2026-10-02 12:10:44,807 INFO Long connection metrics detail ,Total count =10, sdkCount=10,clusterCount=0
+
+2026-10-02 12:10:44,807 INFO Out dated connection ,size=0
+
+2026-10-02 12:10:44,808 INFO Connection check task end
+
+2026-10-02 12:10:46,757 INFO ConnectionMetrics, totalCount = 10, detail = {long_connection=10, long_polling=0}
+
+2026-10-02 12:10:47,808 INFO Connection check task start
+
+2026-10-02 12:10:47,808 INFO Long connection metrics detail ,Total count =10, sdkCount=10,clusterCount=0
+
+2026-10-02 12:10:47,808 INFO Out dated connection ,size=0
+
+2026-10-02 12:10:47,808 INFO Connection check task end
+
+2026-10-02 12:10:48,562 INFO [1790914106333_172.19.0.1_47992]Connection unregistered successfully. 
+
+2026-10-02 12:10:48,569 INFO [1790914109569_172.19.0.1_47994]Connection unregistered successfully. 
+
+2026-10-02 12:10:48,576 INFO [1790914137254_172.19.0.1_44174]Connection unregistered successfully. 
+
+2026-10-02 12:10:48,584 INFO [1790914132796_172.19.0.1_45476]Connection unregistered successfully. 
+
+2026-10-02 12:10:48,602 INFO [1790914139225_172.19.0.1_44190]Connection unregistered successfully. 
+
+2026-10-02 12:10:48,647 INFO [1790914143559_172.19.0.1_44216]Connection unregistered successfully. 
+
+2026-10-02 12:10:48,650 INFO [1790914134768_172.19.0.1_44168]Connection unregistered successfully. 
+
+2026-10-02 12:10:48,655 INFO [1790914110289_172.19.0.1_48008]Connection unregistered successfully. 
+
+2026-10-02 12:10:48,660 INFO [1790914142704_172.19.0.1_44206]Connection unregistered successfully. 
+
+2026-10-02 12:10:48,667 INFO [1790914111148_172.19.0.1_48016]Connection unregistered successfully. 
+
+2026-10-02 12:10:49,758 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-10-02 12:10:50,809 INFO Connection check task start
+
+2026-10-02 12:10:50,809 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-10-02 12:10:50,809 INFO Out dated connection ,size=0
+
+2026-10-02 12:10:50,810 INFO Connection check task end
+
+2026-10-02 12:10:52,758 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-10-02 12:10:53,810 INFO Connection check task start
+
+2026-10-02 12:10:53,810 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-10-02 12:10:53,811 INFO Out dated connection ,size=0
+
+2026-10-02 12:10:53,811 INFO Connection check task end
+
+2026-10-02 12:10:55,759 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-10-02 12:10:56,811 INFO Connection check task start
+
+2026-10-02 12:10:56,811 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-10-02 12:10:56,811 INFO Out dated connection ,size=0
+
+2026-10-02 12:10:56,812 INFO Connection check task end
+
+2026-10-02 12:10:58,760 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-10-02 12:10:59,812 INFO Connection check task start
+
+2026-10-02 12:10:59,812 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-10-02 12:10:59,812 INFO Out dated connection ,size=0
+
+2026-10-02 12:10:59,813 INFO Connection check task end
+
+2026-10-02 12:11:01,763 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-10-02 12:11:02,811 INFO Connection check task start
+
+2026-10-02 12:11:02,811 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-10-02 12:11:02,812 INFO Out dated connection ,size=0
+
+2026-10-02 12:11:02,812 INFO Connection check task end
+
+2026-10-02 12:11:04,761 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-10-02 12:11:05,812 INFO Connection check task start
+
+2026-10-02 12:11:05,812 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-10-02 12:11:05,813 INFO Out dated connection ,size=0
+
+2026-10-02 12:11:05,813 INFO Connection check task end
+
+2026-10-02 12:11:07,762 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-10-02 12:11:08,813 INFO Connection check task start
+
+2026-10-02 12:11:08,813 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-10-02 12:11:08,813 INFO Out dated connection ,size=0
+
+2026-10-02 12:11:08,814 INFO Connection check task end
+
+2026-10-02 12:11:10,762 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-10-02 12:11:11,814 INFO Connection check task start
+
+2026-10-02 12:11:11,814 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-10-02 12:11:11,814 INFO Out dated connection ,size=0
+
+2026-10-02 12:11:11,815 INFO Connection check task end
+
+2026-10-02 12:11:13,763 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-10-02 12:11:14,815 INFO Connection check task start
+
+2026-10-02 12:11:14,815 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-10-02 12:11:14,815 INFO Out dated connection ,size=0
+
+2026-10-02 12:11:14,816 INFO Connection check task end
+
+2026-10-02 12:11:16,764 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-10-02 12:11:17,816 INFO Connection check task start
+
+2026-10-02 12:11:17,817 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-10-02 12:11:17,817 INFO Out dated connection ,size=0
+
+2026-10-02 12:11:17,817 INFO Connection check task end
+
+2026-10-02 12:11:19,765 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-10-02 12:11:20,818 INFO Connection check task start
+
+2026-10-02 12:11:20,818 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-10-02 12:11:20,818 INFO Out dated connection ,size=0
+
+2026-10-02 12:11:20,818 INFO Connection check task end
+
+2026-10-02 12:11:22,765 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-10-02 12:11:23,819 INFO Connection check task start
+
+2026-10-02 12:11:23,819 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-10-02 12:11:23,819 INFO Out dated connection ,size=0
+
+2026-10-02 12:11:23,819 INFO Connection check task end
+
+2026-10-02 12:11:25,766 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-10-02 12:11:26,819 INFO Connection check task start
+
+2026-10-02 12:11:26,820 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-10-02 12:11:26,820 INFO Out dated connection ,size=0
+
+2026-10-02 12:11:26,821 INFO Connection check task end
+
+2026-10-02 12:11:28,766 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-10-02 12:11:29,821 INFO Connection check task start
+
+2026-10-02 12:11:29,821 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-10-02 12:11:29,821 INFO Out dated connection ,size=0
+
+2026-10-02 12:11:29,821 INFO Connection check task end
+
+2026-10-02 12:11:31,767 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+

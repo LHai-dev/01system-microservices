@@ -1,0 +1,116 @@
+2026-10-02 11:17:44,244 INFO use local db service for init
+
+2026-10-02 11:17:45,868 WARN Lexical error at line 4, column 66.  Encountered: <EOF> after : "".
+
+2026-10-02 11:17:45,873 WARN Syntax error: Encountered "*" at line 1, column 1.
+
+2026-10-02 11:17:46,749 WARN Column 'SRC_IP' already exists in Table/View '"NACOS"."HIS_CONFIG_INFO"'.
+
+2026-10-02 11:17:46,752 WARN Column 'SRC_IP' already exists in Table/View '"NACOS"."CONFIG_INFO"'.
+
+2026-10-02 11:17:46,754 WARN Column 'PUBLISH_TYPE' already exists in Table/View '"NACOS"."HIS_CONFIG_INFO"'.
+
+2026-10-02 11:17:46,756 WARN Column 'EXT_INFO' already exists in Table/View '"NACOS"."HIS_CONFIG_INFO"'.
+
+2026-10-02 11:17:46,757 WARN Column 'GRAY_NAME' already exists in Table/View '"NACOS"."HIS_CONFIG_INFO"'.
+
+2026-10-02 11:17:47,400 INFO use StandaloneDatabaseOperateImpl
+
+2026-10-02 11:17:48,356 ERROR [db-error] DataAccessException : caused: StatementCallback; bad SQL grammar [SELECT COUNT(*) FROM config_info_beta ];caused: Table/View 'CONFIG_INFO_BETA' does not exist.;caused: Table/View 'CONFIG_INFO_BETA' does not exist.;
+
+2026-10-02 11:24:19,503 INFO use local db service for init
+
+2026-10-02 11:24:21,590 WARN Lexical error at line 4, column 66.  Encountered: <EOF> after : "".
+
+2026-10-02 11:24:21,594 WARN Syntax error: Encountered "*" at line 1, column 1.
+
+2026-10-02 11:24:21,651 WARN Table/View 'CONFIG_INFO' already exists in Schema 'NACOS'.
+
+2026-10-02 11:24:21,703 WARN Table/View 'HIS_CONFIG_INFO' already exists in Schema 'NACOS'.
+
+2026-10-02 11:24:21,741 WARN Table/View 'CONFIG_INFO_GRAY' already exists in Schema 'NACOS'.
+
+2026-10-02 11:24:21,778 WARN Table/View 'APP_LIST' already exists in Schema 'NACOS'.
+
+2026-10-02 11:24:21,811 WARN Table/View 'APP_CONFIGDATA_RELATION_SUBS' already exists in Schema 'NACOS'.
+
+2026-10-02 11:24:21,852 WARN Table/View 'APP_CONFIGDATA_RELATION_PUBS' already exists in Schema 'NACOS'.
+
+2026-10-02 11:24:21,886 WARN Table/View 'CONFIG_TAGS_RELATION' already exists in Schema 'NACOS'.
+
+2026-10-02 11:24:21,925 WARN Table/View 'GROUP_CAPACITY' already exists in Schema 'NACOS'.
+
+2026-10-02 11:24:21,970 WARN Table/View 'TENANT_CAPACITY' already exists in Schema 'NACOS'.
+
+2026-10-02 11:24:22,025 WARN Table/View 'TENANT_INFO' already exists in Schema 'NACOS'.
+
+2026-10-02 11:24:22,063 WARN Table/View 'USERS' already exists in Schema 'NACOS'.
+
+2026-10-02 11:24:22,102 WARN Table/View 'ROLES' already exists in Schema 'NACOS'.
+
+2026-10-02 11:24:22,143 WARN Table/View 'PERMISSIONS' already exists in Schema 'NACOS'.
+
+2026-10-02 11:24:22,154 WARN Column 'SRC_IP' already exists in Table/View '"NACOS"."HIS_CONFIG_INFO"'.
+
+2026-10-02 11:24:22,157 WARN Column 'SRC_IP' already exists in Table/View '"NACOS"."CONFIG_INFO"'.
+
+2026-10-02 11:24:22,159 WARN Column 'PUBLISH_TYPE' already exists in Table/View '"NACOS"."HIS_CONFIG_INFO"'.
+
+2026-10-02 11:24:22,160 WARN Column 'EXT_INFO' already exists in Table/View '"NACOS"."HIS_CONFIG_INFO"'.
+
+2026-10-02 11:24:22,162 WARN Column 'GRAY_NAME' already exists in Table/View '"NACOS"."HIS_CONFIG_INFO"'.
+
+2026-10-02 11:24:22,200 WARN Table/View 'PIPELINE_EXECUTION' already exists in Schema 'NACOS'.
+
+2026-10-02 11:24:22,239 WARN Table/View 'AI_RESOURCE' already exists in Schema 'NACOS'.
+
+2026-10-02 11:24:22,274 WARN Table/View 'AI_RESOURCE_VERSION' already exists in Schema 'NACOS'.
+
+2026-10-02 11:24:22,278 INFO use StandaloneDatabaseOperateImpl
+
+2026-10-02 11:24:22,964 ERROR [db-error] DataAccessException : caused: StatementCallback; bad SQL grammar [SELECT COUNT(*) FROM config_info_beta ];caused: Table/View 'CONFIG_INFO_BETA' does not exist.;caused: Table/View 'CONFIG_INFO_BETA' does not exist.;
+
+2026-10-02 11:31:18,770 INFO use local db service for init
+
+2026-10-02 11:31:21,764 WARN Lexical error at line 4, column 66.  Encountered: <EOF> after : "".
+
+2026-10-02 11:31:21,769 WARN Syntax error: Encountered "*" at line 1, column 1.
+
+2026-10-02 11:31:23,719 WARN Column 'SRC_IP' already exists in Table/View '"NACOS"."HIS_CONFIG_INFO"'.
+
+2026-10-02 11:31:23,733 WARN Column 'SRC_IP' already exists in Table/View '"NACOS"."CONFIG_INFO"'.
+
+2026-10-02 11:31:23,735 WARN Column 'PUBLISH_TYPE' already exists in Table/View '"NACOS"."HIS_CONFIG_INFO"'.
+
+2026-10-02 11:31:23,737 WARN Column 'EXT_INFO' already exists in Table/View '"NACOS"."HIS_CONFIG_INFO"'.
+
+2026-10-02 11:31:23,739 WARN Column 'GRAY_NAME' already exists in Table/View '"NACOS"."HIS_CONFIG_INFO"'.
+
+2026-10-02 11:31:24,222 INFO use StandaloneDatabaseOperateImpl
+
+2026-10-02 11:31:25,209 ERROR [db-error] DataAccessException : caused: StatementCallback; bad SQL grammar [SELECT COUNT(*) FROM config_info_beta ];caused: Table/View 'CONFIG_INFO_BETA' does not exist.;caused: Table/View 'CONFIG_INFO_BETA' does not exist.;
+
+2026-10-02 12:00:31,816 INFO use local db service for init
+
+2026-10-02 12:00:33,099 WARN Lexical error at line 4, column 66.  Encountered: <EOF> after : "".
+
+2026-10-02 12:00:33,102 WARN Syntax error: Encountered "*" at line 1, column 1.
+
+2026-10-02 12:00:33,809 WARN Column 'SRC_IP' already exists in Table/View '"NACOS"."HIS_CONFIG_INFO"'.
+
+2026-10-02 12:00:33,811 WARN Column 'SRC_IP' already exists in Table/View '"NACOS"."CONFIG_INFO"'.
+
+2026-10-02 12:00:33,813 WARN Column 'PUBLISH_TYPE' already exists in Table/View '"NACOS"."HIS_CONFIG_INFO"'.
+
+2026-10-02 12:00:33,815 WARN Column 'EXT_INFO' already exists in Table/View '"NACOS"."HIS_CONFIG_INFO"'.
+
+2026-10-02 12:00:33,817 WARN Column 'GRAY_NAME' already exists in Table/View '"NACOS"."HIS_CONFIG_INFO"'.
+
+2026-10-02 12:00:34,026 INFO use StandaloneDatabaseOperateImpl
+
+2026-10-02 12:00:34,469 ERROR [db-error] DataAccessException : caused: StatementCallback; bad SQL grammar [SELECT COUNT(*) FROM config_info_beta ];caused: Table/View 'CONFIG_INFO_BETA' does not exist.;caused: Table/View 'CONFIG_INFO_BETA' does not exist.;
+
+2026-10-02 12:00:39,686 ERROR [db-error] DataAccessException : caused: StatementCallback; bad SQL grammar [SELECT COUNT(*) FROM config_info_beta ];caused: Table/View 'CONFIG_INFO_BETA' does not exist.;caused: Table/View 'CONFIG_INFO_BETA' does not exist.;
+
+2026-10-02 12:00:40,819 ERROR [db-error] DataAccessException : caused: StatementCallback; bad SQL grammar [SELECT COUNT(*) FROM config_info_beta ];caused: Table/View 'CONFIG_INFO_BETA' does not exist.;caused: Table/View 'CONFIG_INFO_BETA' does not exist.;
+

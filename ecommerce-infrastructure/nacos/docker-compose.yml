@@ -1,0 +1,16 @@
+services:
+  nacos:
+    image: nacos/nacos-server:v3.2.4
+    container_name: nacos
+    environment:
+      - PREFER_HOST_MODE=hostname
+      - MODE=standalone
+      - NACOS_AUTH_IDENTITY_KEY=serverIdentity
+      - NACOS_AUTH_IDENTITY_VALUE=security
+      - NACOS_AUTH_TOKEN=gZPtDW6qodtgxOmU8Nz9tm3FX0MhgfBDEjxh900NxxM=
+    volumes:
+      - ./standalone-logs/:/home/nacos/logs
+    ports:
+      - "8080:8080"
+      - "8848:8848"
+      - "9848:9848"

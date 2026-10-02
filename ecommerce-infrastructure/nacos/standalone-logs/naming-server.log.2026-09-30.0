@@ -1,0 +1,148 @@
+2026-09-30 11:59:41,772 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2026-09-30 11:59:41,773 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2026-09-30 11:59:41,775 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2026-09-30 11:59:41,775 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2026-09-30 12:09:27,535 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2026-09-30 12:09:27,535 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2026-09-30 12:09:27,537 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2026-09-30 12:09:27,537 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2026-09-30 12:09:29,626 ERROR [HEALTH-CHECK-V2] error while processing NIO task
+
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1686)
+	at java.base/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:460)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.processTask(TcpHealthCheckProcessor.java:126)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.run(TcpHealthCheckProcessor.java:143)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-09-30 12:09:29,686 INFO [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2026-09-30 12:11:38,042 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2026-09-30 12:11:38,042 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2026-09-30 12:11:38,043 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2026-09-30 12:11:38,043 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2026-09-30 12:11:38,720 INFO Load instance extension handler []
+
+2026-09-30 12:16:03,406 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2026-09-30 12:16:03,406 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2026-09-30 12:16:03,408 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2026-09-30 12:16:03,408 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2026-09-30 12:26:12,290 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2026-09-30 12:26:12,290 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2026-09-30 12:26:12,291 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2026-09-30 12:26:12,291 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2026-09-30 12:39:25,639 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2026-09-30 12:39:25,639 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2026-09-30 12:39:25,642 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2026-09-30 12:39:25,642 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2026-09-30 12:56:30,327 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2026-09-30 12:56:30,327 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2026-09-30 12:56:30,330 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2026-09-30 12:56:30,330 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2026-09-30 13:04:43,118 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2026-09-30 13:04:43,118 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2026-09-30 13:04:43,120 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2026-09-30 13:04:43,120 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2026-09-30 17:34:50,792 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2026-09-30 17:34:50,792 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2026-09-30 17:34:50,793 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2026-09-30 17:34:50,793 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2026-09-30 17:44:30,883 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2026-09-30 17:44:30,883 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2026-09-30 17:44:30,884 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2026-09-30 17:44:30,884 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2026-09-30 17:49:29,476 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2026-09-30 17:49:29,476 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2026-09-30 17:49:29,477 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2026-09-30 17:49:29,477 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2026-09-30 18:04:27,183 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2026-09-30 18:04:27,183 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2026-09-30 18:04:27,184 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2026-09-30 18:04:27,184 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2026-09-30 19:15:39,452 INFO Client connection 1790766939332_192.168.65.1_56638 connect
+
+2026-09-30 19:15:39,503 INFO Client change for service Service{namespace='dev', group='DEFAULT_GROUP', name='business-service', ephemeral=true, revision=0}, 1790766939332_192.168.65.1_56638
+
+2026-09-30 19:15:39,509 WARN [fuzzy-watch] service change matched,service key dev@@DEFAULT_GROUP@@business-service,changed type ADD_SERVICE 
+
+2026-09-30 19:15:49,274 INFO Client connection 1790766949188_192.168.65.1_25005 connect
+
+2026-09-30 19:15:49,298 INFO Client change for service Service{namespace='dev', group='DEFAULT_GROUP', name='business-service', ephemeral=true, revision=1}, 1790766949188_192.168.65.1_25005
+
+2026-09-30 19:18:40,780 INFO Client connection 1790767120687_192.168.65.1_56770 connect
+
+2026-09-30 19:18:40,809 INFO Client change for service Service{namespace='dev', group='DEFAULT_GROUP', name='order-service', ephemeral=true, revision=0}, 1790767120687_192.168.65.1_56770
+
+2026-09-30 19:18:40,809 WARN [fuzzy-watch] service change matched,service key dev@@DEFAULT_GROUP@@order-service,changed type ADD_SERVICE 
+
+2026-09-30 19:26:24,734 INFO Client remove for service Service{namespace='dev', group='DEFAULT_GROUP', name='business-service', ephemeral=true, revision=2}, 1790766939332_192.168.65.1_56638
+
+2026-09-30 19:26:24,868 INFO Client remove for service Service{namespace='dev', group='DEFAULT_GROUP', name='order-service', ephemeral=true, revision=1}, 1790767120687_192.168.65.1_56770
+
+2026-09-30 19:26:24,869 WARN [fuzzy-watch] service change matched,service key dev@@DEFAULT_GROUP@@order-service,changed type DELETE_SERVICE 
+
+2026-09-30 19:26:24,899 INFO Client remove for service Service{namespace='dev', group='DEFAULT_GROUP', name='business-service', ephemeral=true, revision=3}, 1790766949188_192.168.65.1_25005
+
+2026-09-30 19:26:24,901 WARN [fuzzy-watch] service change matched,service key dev@@DEFAULT_GROUP@@business-service,changed type DELETE_SERVICE 
+
+2026-09-30 19:26:24,964 INFO Client connection 1790766939332_192.168.65.1_56638 disconnect, remove instances and subscribers
+
+2026-09-30 19:26:25,099 INFO Client connection 1790767120687_192.168.65.1_56770 disconnect, remove instances and subscribers
+
+2026-09-30 19:26:25,108 INFO Client connection 1790766949188_192.168.65.1_25005 disconnect, remove instances and subscribers
+
+2026-09-30 19:27:16,431 INFO [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2026-09-30 19:27:16,433 INFO [NamingServerHttpClientManager] Completed destruction of HTTP-Client
+
