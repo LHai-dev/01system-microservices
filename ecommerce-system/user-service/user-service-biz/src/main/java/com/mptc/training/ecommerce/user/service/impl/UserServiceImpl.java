@@ -86,29 +86,16 @@ public class UserServiceImpl implements UserService {
         userQuery.setGender(userQueryRequest.gender());
         userQuery.setMobilePhone(userQueryRequest.mobilePhone());
 
-        List<UserEntity> userEntities = userRepository.findAll(
-                Example.of(userQuery, ExampleMatcher.matching().withIgnoreNullValues()));
+        ExampleMatcher matcher = ExampleMatcher.matching()
+                .withIgnoreNullValues();
 
-        String role = userQueryRequest.role();
+        Example<UserEntity> query = Example.of(userQuery, matcher);
 
-        if (role == null || role.isBlank()) {
-            return userEntities.stream()
-                    .map(userEntity -> userMapper.toResponse(
-                            userEntity,
-                            keycloakUserService.getById(userEntity.getId())
-                    ))
-                    .toList();
-        }
-
-        Map<String, UserRepresentation> representationById = keycloakRoleService.getUsersByRoleName(role)
+        return userRepository.findAll(query)
                 .stream()
-                .collect(Collectors.toMap(UserRepresentation::getId, Function.identity()));
-
-        return userEntities.stream()
-                .filter(userEntity -> representationById.containsKey(userEntity.getId()))
                 .map(userEntity -> userMapper.toResponse(
                         userEntity,
-                        representationById.get(userEntity.getId())
+                        keycloakUserService.getById(userEntity.getId())
                 ))
                 .toList();
     }
@@ -164,8 +151,9 @@ public class UserServiceImpl implements UserService {
         UserEntity userEntity = userRepository.findByUsername(username)
                 .orElseThrow(() -> new UserNotFoundException(HttpStatus.NOT_FOUND, "User not found"));
 
-        // Names/email live in Keycloak, not in the DB
-        return userMapper.toResponse(userEntity, keycloakUserService.getById(userEntity.getId()));
+        UserRepresentation keycloakUser = keycloakUserService.getById(userEntity.getId());
+
+        return userMapper.toResponse(userEntity, keycloakUser);
     }
 
     @Override
@@ -178,11 +166,11 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public List<UserResponse> getByRoleName(String Role) {
+
         Map<String, UserRepresentation> representationById = keycloakRoleService.getUsersByRoleName(Role)
                 .stream()
                 .collect(Collectors.toMap(UserRepresentation::getId, Function.identity()));
 
-        // Keycloak-only users (e.g. realm admins) have no DB row and are skipped
         return userRepository.findAllById(representationById.keySet())
                 .stream()
                 .map(userEntity -> userMapper.toResponse(userEntity, representationById.get(userEntity.getId())))

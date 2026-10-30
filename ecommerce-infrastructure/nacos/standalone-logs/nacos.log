@@ -720,3 +720,41 @@ ErrCode:400, ErrMsg:Skill name may only contain lowercase letters, numbers, and 
 
 2026-10-30 15:30:31,156 WARN history config cleaner successfully
 
+2026-10-30 15:40:25,929 INFO [capacityManagement] start correct usage
+
+2026-10-30 15:40:26,180 INFO [capacityManagement] end correct usage, cost: 0.249538027s
+
+2026-10-30 15:40:31,124 WARN clearHistoryConfig get scheduled
+
+2026-10-30 15:40:31,125 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2026-10-30 15:40:31,126 WARN clearConfigHistory, getBeforeStamp:2026-09-30 15:40:31.0, pageSize:1000
+
+2026-10-30 15:40:31,128 WARN history config cleaner successfully
+
+2026-10-30 15:44:48,128 INFO [PluginStateSnapshotOperation] Snapshot saved: 0 states, 0 configs, success=true
+
+2026-10-30 15:50:26,148 INFO [capacityManagement] start correct usage
+
+2026-10-30 15:50:26,377 INFO [capacityManagement] end correct usage, cost: 0.22819809s
+
+2026-10-30 15:50:31,097 WARN clearHistoryConfig get scheduled
+
+2026-10-30 15:50:31,097 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2026-10-30 15:50:31,098 WARN clearConfigHistory, getBeforeStamp:2026-09-30 15:50:31.0, pageSize:1000
+
+2026-10-30 15:50:31,101 WARN history config cleaner successfully
+
+2026-10-30 16:00:26,351 INFO [capacityManagement] start correct usage
+
+2026-10-30 16:00:26,602 INFO [capacityManagement] end correct usage, cost: 0.250448296s
+
+2026-10-30 16:00:31,075 WARN clearHistoryConfig get scheduled
+
+2026-10-30 16:00:31,076 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2026-10-30 16:00:31,076 WARN clearConfigHistory, getBeforeStamp:2026-09-30 16:00:31.0, pageSize:1000
+
+2026-10-30 16:00:31,079 WARN history config cleaner successfully
+

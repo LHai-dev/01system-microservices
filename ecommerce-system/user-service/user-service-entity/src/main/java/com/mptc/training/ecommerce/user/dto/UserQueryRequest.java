@@ -7,7 +7,6 @@ public record UserQueryRequest(
         String userName,
         String gender,
         String mobilePhone,
-        String id,
-        String role
+        String id
 ) {
 }

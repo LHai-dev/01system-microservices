@@ -56,10 +56,7 @@ public class UserController {
             @RequestParam(required = false) String userName,
             @RequestParam(required = false) String gender,
             @RequestParam(required = false) String mobilePhone,
-            @RequestParam(required = false) String id,
-
-            // test
-            @RequestParam(required = false) String role
+            @RequestParam(required = false) String id
     ) {
 
         UserQueryRequest query = UserQueryRequest.builder()
@@ -67,7 +64,6 @@ public class UserController {
                 .gender(gender)
                 .mobilePhone(mobilePhone)
                 .id(id)
-                .role(role)
                 .build();
 
         return userService.list(query);
