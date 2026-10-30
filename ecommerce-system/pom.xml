@@ -20,6 +20,8 @@
         <module>business-service</module>
         <module>payment-service</module>
         <module>customer-service</module>
+        <module>gateway-service</module>
+        <module>user-service</module>
     </modules>
 
     <properties>
@@ -100,6 +102,32 @@
                 <artifactId>payment-domain-core</artifactId>
                 <version>${project.version}</version>
             </dependency>
+            <dependency>
+                <groupId>com.mptc.training</groupId>
+                <artifactId>user-service</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.mptc.training</groupId>
+                <artifactId>user-service-main</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.mptc.training</groupId>
+                <artifactId>user-service-controller</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.mptc.training</groupId>
+                <artifactId>user-service-entity</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.mptc.training</groupId>
+                <artifactId>user-service-biz</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
             <dependency>
                 <groupId>com.mptc.training</groupId>
                 <artifactId>payment-application-service</artifactId>
