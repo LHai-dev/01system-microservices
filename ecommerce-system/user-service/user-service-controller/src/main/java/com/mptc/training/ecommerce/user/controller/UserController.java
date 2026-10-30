@@ -74,13 +74,13 @@ public class UserController {
     }
 
     @ResponseStatus(HttpStatus.OK)
-    @GetMapping("/{username}")
+    @GetMapping("/username/{username}")
     public UserResponse getByUserName(@PathVariable String username) {
         return userService.getByUsername(username);
     }
 
     @ResponseStatus(HttpStatus.OK)
-    @GetMapping("/{role}")
+    @GetMapping("/role/{role}")
     public List<UserResponse> getByRole(@PathVariable String role) {
         return userService.getByRoleName(role);
     }

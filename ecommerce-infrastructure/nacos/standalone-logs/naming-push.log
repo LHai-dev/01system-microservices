@@ -1,20 +1,18 @@
-2026-10-02 12:08:07,367 INFO [PUSH] Task merge for Service{namespace='dev', group='DEFAULT_GROUP', name='business-service', ephemeral=true, revision=6}
+2026-10-30 15:21:46,058 INFO [PUSH] Task merge for Service{namespace='dev', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}
 
-2026-10-02 12:08:07,382 INFO [PUSH] Task merge for Service{namespace='dev', group='DEFAULT_GROUP', name='customer-service', ephemeral=true, revision=6}
+2026-10-30 15:21:46,598 INFO [PUSH-SUCC] 18ms, all delay time 605ms, SLA 608ms, Service{namespace='dev', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.20.224.1
 
-2026-10-02 12:08:07,382 INFO [PUSH] Task merge for Service{namespace='dev', group='DEFAULT_GROUP', name='payment-service', ephemeral=true, revision=6}
+2026-10-30 15:24:16,777 INFO [PUSH-SUCC] 4ms, all delay time 595ms for subscriber 172.20.224.1, Service{namespace='dev', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=1}, originalSize=1, DataSize=1
 
-2026-10-02 12:08:07,394 INFO [PUSH] Task merge for Service{namespace='dev', group='DEFAULT_GROUP', name='order-service', ephemeral=true, revision=6}
+2026-10-30 15:30:17,090 INFO [PUSH] Task merge for Service{namespace='dev', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=3}
 
-2026-10-02 12:10:48,566 INFO [PUSH] Task merge for Service{namespace='dev', group='DEFAULT_GROUP', name='order-service', ephemeral=true, revision=11}
+2026-10-30 15:30:17,611 INFO [PUSH-SUCC] 22ms, all delay time 612ms, SLA 612ms, Service{namespace='dev', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=172.20.224.1
 
-2026-10-02 12:10:48,580 INFO [PUSH] Task merge for Service{namespace='dev', group='DEFAULT_GROUP', name='business-service', ephemeral=true, revision=10}
+2026-10-30 15:30:17,696 INFO [PUSH-SUCC] 6ms, all delay time 605ms for subscriber 172.20.224.1, Service{namespace='dev', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=2}, originalSize=0, DataSize=0
 
-2026-10-02 12:10:48,632 INFO [PUSH] Task merge for Service{namespace='dev', group='DEFAULT_GROUP', name='customer-service', ephemeral=true, revision=11}
+2026-10-30 15:30:19,197 INFO [PUSH-SUCC] 5ms, all delay time 564ms, SLA 564ms, Service{namespace='dev', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=172.20.224.1
 
-2026-10-02 12:10:48,638 INFO [PUSH] Task merge for Service{namespace='dev', group='DEFAULT_GROUP', name='payment-service', ephemeral=true, revision=10}
+2026-10-30 15:31:14,791 INFO [PUSH-SUCC] 9ms, all delay time 597ms, SLA 597ms, Service{namespace='dev', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=4}, originalSize=0, DataSize=0, target=172.20.224.1
 
-2026-10-02 12:10:48,644 INFO [PUSH] Task merge for Service{namespace='dev', group='DEFAULT_GROUP', name='order-service', ephemeral=true, revision=12}
-
-2026-10-02 12:10:48,655 INFO [PUSH] Task merge for Service{namespace='dev', group='DEFAULT_GROUP', name='customer-service', ephemeral=true, revision=12}
+2026-10-30 15:31:35,421 INFO [PUSH-SUCC] 7ms, all delay time 595ms, SLA 595ms, Service{namespace='dev', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=5}, originalSize=1, DataSize=1, target=172.20.224.1
 

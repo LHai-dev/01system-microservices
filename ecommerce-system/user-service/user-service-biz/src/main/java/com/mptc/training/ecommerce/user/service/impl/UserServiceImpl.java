@@ -35,7 +35,6 @@ public class UserServiceImpl implements UserService {
 
     private final KeycloakUserService keycloakUserService;
     private final KeycloakRoleService keycloakRoleService;
-    private final UserService userService;
 
     @Override
     public UserResponse create(UserCreateRequest userCreateRequest) {
