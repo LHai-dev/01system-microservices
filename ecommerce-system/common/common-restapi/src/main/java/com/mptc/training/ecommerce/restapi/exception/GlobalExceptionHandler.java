@@ -13,24 +13,29 @@ import java.util.List;
 
 @RestControllerAdvice
 public class GlobalExceptionHandler {
-    @ExceptionHandler(MethodArgumentNotValidException.class)
+
     @ResponseStatus(HttpStatus.BAD_REQUEST)
-    public RestApiErrorResponse<?> handlerException(MethodArgumentNotValidException e) {
+    @ExceptionHandler(MethodArgumentNotValidException.class)
+    public RestApiErrorResponse<?> handleException(
+            MethodArgumentNotValidException e
+    ) {
         return RestApiErrorResponse.builder()
-                .code(HttpStatus.BAD_GATEWAY.getReasonPhrase())
+                .code(HttpStatus.BAD_REQUEST.getReasonPhrase())
                 .message("Data validation failed")
                 .detail(extractFieldErrors(e.getFieldErrors()))
                 .build();
     }
 
-
     private List<FieldErrorResponse> extractFieldErrors(
             List<FieldError> fieldErrors
     ) {
-        return fieldErrors.stream().map(fieldError -> new FieldErrorResponse(
-                fieldError.getField(),
-                fieldError.getCode(),
-                fieldError.getDefaultMessage()
-        )).toList();
+        return fieldErrors.stream()
+                .map(fieldError -> new FieldErrorResponse(
+                        fieldError.getField(),
+                        fieldError.getCode(),
+                        fieldError.getDefaultMessage()
+                ))
+                .toList();
     }
+
 }

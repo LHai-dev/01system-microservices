@@ -1,6 +1,7 @@
 # Change payment service running port
 server:
-  port: 0
+  port: 8553
+  forward-headers-strategy: framework
 
 spring:
   application:

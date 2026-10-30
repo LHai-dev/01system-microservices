@@ -17,6 +17,12 @@
             <artifactId>common-domain</artifactId>
         </dependency>
         <dependency>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-starter-webmvc-api</artifactId>
+            <version>3.1.1</version>
+        </dependency>
+
+        <dependency>
             <groupId>com.mptc.training</groupId>
             <artifactId>customer-domain-core</artifactId>
             <version>${project.version}</version>

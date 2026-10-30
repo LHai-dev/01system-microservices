@@ -1,6 +1,7 @@
 # change customer service running port
 server:
   port: 0
+  forward-headers-strategy: framework
 
 spring:
   application:
