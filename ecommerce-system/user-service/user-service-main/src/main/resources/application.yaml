@@ -1,0 +1,35 @@
+#change order service running port
+server:
+  port: 8554
+  forward-headers-strategy: framework
+
+spring:
+  application:
+    name: user-service
+  profiles:
+    active: dev
+  config:
+    import:
+      - nacos:${spring.application.name}.${spring.cloud.nacos.config.file-extension}
+  cloud:
+    nacos:
+      config:
+        file-extension: yml
+        namespace: ${spring.profiles.active}
+      discovery:
+        server-addr: http://127.0.0.1:8848
+        namespace: ${spring.profiles.active}
+        username: nacos
+        password: nacos
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: ecommerce_usr
+    password: qwerqwer
+    url: jdbc:postgresql://localhost:8432/db_user
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
