@@ -146,6 +146,11 @@
             </dependency>
             <dependency>
                 <groupId>com.mptc.training</groupId>
+                <artifactId>customer-service-client</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.mptc.training</groupId>
                 <artifactId>customer-application-service</artifactId>
                 <version>${project.version}</version>
             </dependency>

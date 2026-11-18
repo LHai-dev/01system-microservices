@@ -21,6 +21,12 @@ spring:
         namespace: ${spring.profiles.active}
         username: nacos
         password: nacos
+    sentinel:
+      transport:
+        dashboard: localhost:8081
+        port: 8719
+      eager: true
+      web-context-unify: false
   datasource:
     driver-class-name: org.postgresql.Driver
     username: ecommerce_usr

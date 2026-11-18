@@ -1,5 +1,6 @@
 package com.mptc.training.ecommerce.user.controller;
 
+import com.alibaba.csp.sentinel.annotation.SentinelResource;
 import com.mptc.training.ecommerce.user.dto.*;
 import com.mptc.training.ecommerce.user.service.UserService;
 import jakarta.validation.Valid;
@@ -50,6 +51,7 @@ public class UserController {
         return userService.getById(id);
     }
 
+    @SentinelResource()
     @ResponseStatus(HttpStatus.OK)
     @GetMapping
     public List<UserResponse> list(
