@@ -17,5 +17,6 @@
         <module>customer-service-persistence</module>
         <module>customer-service-restapi</module>
         <module>customer-service-main</module>
+        <module>customer-service-client</module>
     </modules>
 </project>
