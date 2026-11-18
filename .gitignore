@@ -1,0 +1,85 @@
+# ---------------------------------------------------------------------------
+# Root .gitignore
+#   ecommerce-system          -> Maven multi-module services
+#   ecommerce-vuejs           -> frontend (has its own .gitignore too)
+#   ecommerce-infrastructure  -> local docker-compose + downloaded tooling
+# ---------------------------------------------------------------------------
+
+# ---- Logs & runtime output ----
+*.log
+logs/
+standalone-logs/
+*.log.*
+
+# ---- Local tooling / downloaded distributions ----
+ecommerce-infrastructure/jmeter/
+ecommerce-infrastructure/sentinel/se
+ecommerce-infrastructure/sentinel/*.jar
+ecommerce-infrastructure/keycloak/keycloak/
+
+# ---- Build output ----
+target/
+build/
+out/
+dist/
+dist-ssr/
+coverage/
+*.class
+*.jar
+*.war
+*.ear
+
+# ---- Node / frontend ----
+node_modules/
+*.tsbuildinfo
+.eslintcache
+*.timestamp-*-*.mjs
+cypress/videos/
+cypress/screenshots/
+__screenshots__/
+
+# ---- Maven / Java IDE leftovers ----
+HELP.md
+.mvn/wrapper/maven-wrapper.jar
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+nbproject/private/
+nbbuild/
+nbdist/
+.nb-gradle/
+
+# ---- IDE / editor ----
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Local env / secrets ----
+.env
+.env.*
+!.env.example
+*.local
+*.pem
+*.p12
+*.jks
+*.keystore
+
+# ---- Backups ----
+*.bak
+*.orig
